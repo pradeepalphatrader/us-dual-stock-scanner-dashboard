@@ -1,0 +1,49 @@
+[
+  {
+    "session_date": "2026-10-07",
+    "summary": {
+      "unique_tickers": 110,
+      "new": 110,
+      "persistent": 0,
+      "reentered": 0,
+      "removed": 0,
+      "both_sources": 79,
+      "high_alignment": 19
+    },
+    "health": {
+      "status": "VALID",
+      "completed_scans": [
+        "1_Fundamental_Growth",
+        "3_Post_Earnings_Cont_Base",
+        "4_Strongest_Stock_VPK",
+        "5_Strongest_Stock_10B_Rev_30_VPK",
+        "Daily_Tightness_Swing",
+        "Mom_1W_Small",
+        "Mom_1M_Small",
+        "Mom_3M_Small",
+        "Mom_6M_Small",
+        "Mom_1W_Large",
+        "Mom_1M_Large",
+        "Mom_3M_Large",
+        "Mom_6M_Large"
+      ],
+      "expected_scans": [
+        "1_Fundamental_Growth",
+        "3_Post_Earnings_Cont_Base",
+        "4_Strongest_Stock_VPK",
+        "5_Strongest_Stock_10B_Rev_30_VPK",
+        "Daily_Tightness_Swing",
+        "Mom_1W_Small",
+        "Mom_1M_Small",
+        "Mom_3M_Small",
+        "Mom_6M_Small",
+        "Mom_1W_Large",
+        "Mom_1M_Large",
+        "Mom_3M_Large",
+        "Mom_6M_Large"
+      ],
+      "tradingview_rows": 123,
+      "finviz_rows": 119
+    }
+  }
+]

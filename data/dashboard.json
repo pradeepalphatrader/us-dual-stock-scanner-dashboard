@@ -1,0 +1,5034 @@
+{
+  "schema_version": 1,
+  "session_date": "2026-10-07",
+  "generated_at": "2026-10-07T11:51:50.984475-07:00",
+  "publishable": true,
+  "health": {
+    "status": "VALID",
+    "completed_scans": [
+      "1_Fundamental_Growth",
+      "3_Post_Earnings_Cont_Base",
+      "4_Strongest_Stock_VPK",
+      "5_Strongest_Stock_10B_Rev_30_VPK",
+      "Daily_Tightness_Swing",
+      "Mom_1W_Small",
+      "Mom_1M_Small",
+      "Mom_3M_Small",
+      "Mom_6M_Small",
+      "Mom_1W_Large",
+      "Mom_1M_Large",
+      "Mom_3M_Large",
+      "Mom_6M_Large"
+    ],
+    "expected_scans": [
+      "1_Fundamental_Growth",
+      "3_Post_Earnings_Cont_Base",
+      "4_Strongest_Stock_VPK",
+      "5_Strongest_Stock_10B_Rev_30_VPK",
+      "Daily_Tightness_Swing",
+      "Mom_1W_Small",
+      "Mom_1M_Small",
+      "Mom_3M_Small",
+      "Mom_6M_Small",
+      "Mom_1W_Large",
+      "Mom_1M_Large",
+      "Mom_3M_Large",
+      "Mom_6M_Large"
+    ],
+    "tradingview_rows": 123,
+    "finviz_rows": 119
+  },
+  "summary": {
+    "unique_tickers": 110,
+    "new": 110,
+    "persistent": 0,
+    "reentered": 0,
+    "removed": 0,
+    "both_sources": 79,
+    "high_alignment": 19
+  },
+  "removed_tickers": [],
+  "scanners": [
+    {
+      "id": "1_Fundamental_Growth",
+      "display_name": "Fundamental Growth",
+      "category": "Fundamental",
+      "purpose": "Strong EPS, revenue, and free-cash-flow growth with liquidity and float controls.",
+      "market_cap_group": null,
+      "timeframe": null,
+      "rules": [
+        {
+          "key": "security_type",
+          "condition": "Security type",
+          "threshold": "stock"
+        },
+        {
+          "key": "exchange",
+          "condition": "Exchange",
+          "threshold": "NASDAQ | NYSE | AMEX"
+        },
+        {
+          "key": "market_cap",
+          "condition": "Market Cap",
+          "threshold": "> $300 million"
+        },
+        {
+          "key": "average_volume",
+          "condition": "Average Volume",
+          "threshold": "> 300,000"
+        },
+        {
+          "key": "float",
+          "condition": "Float",
+          "threshold": "< 100 million shares"
+        },
+        {
+          "key": "eps_growth_qoq",
+          "condition": "EPS diluted YoY quarterly growth",
+          "threshold": "> 25%"
+        },
+        {
+          "key": "fcf_yoy_ttm",
+          "condition": "Free Cash Flow YoY TTM Growth",
+          "threshold": "> 25%"
+        },
+        {
+          "key": "sales_growth_qoq",
+          "condition": "Revenue/Sales YoY quarterly growth",
+          "threshold": "> 25%"
+        },
+        {
+          "key": "sort_change",
+          "condition": "Sort",
+          "threshold": "Daily Change descending"
+        },
+        {
+          "key": "max_results",
+          "condition": "Maximum results",
+          "threshold": "300"
+        }
+      ]
+    },
+    {
+      "id": "3_Post_Earnings_Cont_Base",
+      "display_name": "Post-Earnings Continuation",
+      "category": "Catalyst",
+      "purpose": "Post-earnings gap and relative-volume continuation above the 20-day average.",
+      "market_cap_group": null,
+      "timeframe": null,
+      "rules": [
+        {
+          "key": "security_type",
+          "condition": "Security type",
+          "threshold": "stock"
+        },
+        {
+          "key": "exchange",
+          "condition": "Exchange",
+          "threshold": "NASDAQ | NYSE | AMEX"
+        },
+        {
+          "key": "close_gt_sma20",
+          "condition": "Close vs SMA20",
+          "threshold": "Close > SMA20"
+        },
+        {
+          "key": "market_cap",
+          "condition": "Market Cap",
+          "threshold": "> $50 million"
+        },
+        {
+          "key": "average_volume",
+          "condition": "Average Volume",
+          "threshold": "> 250,000"
+        },
+        {
+          "key": "float",
+          "condition": "Float",
+          "threshold": "< 50 million shares"
+        },
+        {
+          "key": "relative_volume",
+          "condition": "Relative Volume",
+          "threshold": ">= 2"
+        },
+        {
+          "key": "gap",
+          "condition": "Gap",
+          "threshold": "> 5%"
+        },
+        {
+          "key": "sort_change",
+          "condition": "Sort",
+          "threshold": "Daily Change descending"
+        },
+        {
+          "key": "max_results",
+          "condition": "Maximum results",
+          "threshold": "300"
+        }
+      ]
+    },
+    {
+      "id": "4_Strongest_Stock_VPK",
+      "display_name": "Strongest Stock — Small/Mid Cap",
+      "category": "Strength",
+      "purpose": "Fundamentally strong, volatile small/mid-cap leaders near the 10-day average.",
+      "market_cap_group": null,
+      "timeframe": null,
+      "rules": [
+        {
+          "key": "security_type",
+          "condition": "Security type",
+          "threshold": "stock"
+        },
+        {
+          "key": "exchange",
+          "condition": "Exchange",
+          "threshold": "NASDAQ | NYSE | AMEX"
+        },
+        {
+          "key": "market_cap",
+          "condition": "Market Cap",
+          "threshold": "$300 million to $10 billion"
+        },
+        {
+          "key": "average_volume",
+          "condition": "Average Volume",
+          "threshold": "> 500,000"
+        },
+        {
+          "key": "float",
+          "condition": "Float",
+          "threshold": "< 50 million shares"
+        },
+        {
+          "key": "monthly_volatility",
+          "condition": "Monthly Volatility",
+          "threshold": "> 3"
+        },
+        {
+          "key": "eps_growth_qoq",
+          "condition": "EPS quarterly YoY growth",
+          "threshold": "> 25%"
+        },
+        {
+          "key": "sales_growth_qoq",
+          "condition": "Revenue quarterly YoY growth",
+          "threshold": "> 25%"
+        },
+        {
+          "key": "close_gt_sma50",
+          "condition": "Close vs SMA50",
+          "threshold": "Close > SMA50"
+        },
+        {
+          "key": "above_52w_low_170",
+          "condition": "Price above 52-week low",
+          "threshold": "Close >= 52W Low * 1.70"
+        },
+        {
+          "key": "sma10_le_close",
+          "condition": "SMA10 upper bound",
+          "threshold": "SMA10 <= Close"
+        },
+        {
+          "key": "sma10_ge_090",
+          "condition": "SMA10 lower bound",
+          "threshold": "SMA10 >= Close * 0.90"
+        },
+        {
+          "key": "sort_change",
+          "condition": "Sort",
+          "threshold": "Daily Change descending"
+        },
+        {
+          "key": "max_results",
+          "condition": "Maximum results",
+          "threshold": "300"
+        }
+      ]
+    },
+    {
+      "id": "5_Strongest_Stock_10B_Rev_30_VPK",
+      "display_name": "Strongest Stock — Large Cap",
+      "category": "Strength",
+      "purpose": "Fundamentally strong large-cap leaders trading close to the 10-day average.",
+      "market_cap_group": null,
+      "timeframe": null,
+      "rules": [
+        {
+          "key": "security_type",
+          "condition": "Security type",
+          "threshold": "stock"
+        },
+        {
+          "key": "exchange",
+          "condition": "Exchange",
+          "threshold": "NASDAQ | NYSE | AMEX"
+        },
+        {
+          "key": "market_cap",
+          "condition": "Market Cap",
+          "threshold": "> $10 billion"
+        },
+        {
+          "key": "average_volume",
+          "condition": "Average Volume",
+          "threshold": "> 500,000"
+        },
+        {
+          "key": "float",
+          "condition": "Float",
+          "threshold": "< 150 million shares"
+        },
+        {
+          "key": "monthly_volatility",
+          "condition": "Monthly Volatility",
+          "threshold": "> 2"
+        },
+        {
+          "key": "eps_growth_qoq",
+          "condition": "EPS quarterly YoY growth",
+          "threshold": "> 25%"
+        },
+        {
+          "key": "sales_growth_qoq",
+          "condition": "Revenue quarterly YoY growth",
+          "threshold": "> 25%"
+        },
+        {
+          "key": "close_gt_sma50",
+          "condition": "Close vs SMA50",
+          "threshold": "Close > SMA50"
+        },
+        {
+          "key": "above_52w_low_170",
+          "condition": "Price above 52-week low",
+          "threshold": "Close >= 52W Low * 1.70"
+        },
+        {
+          "key": "sma10_le_close",
+          "condition": "SMA10 upper bound",
+          "threshold": "SMA10 <= Close"
+        },
+        {
+          "key": "sma10_ge_097",
+          "condition": "SMA10 lower bound",
+          "threshold": "SMA10 >= Close * 0.97"
+        },
+        {
+          "key": "sort_change",
+          "condition": "Sort",
+          "threshold": "Daily Change descending"
+        },
+        {
+          "key": "max_results",
+          "condition": "Maximum results",
+          "threshold": "300"
+        }
+      ]
+    },
+    {
+      "id": "Daily_Tightness_Swing",
+      "display_name": "Daily Tightness Swing",
+      "category": "Tightness",
+      "purpose": "Liquid, volatile leaders showing controlled weekly action and short-term tightness.",
+      "market_cap_group": null,
+      "timeframe": null,
+      "rules": [
+        {
+          "key": "security_type",
+          "condition": "Security type",
+          "threshold": "stock"
+        },
+        {
+          "key": "exchange",
+          "condition": "Exchange",
+          "threshold": "NASDAQ | NYSE | AMEX"
+        },
+        {
+          "key": "market_cap",
+          "condition": "Market Cap",
+          "threshold": "> $300 million"
+        },
+        {
+          "key": "average_volume",
+          "condition": "Average Volume",
+          "threshold": "> 300,000"
+        },
+        {
+          "key": "current_volume",
+          "condition": "Current Volume",
+          "threshold": "> 100,000"
+        },
+        {
+          "key": "float",
+          "condition": "Float",
+          "threshold": "< 50 million shares"
+        },
+        {
+          "key": "monthly_volatility",
+          "condition": "Monthly Volatility",
+          "threshold": "> 3.5"
+        },
+        {
+          "key": "weekly_perf_lt_5",
+          "condition": "Weekly Performance",
+          "threshold": "< 5%"
+        },
+        {
+          "key": "above_52w_low_150",
+          "condition": "Price above 52-week low",
+          "threshold": "Close >= 52W Low * 1.50"
+        },
+        {
+          "key": "ema5_le_close",
+          "condition": "EMA5 upper bound",
+          "threshold": "EMA5 <= Close"
+        },
+        {
+          "key": "ema5_ge_097",
+          "condition": "EMA5 lower bound",
+          "threshold": "EMA5 >= Close * 0.97"
+        },
+        {
+          "key": "sma10_gt_sma20",
+          "condition": "Moving-average relationship",
+          "threshold": "SMA10 > SMA20"
+        },
+        {
+          "key": "sort_change",
+          "condition": "Sort",
+          "threshold": "Daily Change descending"
+        },
+        {
+          "key": "max_results",
+          "condition": "Maximum results",
+          "threshold": "300"
+        }
+      ]
+    },
+    {
+      "id": "Mom_1W_Small",
+      "display_name": "1-Week Momentum — Small",
+      "category": "Momentum",
+      "purpose": "1-week performance leadership in the small market-cap group.",
+      "timeframe": "1W",
+      "size": "Small",
+      "market_cap_group": "$300M - $10B",
+      "rules": [
+        {
+          "key": "security_type",
+          "condition": "Security type",
+          "threshold": "stock"
+        },
+        {
+          "key": "exchange",
+          "condition": "Exchange",
+          "threshold": "NASDAQ | NYSE | AMEX"
+        },
+        {
+          "key": "market_cap",
+          "condition": "Market Cap",
+          "threshold": "$300 million to $10 billion"
+        },
+        {
+          "key": "average_volume",
+          "condition": "Average Volume",
+          "threshold": "> 300,000"
+        },
+        {
+          "key": "current_volume",
+          "condition": "Current Volume",
+          "threshold": "> 100,000"
+        },
+        {
+          "key": "float",
+          "condition": "Float",
+          "threshold": "< 50 million shares"
+        },
+        {
+          "key": "monthly_volatility",
+          "condition": "Monthly Volatility",
+          "threshold": "> 3"
+        },
+        {
+          "key": "performance_1w",
+          "condition": "1 Week Performance",
+          "threshold": "> 20%"
+        },
+        {
+          "key": "above_52w_low_150",
+          "condition": "Price above 52-week low",
+          "threshold": "Close >= 52W Low * 1.50"
+        },
+        {
+          "key": "sma10_le_close",
+          "condition": "SMA10 upper bound",
+          "threshold": "SMA10 <= Close"
+        },
+        {
+          "key": "sma10_ge_080",
+          "condition": "SMA10 lower bound",
+          "threshold": "SMA10 >= Close * 0.80"
+        },
+        {
+          "key": "sort_change",
+          "condition": "Sort",
+          "threshold": "Daily Change descending"
+        },
+        {
+          "key": "max_results",
+          "condition": "Maximum results",
+          "threshold": "300"
+        }
+      ]
+    },
+    {
+      "id": "Mom_1M_Small",
+      "display_name": "1-Month Momentum — Small",
+      "category": "Momentum",
+      "purpose": "1-month performance leadership in the small market-cap group.",
+      "timeframe": "1M",
+      "size": "Small",
+      "market_cap_group": "$300M - $10B",
+      "rules": [
+        {
+          "key": "security_type",
+          "condition": "Security type",
+          "threshold": "stock"
+        },
+        {
+          "key": "exchange",
+          "condition": "Exchange",
+          "threshold": "NASDAQ | NYSE | AMEX"
+        },
+        {
+          "key": "market_cap",
+          "condition": "Market Cap",
+          "threshold": "$300 million to $10 billion"
+        },
+        {
+          "key": "average_volume",
+          "condition": "Average Volume",
+          "threshold": "> 300,000"
+        },
+        {
+          "key": "current_volume",
+          "condition": "Current Volume",
+          "threshold": "> 100,000"
+        },
+        {
+          "key": "float",
+          "condition": "Float",
+          "threshold": "< 50 million shares"
+        },
+        {
+          "key": "monthly_volatility",
+          "condition": "Monthly Volatility",
+          "threshold": "> 3"
+        },
+        {
+          "key": "performance_1m",
+          "condition": "1 Month Performance",
+          "threshold": "> 30%"
+        },
+        {
+          "key": "above_52w_low_150",
+          "condition": "Price above 52-week low",
+          "threshold": "Close >= 52W Low * 1.50"
+        },
+        {
+          "key": "sma10_le_close",
+          "condition": "SMA10 upper bound",
+          "threshold": "SMA10 <= Close"
+        },
+        {
+          "key": "sma10_ge_080",
+          "condition": "SMA10 lower bound",
+          "threshold": "SMA10 >= Close * 0.80"
+        },
+        {
+          "key": "sort_change",
+          "condition": "Sort",
+          "threshold": "Daily Change descending"
+        },
+        {
+          "key": "max_results",
+          "condition": "Maximum results",
+          "threshold": "300"
+        }
+      ]
+    },
+    {
+      "id": "Mom_3M_Small",
+      "display_name": "3-Month Momentum — Small",
+      "category": "Momentum",
+      "purpose": "3-month performance leadership in the small market-cap group.",
+      "timeframe": "3M",
+      "size": "Small",
+      "market_cap_group": "$300M - $10B",
+      "rules": [
+        {
+          "key": "security_type",
+          "condition": "Security type",
+          "threshold": "stock"
+        },
+        {
+          "key": "exchange",
+          "condition": "Exchange",
+          "threshold": "NASDAQ | NYSE | AMEX"
+        },
+        {
+          "key": "market_cap",
+          "condition": "Market Cap",
+          "threshold": "$300 million to $10 billion"
+        },
+        {
+          "key": "average_volume",
+          "condition": "Average Volume",
+          "threshold": "> 300,000"
+        },
+        {
+          "key": "current_volume",
+          "condition": "Current Volume",
+          "threshold": "> 100,000"
+        },
+        {
+          "key": "float",
+          "condition": "Float",
+          "threshold": "< 50 million shares"
+        },
+        {
+          "key": "monthly_volatility",
+          "condition": "Monthly Volatility",
+          "threshold": "> 3"
+        },
+        {
+          "key": "performance_3m",
+          "condition": "3 Months Performance",
+          "threshold": "> 70%"
+        },
+        {
+          "key": "above_52w_low_150",
+          "condition": "Price above 52-week low",
+          "threshold": "Close >= 52W Low * 1.50"
+        },
+        {
+          "key": "sma10_le_close",
+          "condition": "SMA10 upper bound",
+          "threshold": "SMA10 <= Close"
+        },
+        {
+          "key": "sma10_ge_080",
+          "condition": "SMA10 lower bound",
+          "threshold": "SMA10 >= Close * 0.80"
+        },
+        {
+          "key": "sort_change",
+          "condition": "Sort",
+          "threshold": "Daily Change descending"
+        },
+        {
+          "key": "max_results",
+          "condition": "Maximum results",
+          "threshold": "300"
+        }
+      ]
+    },
+    {
+      "id": "Mom_6M_Small",
+      "display_name": "6-Month Momentum — Small",
+      "category": "Momentum",
+      "purpose": "6-month performance leadership in the small market-cap group.",
+      "timeframe": "6M",
+      "size": "Small",
+      "market_cap_group": "$300M - $10B",
+      "rules": [
+        {
+          "key": "security_type",
+          "condition": "Security type",
+          "threshold": "stock"
+        },
+        {
+          "key": "exchange",
+          "condition": "Exchange",
+          "threshold": "NASDAQ | NYSE | AMEX"
+        },
+        {
+          "key": "market_cap",
+          "condition": "Market Cap",
+          "threshold": "$300 million to $10 billion"
+        },
+        {
+          "key": "average_volume",
+          "condition": "Average Volume",
+          "threshold": "> 300,000"
+        },
+        {
+          "key": "current_volume",
+          "condition": "Current Volume",
+          "threshold": "> 100,000"
+        },
+        {
+          "key": "float",
+          "condition": "Float",
+          "threshold": "< 50 million shares"
+        },
+        {
+          "key": "monthly_volatility",
+          "condition": "Monthly Volatility",
+          "threshold": "> 3"
+        },
+        {
+          "key": "performance_6m",
+          "condition": "6 Months Performance",
+          "threshold": "> 100%"
+        },
+        {
+          "key": "above_52w_low_150",
+          "condition": "Price above 52-week low",
+          "threshold": "Close >= 52W Low * 1.50"
+        },
+        {
+          "key": "sma10_le_close",
+          "condition": "SMA10 upper bound",
+          "threshold": "SMA10 <= Close"
+        },
+        {
+          "key": "sma10_ge_080",
+          "condition": "SMA10 lower bound",
+          "threshold": "SMA10 >= Close * 0.80"
+        },
+        {
+          "key": "sort_change",
+          "condition": "Sort",
+          "threshold": "Daily Change descending"
+        },
+        {
+          "key": "max_results",
+          "condition": "Maximum results",
+          "threshold": "300"
+        }
+      ]
+    },
+    {
+      "id": "Mom_1W_Large",
+      "display_name": "1-Week Momentum — Large",
+      "category": "Momentum",
+      "purpose": "1-week performance leadership in the large market-cap group.",
+      "timeframe": "1W",
+      "size": "Large",
+      "market_cap_group": "> $10B",
+      "rules": [
+        {
+          "key": "security_type",
+          "condition": "Security type",
+          "threshold": "stock"
+        },
+        {
+          "key": "exchange",
+          "condition": "Exchange",
+          "threshold": "NASDAQ | NYSE | AMEX"
+        },
+        {
+          "key": "market_cap",
+          "condition": "Market Cap",
+          "threshold": "> $10 billion"
+        },
+        {
+          "key": "average_volume",
+          "condition": "Average Volume",
+          "threshold": "> 300,000"
+        },
+        {
+          "key": "current_volume",
+          "condition": "Current Volume",
+          "threshold": "> 100,000"
+        },
+        {
+          "key": "float",
+          "condition": "Float",
+          "threshold": "< 150 million shares"
+        },
+        {
+          "key": "performance_1w",
+          "condition": "1 Week Performance",
+          "threshold": "> 20%"
+        },
+        {
+          "key": "above_52w_low_150",
+          "condition": "Price above 52-week low",
+          "threshold": "Close >= 52W Low * 1.50"
+        },
+        {
+          "key": "sma10_le_close",
+          "condition": "SMA10 upper bound",
+          "threshold": "SMA10 <= Close"
+        },
+        {
+          "key": "sma10_ge_090",
+          "condition": "SMA10 lower bound",
+          "threshold": "SMA10 >= Close * 0.90"
+        },
+        {
+          "key": "sort_change",
+          "condition": "Sort",
+          "threshold": "Daily Change descending"
+        },
+        {
+          "key": "max_results",
+          "condition": "Maximum results",
+          "threshold": "300"
+        }
+      ]
+    },
+    {
+      "id": "Mom_1M_Large",
+      "display_name": "1-Month Momentum — Large",
+      "category": "Momentum",
+      "purpose": "1-month performance leadership in the large market-cap group.",
+      "timeframe": "1M",
+      "size": "Large",
+      "market_cap_group": "> $10B",
+      "rules": [
+        {
+          "key": "security_type",
+          "condition": "Security type",
+          "threshold": "stock"
+        },
+        {
+          "key": "exchange",
+          "condition": "Exchange",
+          "threshold": "NASDAQ | NYSE | AMEX"
+        },
+        {
+          "key": "market_cap",
+          "condition": "Market Cap",
+          "threshold": "> $10 billion"
+        },
+        {
+          "key": "average_volume",
+          "condition": "Average Volume",
+          "threshold": "> 300,000"
+        },
+        {
+          "key": "current_volume",
+          "condition": "Current Volume",
+          "threshold": "> 100,000"
+        },
+        {
+          "key": "float",
+          "condition": "Float",
+          "threshold": "< 150 million shares"
+        },
+        {
+          "key": "performance_1m",
+          "condition": "1 Month Performance",
+          "threshold": "> 30%"
+        },
+        {
+          "key": "above_52w_low_150",
+          "condition": "Price above 52-week low",
+          "threshold": "Close >= 52W Low * 1.50"
+        },
+        {
+          "key": "sma10_le_close",
+          "condition": "SMA10 upper bound",
+          "threshold": "SMA10 <= Close"
+        },
+        {
+          "key": "sma10_ge_090",
+          "condition": "SMA10 lower bound",
+          "threshold": "SMA10 >= Close * 0.90"
+        },
+        {
+          "key": "sort_change",
+          "condition": "Sort",
+          "threshold": "Daily Change descending"
+        },
+        {
+          "key": "max_results",
+          "condition": "Maximum results",
+          "threshold": "300"
+        }
+      ]
+    },
+    {
+      "id": "Mom_3M_Large",
+      "display_name": "3-Month Momentum — Large",
+      "category": "Momentum",
+      "purpose": "3-month performance leadership in the large market-cap group.",
+      "timeframe": "3M",
+      "size": "Large",
+      "market_cap_group": "> $10B",
+      "rules": [
+        {
+          "key": "security_type",
+          "condition": "Security type",
+          "threshold": "stock"
+        },
+        {
+          "key": "exchange",
+          "condition": "Exchange",
+          "threshold": "NASDAQ | NYSE | AMEX"
+        },
+        {
+          "key": "market_cap",
+          "condition": "Market Cap",
+          "threshold": "> $10 billion"
+        },
+        {
+          "key": "average_volume",
+          "condition": "Average Volume",
+          "threshold": "> 300,000"
+        },
+        {
+          "key": "current_volume",
+          "condition": "Current Volume",
+          "threshold": "> 100,000"
+        },
+        {
+          "key": "float",
+          "condition": "Float",
+          "threshold": "< 150 million shares"
+        },
+        {
+          "key": "performance_3m",
+          "condition": "3 Months Performance",
+          "threshold": "> 70%"
+        },
+        {
+          "key": "above_52w_low_150",
+          "condition": "Price above 52-week low",
+          "threshold": "Close >= 52W Low * 1.50"
+        },
+        {
+          "key": "sma10_le_close",
+          "condition": "SMA10 upper bound",
+          "threshold": "SMA10 <= Close"
+        },
+        {
+          "key": "sma10_ge_090",
+          "condition": "SMA10 lower bound",
+          "threshold": "SMA10 >= Close * 0.90"
+        },
+        {
+          "key": "sort_change",
+          "condition": "Sort",
+          "threshold": "Daily Change descending"
+        },
+        {
+          "key": "max_results",
+          "condition": "Maximum results",
+          "threshold": "300"
+        }
+      ]
+    },
+    {
+      "id": "Mom_6M_Large",
+      "display_name": "6-Month Momentum — Large",
+      "category": "Momentum",
+      "purpose": "6-month performance leadership in the large market-cap group.",
+      "timeframe": "6M",
+      "size": "Large",
+      "market_cap_group": "> $10B",
+      "rules": [
+        {
+          "key": "security_type",
+          "condition": "Security type",
+          "threshold": "stock"
+        },
+        {
+          "key": "exchange",
+          "condition": "Exchange",
+          "threshold": "NASDAQ | NYSE | AMEX"
+        },
+        {
+          "key": "market_cap",
+          "condition": "Market Cap",
+          "threshold": "> $10 billion"
+        },
+        {
+          "key": "average_volume",
+          "condition": "Average Volume",
+          "threshold": "> 300,000"
+        },
+        {
+          "key": "current_volume",
+          "condition": "Current Volume",
+          "threshold": "> 100,000"
+        },
+        {
+          "key": "float",
+          "condition": "Float",
+          "threshold": "< 150 million shares"
+        },
+        {
+          "key": "performance_6m",
+          "condition": "6 Months Performance",
+          "threshold": "> 100%"
+        },
+        {
+          "key": "above_52w_low_150",
+          "condition": "Price above 52-week low",
+          "threshold": "Close >= 52W Low * 1.50"
+        },
+        {
+          "key": "sma10_le_close",
+          "condition": "SMA10 upper bound",
+          "threshold": "SMA10 <= Close"
+        },
+        {
+          "key": "sma10_ge_090",
+          "condition": "SMA10 lower bound",
+          "threshold": "SMA10 >= Close * 0.90"
+        },
+        {
+          "key": "sort_change",
+          "condition": "Sort",
+          "threshold": "Daily Change descending"
+        },
+        {
+          "key": "max_results",
+          "condition": "Maximum results",
+          "threshold": "300"
+        }
+      ]
+    }
+  ],
+  "scanner_results": {
+    "1_Fundamental_Growth": [
+      "COHU",
+      "INSW",
+      "SMTC",
+      "DGII",
+      "KNSA",
+      "LPG",
+      "MSGE",
+      "PARR",
+      "STNG",
+      "AAMI",
+      "AAON",
+      "ADAM",
+      "AGX",
+      "ANIP",
+      "ARW",
+      "ATRO",
+      "BBT",
+      "BRZE",
+      "CARE",
+      "CDNA",
+      "CNOB",
+      "COCO",
+      "ECG",
+      "ELF",
+      "ESTA",
+      "EVC",
+      "EZPW",
+      "FBK",
+      "FCFS",
+      "FEIM",
+      "FIX",
+      "FORM",
+      "HCC",
+      "HHH",
+      "HPK",
+      "HRMY",
+      "HSHP",
+      "IESC",
+      "INDB",
+      "INOD",
+      "MAMA",
+      "MDB",
+      "MFA",
+      "NESR",
+      "NEXA",
+      "NVGS",
+      "OOMA",
+      "PAY",
+      "PHAT",
+      "PICS",
+      "PNTG",
+      "PTGX",
+      "QNST",
+      "SANM",
+      "SCCO",
+      "SEZL",
+      "SNDX",
+      "STLN",
+      "TNK",
+      "TOWN",
+      "VMET",
+      "XMTR",
+      "YOU"
+    ],
+    "3_Post_Earnings_Cont_Base": [
+      "BKV",
+      "SPAI"
+    ],
+    "4_Strongest_Stock_VPK": [
+      "COHU",
+      "INSW",
+      "SIMO",
+      "CVI",
+      "PAYS",
+      "ECO",
+      "KNSA",
+      "LPG",
+      "PARR",
+      "STNG",
+      "ASC",
+      "AUGO",
+      "GCT",
+      "GNK"
+    ],
+    "5_Strongest_Stock_10B_Rev_30_VPK": [
+      "AEIS",
+      "HALO",
+      "LSCC",
+      "MPWR",
+      "SNX",
+      "STRL",
+      "TTMI"
+    ],
+    "Daily_Tightness_Swing": [
+      "INSW",
+      "SIMO",
+      "LVWR",
+      "CRSR",
+      "DGII",
+      "LTRX",
+      "MSGE",
+      "ODD",
+      "PUBM",
+      "VIA",
+      "AMPH",
+      "ASYS",
+      "CHEF",
+      "CRL",
+      "EBS",
+      "OPRT",
+      "PBYI",
+      "SPSC"
+    ],
+    "Mom_1W_Small": [
+      "PENG"
+    ],
+    "Mom_1M_Small": [
+      "COHU",
+      "CVI",
+      "LVWR",
+      "LTRX",
+      "ODD",
+      "PENG",
+      "LIND",
+      "PSIX"
+    ],
+    "Mom_3M_Small": [
+      "CVI",
+      "LVWR",
+      "PAYS",
+      "ECO",
+      "VIA",
+      "LIFE",
+      "RCEL",
+      "EFOR"
+    ],
+    "Mom_6M_Small": [
+      "COHU",
+      "SIMO",
+      "PAYS",
+      "CRSR",
+      "PUBM",
+      "PENG",
+      "LIFE",
+      "RCEL",
+      "NSIT",
+      "QLYS",
+      "SMWB",
+      "URGN"
+    ],
+    "Mom_1W_Large": [],
+    "Mom_1M_Large": [
+      "SMTC",
+      "PS",
+      "ALAB",
+      "ZS"
+    ],
+    "Mom_3M_Large": [
+      "PS"
+    ],
+    "Mom_6M_Large": [
+      "SMTC",
+      "PS",
+      "ALAB",
+      "CORT",
+      "FROG",
+      "HUM"
+    ]
+  },
+  "tickers": [
+    {
+      "ticker": "COHU",
+      "company": "Cohu Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:COHU",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth",
+        "4_Strongest_Stock_VPK",
+        "Mom_1M_Small"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth",
+        "4_Strongest_Stock_VPK",
+        "Mom_1M_Small",
+        "Mom_6M_Small"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth",
+        "4_Strongest_Stock_VPK",
+        "Mom_1M_Small"
+      ],
+      "scans": [
+        "1_Fundamental_Growth",
+        "4_Strongest_Stock_VPK",
+        "Mom_1M_Small",
+        "Mom_6M_Small"
+      ],
+      "scanner_count": 4,
+      "categories": [
+        "Fundamental",
+        "Strength",
+        "Momentum"
+      ],
+      "category_count": 3,
+      "momentum": {
+        "1W": false,
+        "1M": true,
+        "3M": false,
+        "6M": true
+      },
+      "lifecycle": "Established Leader",
+      "priority": "Review First",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "INSW",
+      "company": "International Seaways Inc",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:INSW",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth",
+        "4_Strongest_Stock_VPK",
+        "Daily_Tightness_Swing"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth",
+        "4_Strongest_Stock_VPK"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth",
+        "4_Strongest_Stock_VPK"
+      ],
+      "scans": [
+        "1_Fundamental_Growth",
+        "4_Strongest_Stock_VPK",
+        "Daily_Tightness_Swing"
+      ],
+      "scanner_count": 3,
+      "categories": [
+        "Fundamental",
+        "Strength",
+        "Tightness"
+      ],
+      "category_count": 3,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Tightening Leader",
+      "priority": "Review First",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "SIMO",
+      "company": "Silicon Motion Technology Corp ADR",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:SIMO",
+      "status": "New",
+      "source_status": "FINVIZ",
+      "tradingview_scans": [],
+      "finviz_scans": [
+        "4_Strongest_Stock_VPK",
+        "Daily_Tightness_Swing",
+        "Mom_6M_Small"
+      ],
+      "same_source_scans": [],
+      "scans": [
+        "4_Strongest_Stock_VPK",
+        "Daily_Tightness_Swing",
+        "Mom_6M_Small"
+      ],
+      "scanner_count": 3,
+      "categories": [
+        "Strength",
+        "Tightness",
+        "Momentum"
+      ],
+      "category_count": 3,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": true
+      },
+      "lifecycle": "Tightening Leader",
+      "priority": "Review First",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "CVI",
+      "company": "CVR Energy Inc",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:CVI",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "4_Strongest_Stock_VPK",
+        "Mom_1M_Small",
+        "Mom_3M_Small"
+      ],
+      "finviz_scans": [
+        "4_Strongest_Stock_VPK",
+        "Mom_3M_Small"
+      ],
+      "same_source_scans": [
+        "4_Strongest_Stock_VPK",
+        "Mom_3M_Small"
+      ],
+      "scans": [
+        "4_Strongest_Stock_VPK",
+        "Mom_1M_Small",
+        "Mom_3M_Small"
+      ],
+      "scanner_count": 3,
+      "categories": [
+        "Strength",
+        "Momentum"
+      ],
+      "category_count": 2,
+      "momentum": {
+        "1W": false,
+        "1M": true,
+        "3M": true,
+        "6M": false
+      },
+      "lifecycle": "Established Leader",
+      "priority": "Review First",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "LVWR",
+      "company": "LiveWire Group Inc",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:LVWR",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "Daily_Tightness_Swing",
+        "Mom_1M_Small",
+        "Mom_3M_Small"
+      ],
+      "finviz_scans": [
+        "Mom_1M_Small",
+        "Mom_3M_Small"
+      ],
+      "same_source_scans": [
+        "Mom_1M_Small",
+        "Mom_3M_Small"
+      ],
+      "scans": [
+        "Daily_Tightness_Swing",
+        "Mom_1M_Small",
+        "Mom_3M_Small"
+      ],
+      "scanner_count": 3,
+      "categories": [
+        "Tightness",
+        "Momentum"
+      ],
+      "category_count": 2,
+      "momentum": {
+        "1W": false,
+        "1M": true,
+        "3M": true,
+        "6M": false
+      },
+      "lifecycle": "Tightening Leader",
+      "priority": "Review First",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "PAYS",
+      "company": "PaySign Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:PAYS",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "4_Strongest_Stock_VPK",
+        "Mom_3M_Small",
+        "Mom_6M_Small"
+      ],
+      "finviz_scans": [
+        "4_Strongest_Stock_VPK",
+        "Mom_3M_Small",
+        "Mom_6M_Small"
+      ],
+      "same_source_scans": [
+        "4_Strongest_Stock_VPK",
+        "Mom_3M_Small",
+        "Mom_6M_Small"
+      ],
+      "scans": [
+        "4_Strongest_Stock_VPK",
+        "Mom_3M_Small",
+        "Mom_6M_Small"
+      ],
+      "scanner_count": 3,
+      "categories": [
+        "Strength",
+        "Momentum"
+      ],
+      "category_count": 2,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": true,
+        "6M": true
+      },
+      "lifecycle": "Established Leader",
+      "priority": "Review First",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "SMTC",
+      "company": "Semtech Corp",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:SMTC",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "Mom_1M_Large",
+        "Mom_6M_Large"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth",
+        "Mom_6M_Large"
+      ],
+      "same_source_scans": [
+        "Mom_6M_Large"
+      ],
+      "scans": [
+        "1_Fundamental_Growth",
+        "Mom_1M_Large",
+        "Mom_6M_Large"
+      ],
+      "scanner_count": 3,
+      "categories": [
+        "Fundamental",
+        "Momentum"
+      ],
+      "category_count": 2,
+      "momentum": {
+        "1W": false,
+        "1M": true,
+        "3M": false,
+        "6M": true
+      },
+      "lifecycle": "Emerging Momentum",
+      "priority": "Review First",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "CRSR",
+      "company": "Corsair Gaming Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:CRSR",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "Daily_Tightness_Swing",
+        "Mom_6M_Small"
+      ],
+      "finviz_scans": [
+        "Daily_Tightness_Swing",
+        "Mom_6M_Small"
+      ],
+      "same_source_scans": [
+        "Daily_Tightness_Swing",
+        "Mom_6M_Small"
+      ],
+      "scans": [
+        "Daily_Tightness_Swing",
+        "Mom_6M_Small"
+      ],
+      "scanner_count": 2,
+      "categories": [
+        "Tightness",
+        "Momentum"
+      ],
+      "category_count": 2,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": true
+      },
+      "lifecycle": "Monitor",
+      "priority": "Review First",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "DGII",
+      "company": "Digi International Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:DGII",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth",
+        "Daily_Tightness_Swing"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth",
+        "Daily_Tightness_Swing"
+      ],
+      "scanner_count": 2,
+      "categories": [
+        "Fundamental",
+        "Tightness"
+      ],
+      "category_count": 2,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Review First",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "ECO",
+      "company": "Okeanis Eco Tankers Corp",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:ECO",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "4_Strongest_Stock_VPK"
+      ],
+      "finviz_scans": [
+        "4_Strongest_Stock_VPK",
+        "Mom_3M_Small"
+      ],
+      "same_source_scans": [
+        "4_Strongest_Stock_VPK"
+      ],
+      "scans": [
+        "4_Strongest_Stock_VPK",
+        "Mom_3M_Small"
+      ],
+      "scanner_count": 2,
+      "categories": [
+        "Strength",
+        "Momentum"
+      ],
+      "category_count": 2,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": true,
+        "6M": false
+      },
+      "lifecycle": "Established Leader",
+      "priority": "Review First",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "KNSA",
+      "company": "Kiniksa Pharmaceuticals International Plc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:KNSA",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth",
+        "4_Strongest_Stock_VPK"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth",
+        "4_Strongest_Stock_VPK"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth",
+        "4_Strongest_Stock_VPK"
+      ],
+      "scans": [
+        "1_Fundamental_Growth",
+        "4_Strongest_Stock_VPK"
+      ],
+      "scanner_count": 2,
+      "categories": [
+        "Fundamental",
+        "Strength"
+      ],
+      "category_count": 2,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Review First",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "LPG",
+      "company": "Dorian LPG Ltd",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:LPG",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth",
+        "4_Strongest_Stock_VPK"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth",
+        "4_Strongest_Stock_VPK"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth",
+        "4_Strongest_Stock_VPK"
+      ],
+      "scans": [
+        "1_Fundamental_Growth",
+        "4_Strongest_Stock_VPK"
+      ],
+      "scanner_count": 2,
+      "categories": [
+        "Fundamental",
+        "Strength"
+      ],
+      "category_count": 2,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Review First",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "LTRX",
+      "company": "Lantronix Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:LTRX",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "Daily_Tightness_Swing",
+        "Mom_1M_Small"
+      ],
+      "finviz_scans": [
+        "Daily_Tightness_Swing",
+        "Mom_1M_Small"
+      ],
+      "same_source_scans": [
+        "Daily_Tightness_Swing",
+        "Mom_1M_Small"
+      ],
+      "scans": [
+        "Daily_Tightness_Swing",
+        "Mom_1M_Small"
+      ],
+      "scanner_count": 2,
+      "categories": [
+        "Tightness",
+        "Momentum"
+      ],
+      "category_count": 2,
+      "momentum": {
+        "1W": false,
+        "1M": true,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Emerging Momentum",
+      "priority": "Review First",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "MSGE",
+      "company": "Madison Square Garden Entertainment Corp",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:MSGE",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth",
+        "Daily_Tightness_Swing"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth",
+        "Daily_Tightness_Swing"
+      ],
+      "scanner_count": 2,
+      "categories": [
+        "Fundamental",
+        "Tightness"
+      ],
+      "category_count": 2,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Review First",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "ODD",
+      "company": "ODDITY Tech Ltd",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:ODD",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "Mom_1M_Small"
+      ],
+      "finviz_scans": [
+        "Daily_Tightness_Swing",
+        "Mom_1M_Small"
+      ],
+      "same_source_scans": [
+        "Mom_1M_Small"
+      ],
+      "scans": [
+        "Daily_Tightness_Swing",
+        "Mom_1M_Small"
+      ],
+      "scanner_count": 2,
+      "categories": [
+        "Tightness",
+        "Momentum"
+      ],
+      "category_count": 2,
+      "momentum": {
+        "1W": false,
+        "1M": true,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Emerging Momentum",
+      "priority": "Review First",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "PARR",
+      "company": "Par Pacific Holdings Inc",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:PARR",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth",
+        "4_Strongest_Stock_VPK"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth",
+        "4_Strongest_Stock_VPK"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth",
+        "4_Strongest_Stock_VPK"
+      ],
+      "scans": [
+        "1_Fundamental_Growth",
+        "4_Strongest_Stock_VPK"
+      ],
+      "scanner_count": 2,
+      "categories": [
+        "Fundamental",
+        "Strength"
+      ],
+      "category_count": 2,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Review First",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "PUBM",
+      "company": "PubMatic Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:PUBM",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "Daily_Tightness_Swing"
+      ],
+      "finviz_scans": [
+        "Daily_Tightness_Swing",
+        "Mom_6M_Small"
+      ],
+      "same_source_scans": [
+        "Daily_Tightness_Swing"
+      ],
+      "scans": [
+        "Daily_Tightness_Swing",
+        "Mom_6M_Small"
+      ],
+      "scanner_count": 2,
+      "categories": [
+        "Tightness",
+        "Momentum"
+      ],
+      "category_count": 2,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": true
+      },
+      "lifecycle": "Monitor",
+      "priority": "Review First",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "STNG",
+      "company": "Scorpio Tankers Inc",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:STNG",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth",
+        "4_Strongest_Stock_VPK"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth",
+        "4_Strongest_Stock_VPK"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth",
+        "4_Strongest_Stock_VPK"
+      ],
+      "scans": [
+        "1_Fundamental_Growth",
+        "4_Strongest_Stock_VPK"
+      ],
+      "scanner_count": 2,
+      "categories": [
+        "Fundamental",
+        "Strength"
+      ],
+      "category_count": 2,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Review First",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "VIA",
+      "company": "Via Transportation Inc",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:VIA",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "Daily_Tightness_Swing",
+        "Mom_3M_Small"
+      ],
+      "finviz_scans": [
+        "Daily_Tightness_Swing"
+      ],
+      "same_source_scans": [
+        "Daily_Tightness_Swing"
+      ],
+      "scans": [
+        "Daily_Tightness_Swing",
+        "Mom_3M_Small"
+      ],
+      "scanner_count": 2,
+      "categories": [
+        "Tightness",
+        "Momentum"
+      ],
+      "category_count": 2,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": true,
+        "6M": false
+      },
+      "lifecycle": "Monitor",
+      "priority": "Review First",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "PENG",
+      "company": "Penguin Solutions Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:PENG",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "Mom_1W_Small",
+        "Mom_1M_Small",
+        "Mom_6M_Small"
+      ],
+      "finviz_scans": [
+        "Mom_1W_Small",
+        "Mom_1M_Small",
+        "Mom_6M_Small"
+      ],
+      "same_source_scans": [
+        "Mom_1W_Small",
+        "Mom_1M_Small",
+        "Mom_6M_Small"
+      ],
+      "scans": [
+        "Mom_1W_Small",
+        "Mom_1M_Small",
+        "Mom_6M_Small"
+      ],
+      "scanner_count": 3,
+      "categories": [
+        "Momentum"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": true,
+        "1M": true,
+        "3M": false,
+        "6M": true
+      },
+      "lifecycle": "Emerging Momentum",
+      "priority": "Emerging Momentum",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "PS",
+      "company": "Pershing Square Inc",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:PS",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "Mom_1M_Large",
+        "Mom_3M_Large",
+        "Mom_6M_Large"
+      ],
+      "finviz_scans": [
+        "Mom_1M_Large",
+        "Mom_3M_Large"
+      ],
+      "same_source_scans": [
+        "Mom_1M_Large",
+        "Mom_3M_Large"
+      ],
+      "scans": [
+        "Mom_1M_Large",
+        "Mom_3M_Large",
+        "Mom_6M_Large"
+      ],
+      "scanner_count": 3,
+      "categories": [
+        "Momentum"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": true,
+        "3M": true,
+        "6M": true
+      },
+      "lifecycle": "Broad Momentum",
+      "priority": "Emerging Momentum",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "ALAB",
+      "company": "Astera Labs Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:ALAB",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "Mom_1M_Large",
+        "Mom_6M_Large"
+      ],
+      "finviz_scans": [
+        "Mom_1M_Large",
+        "Mom_6M_Large"
+      ],
+      "same_source_scans": [
+        "Mom_1M_Large",
+        "Mom_6M_Large"
+      ],
+      "scans": [
+        "Mom_1M_Large",
+        "Mom_6M_Large"
+      ],
+      "scanner_count": 2,
+      "categories": [
+        "Momentum"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": true,
+        "3M": false,
+        "6M": true
+      },
+      "lifecycle": "Emerging Momentum",
+      "priority": "Emerging Momentum",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "LIFE",
+      "company": "Ethos Technologies Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:LIFE",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "Mom_3M_Small",
+        "Mom_6M_Small"
+      ],
+      "finviz_scans": [
+        "Mom_3M_Small",
+        "Mom_6M_Small"
+      ],
+      "same_source_scans": [
+        "Mom_3M_Small",
+        "Mom_6M_Small"
+      ],
+      "scans": [
+        "Mom_3M_Small",
+        "Mom_6M_Small"
+      ],
+      "scanner_count": 2,
+      "categories": [
+        "Momentum"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": true,
+        "6M": true
+      },
+      "lifecycle": "Monitor",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "RCEL",
+      "company": "AVITA Medical Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:RCEL",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "Mom_3M_Small",
+        "Mom_6M_Small"
+      ],
+      "finviz_scans": [
+        "Mom_3M_Small",
+        "Mom_6M_Small"
+      ],
+      "same_source_scans": [
+        "Mom_3M_Small",
+        "Mom_6M_Small"
+      ],
+      "scans": [
+        "Mom_3M_Small",
+        "Mom_6M_Small"
+      ],
+      "scanner_count": 2,
+      "categories": [
+        "Momentum"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": true,
+        "6M": true
+      },
+      "lifecycle": "Monitor",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "AAMI",
+      "company": "Acadian Asset Management Inc",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:AAMI",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "AAON",
+      "company": "AAON",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:AAON",
+      "status": "New",
+      "source_status": "TRADINGVIEW",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [],
+      "same_source_scans": [],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Source Review",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "ADAM",
+      "company": "Adamas Trust Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:ADAM",
+      "status": "New",
+      "source_status": "FINVIZ",
+      "tradingview_scans": [],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Source Review",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "AEIS",
+      "company": "Advanced Energy Industries Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:AEIS",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "5_Strongest_Stock_10B_Rev_30_VPK"
+      ],
+      "finviz_scans": [
+        "5_Strongest_Stock_10B_Rev_30_VPK"
+      ],
+      "same_source_scans": [
+        "5_Strongest_Stock_10B_Rev_30_VPK"
+      ],
+      "scans": [
+        "5_Strongest_Stock_10B_Rev_30_VPK"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Strength"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Monitor",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "AGX",
+      "company": "Argan Inc",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:AGX",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "AMPH",
+      "company": "Amphastar Pharmaceuticals Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:AMPH",
+      "status": "New",
+      "source_status": "FINVIZ",
+      "tradingview_scans": [],
+      "finviz_scans": [
+        "Daily_Tightness_Swing"
+      ],
+      "same_source_scans": [],
+      "scans": [
+        "Daily_Tightness_Swing"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Tightness"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Monitor",
+      "priority": "Source Review",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "ANIP",
+      "company": "ANI Pharmaceuticals Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:ANIP",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "ARW",
+      "company": "Arrow Electronics Inc",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:ARW",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "ASC",
+      "company": "Ardmore Shipping Corp",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:ASC",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "4_Strongest_Stock_VPK"
+      ],
+      "finviz_scans": [
+        "4_Strongest_Stock_VPK"
+      ],
+      "same_source_scans": [
+        "4_Strongest_Stock_VPK"
+      ],
+      "scans": [
+        "4_Strongest_Stock_VPK"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Strength"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Monitor",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "ASYS",
+      "company": "ASYS",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:ASYS",
+      "status": "New",
+      "source_status": "TRADINGVIEW",
+      "tradingview_scans": [
+        "Daily_Tightness_Swing"
+      ],
+      "finviz_scans": [],
+      "same_source_scans": [],
+      "scans": [
+        "Daily_Tightness_Swing"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Tightness"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Monitor",
+      "priority": "Source Review",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "ATRO",
+      "company": "Astronics Corp",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:ATRO",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "AUGO",
+      "company": "Aura Minerals Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:AUGO",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "4_Strongest_Stock_VPK"
+      ],
+      "finviz_scans": [
+        "4_Strongest_Stock_VPK"
+      ],
+      "same_source_scans": [
+        "4_Strongest_Stock_VPK"
+      ],
+      "scans": [
+        "4_Strongest_Stock_VPK"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Strength"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Monitor",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "BBT",
+      "company": "BBT",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:BBT",
+      "status": "New",
+      "source_status": "TRADINGVIEW",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [],
+      "same_source_scans": [],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Source Review",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "BKV",
+      "company": "BKV Corp",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:BKV",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "3_Post_Earnings_Cont_Base"
+      ],
+      "finviz_scans": [
+        "3_Post_Earnings_Cont_Base"
+      ],
+      "same_source_scans": [
+        "3_Post_Earnings_Cont_Base"
+      ],
+      "scans": [
+        "3_Post_Earnings_Cont_Base"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Catalyst"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Monitor",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "BRZE",
+      "company": "Braze Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:BRZE",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "CARE",
+      "company": "Carter Bankshares Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:CARE",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "CDNA",
+      "company": "Caredx Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:CDNA",
+      "status": "New",
+      "source_status": "FINVIZ",
+      "tradingview_scans": [],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Source Review",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "CHEF",
+      "company": "CHEF",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:CHEF",
+      "status": "New",
+      "source_status": "TRADINGVIEW",
+      "tradingview_scans": [
+        "Daily_Tightness_Swing"
+      ],
+      "finviz_scans": [],
+      "same_source_scans": [],
+      "scans": [
+        "Daily_Tightness_Swing"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Tightness"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Monitor",
+      "priority": "Source Review",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "CNOB",
+      "company": "ConnectOne Bancorp Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:CNOB",
+      "status": "New",
+      "source_status": "FINVIZ",
+      "tradingview_scans": [],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Source Review",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "COCO",
+      "company": "Vita Coco Company Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:COCO",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "CORT",
+      "company": "Corcept Therapeutics Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:CORT",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "Mom_6M_Large"
+      ],
+      "finviz_scans": [
+        "Mom_6M_Large"
+      ],
+      "same_source_scans": [
+        "Mom_6M_Large"
+      ],
+      "scans": [
+        "Mom_6M_Large"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Momentum"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": true
+      },
+      "lifecycle": "Monitor",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "CRL",
+      "company": "Charles River Laboratories International Inc",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:CRL",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "Daily_Tightness_Swing"
+      ],
+      "finviz_scans": [
+        "Daily_Tightness_Swing"
+      ],
+      "same_source_scans": [
+        "Daily_Tightness_Swing"
+      ],
+      "scans": [
+        "Daily_Tightness_Swing"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Tightness"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Monitor",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "EBS",
+      "company": "EBS",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:EBS",
+      "status": "New",
+      "source_status": "TRADINGVIEW",
+      "tradingview_scans": [
+        "Daily_Tightness_Swing"
+      ],
+      "finviz_scans": [],
+      "same_source_scans": [],
+      "scans": [
+        "Daily_Tightness_Swing"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Tightness"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Monitor",
+      "priority": "Source Review",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "ECG",
+      "company": "Everus Construction Group",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:ECG",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "EFOR",
+      "company": "Everforth Inc",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:EFOR",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "Mom_3M_Small"
+      ],
+      "finviz_scans": [
+        "Mom_3M_Small"
+      ],
+      "same_source_scans": [
+        "Mom_3M_Small"
+      ],
+      "scans": [
+        "Mom_3M_Small"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Momentum"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": true,
+        "6M": false
+      },
+      "lifecycle": "Monitor",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "ELF",
+      "company": "e.l.f. Beauty Inc",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:ELF",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "ESTA",
+      "company": "ESTA",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:ESTA",
+      "status": "New",
+      "source_status": "TRADINGVIEW",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [],
+      "same_source_scans": [],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Source Review",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "EVC",
+      "company": "Entravision Communications Corp",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:EVC",
+      "status": "New",
+      "source_status": "FINVIZ",
+      "tradingview_scans": [],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Source Review",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "EZPW",
+      "company": "EZCorp Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:EZPW",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "FBK",
+      "company": "FB Financial Corp",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:FBK",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "FCFS",
+      "company": "FirstCash Holdings Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:FCFS",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "FEIM",
+      "company": "FEIM",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:FEIM",
+      "status": "New",
+      "source_status": "TRADINGVIEW",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [],
+      "same_source_scans": [],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Source Review",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "FIX",
+      "company": "Comfort Systems USA Inc",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:FIX",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "FORM",
+      "company": "FormFactor Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:FORM",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "FROG",
+      "company": "JFrog Ltd",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:FROG",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "Mom_6M_Large"
+      ],
+      "finviz_scans": [
+        "Mom_6M_Large"
+      ],
+      "same_source_scans": [
+        "Mom_6M_Large"
+      ],
+      "scans": [
+        "Mom_6M_Large"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Momentum"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": true
+      },
+      "lifecycle": "Monitor",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "GCT",
+      "company": "GigaCloud Technology Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:GCT",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "4_Strongest_Stock_VPK"
+      ],
+      "finviz_scans": [
+        "4_Strongest_Stock_VPK"
+      ],
+      "same_source_scans": [
+        "4_Strongest_Stock_VPK"
+      ],
+      "scans": [
+        "4_Strongest_Stock_VPK"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Strength"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Monitor",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "GNK",
+      "company": "Genco Shipping & Trading Limited",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:GNK",
+      "status": "New",
+      "source_status": "FINVIZ",
+      "tradingview_scans": [],
+      "finviz_scans": [
+        "4_Strongest_Stock_VPK"
+      ],
+      "same_source_scans": [],
+      "scans": [
+        "4_Strongest_Stock_VPK"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Strength"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Monitor",
+      "priority": "Source Review",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "HALO",
+      "company": "Halozyme Therapeutics Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:HALO",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "5_Strongest_Stock_10B_Rev_30_VPK"
+      ],
+      "finviz_scans": [
+        "5_Strongest_Stock_10B_Rev_30_VPK"
+      ],
+      "same_source_scans": [
+        "5_Strongest_Stock_10B_Rev_30_VPK"
+      ],
+      "scans": [
+        "5_Strongest_Stock_10B_Rev_30_VPK"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Strength"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Monitor",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "HCC",
+      "company": "HCC",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:HCC",
+      "status": "New",
+      "source_status": "TRADINGVIEW",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [],
+      "same_source_scans": [],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Source Review",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "HHH",
+      "company": "Howard Hughes Holdings Inc",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:HHH",
+      "status": "New",
+      "source_status": "FINVIZ",
+      "tradingview_scans": [],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Source Review",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "HPK",
+      "company": "HPK",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:HPK",
+      "status": "New",
+      "source_status": "TRADINGVIEW",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [],
+      "same_source_scans": [],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Source Review",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "HRMY",
+      "company": "Harmony Biosciences Holdings Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:HRMY",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "HSHP",
+      "company": "Himalaya Shipping Ltd",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:HSHP",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "HUM",
+      "company": "Humana Inc",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:HUM",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "Mom_6M_Large"
+      ],
+      "finviz_scans": [
+        "Mom_6M_Large"
+      ],
+      "same_source_scans": [
+        "Mom_6M_Large"
+      ],
+      "scans": [
+        "Mom_6M_Large"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Momentum"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": true
+      },
+      "lifecycle": "Monitor",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "IESC",
+      "company": "IES Holdings Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:IESC",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "INDB",
+      "company": "Independent Bank Corp",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:INDB",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "INOD",
+      "company": "Innodata Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:INOD",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "LIND",
+      "company": "Lindblad Expeditions Holdings Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:LIND",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "Mom_1M_Small"
+      ],
+      "finviz_scans": [
+        "Mom_1M_Small"
+      ],
+      "same_source_scans": [
+        "Mom_1M_Small"
+      ],
+      "scans": [
+        "Mom_1M_Small"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Momentum"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": true,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Emerging Momentum",
+      "priority": "Emerging Momentum",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "LSCC",
+      "company": "Lattice Semiconductor Corp",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:LSCC",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "5_Strongest_Stock_10B_Rev_30_VPK"
+      ],
+      "finviz_scans": [
+        "5_Strongest_Stock_10B_Rev_30_VPK"
+      ],
+      "same_source_scans": [
+        "5_Strongest_Stock_10B_Rev_30_VPK"
+      ],
+      "scans": [
+        "5_Strongest_Stock_10B_Rev_30_VPK"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Strength"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Monitor",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "MAMA",
+      "company": "Mama's Creations Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:MAMA",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "MDB",
+      "company": "MongoDB Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:MDB",
+      "status": "New",
+      "source_status": "FINVIZ",
+      "tradingview_scans": [],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Source Review",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "MFA",
+      "company": "MFA Financial Inc",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:MFA",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "MPWR",
+      "company": "Monolithic Power System Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:MPWR",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "5_Strongest_Stock_10B_Rev_30_VPK"
+      ],
+      "finviz_scans": [
+        "5_Strongest_Stock_10B_Rev_30_VPK"
+      ],
+      "same_source_scans": [
+        "5_Strongest_Stock_10B_Rev_30_VPK"
+      ],
+      "scans": [
+        "5_Strongest_Stock_10B_Rev_30_VPK"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Strength"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Monitor",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "NESR",
+      "company": "National Energy Services Reunited Corp",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:NESR",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "NEXA",
+      "company": "Nexa Resources SA",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:NEXA",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "NSIT",
+      "company": "Insight Enterprises Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:NSIT",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "Mom_6M_Small"
+      ],
+      "finviz_scans": [
+        "Mom_6M_Small"
+      ],
+      "same_source_scans": [
+        "Mom_6M_Small"
+      ],
+      "scans": [
+        "Mom_6M_Small"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Momentum"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": true
+      },
+      "lifecycle": "Monitor",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "NVGS",
+      "company": "Navigator Holdings Ltd",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:NVGS",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "OOMA",
+      "company": "Ooma Inc",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:OOMA",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "OPRT",
+      "company": "OPRT",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:OPRT",
+      "status": "New",
+      "source_status": "TRADINGVIEW",
+      "tradingview_scans": [
+        "Daily_Tightness_Swing"
+      ],
+      "finviz_scans": [],
+      "same_source_scans": [],
+      "scans": [
+        "Daily_Tightness_Swing"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Tightness"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Monitor",
+      "priority": "Source Review",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "PAY",
+      "company": "Paymentus Holdings Inc",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:PAY",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "PBYI",
+      "company": "Puma Biotechnology Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:PBYI",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "Daily_Tightness_Swing"
+      ],
+      "finviz_scans": [
+        "Daily_Tightness_Swing"
+      ],
+      "same_source_scans": [
+        "Daily_Tightness_Swing"
+      ],
+      "scans": [
+        "Daily_Tightness_Swing"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Tightness"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Monitor",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "PHAT",
+      "company": "PHAT",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:PHAT",
+      "status": "New",
+      "source_status": "TRADINGVIEW",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [],
+      "same_source_scans": [],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Source Review",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "PICS",
+      "company": "PicS NV",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:PICS",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "PNTG",
+      "company": "Pennant Group Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:PNTG",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "PSIX",
+      "company": "PSIX",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:PSIX",
+      "status": "New",
+      "source_status": "TRADINGVIEW",
+      "tradingview_scans": [
+        "Mom_1M_Small"
+      ],
+      "finviz_scans": [],
+      "same_source_scans": [],
+      "scans": [
+        "Mom_1M_Small"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Momentum"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": true,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Emerging Momentum",
+      "priority": "Emerging Momentum",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "PTGX",
+      "company": "Protagonist Therapeutics Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:PTGX",
+      "status": "New",
+      "source_status": "FINVIZ",
+      "tradingview_scans": [],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Source Review",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "QLYS",
+      "company": "Qualys Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:QLYS",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "Mom_6M_Small"
+      ],
+      "finviz_scans": [
+        "Mom_6M_Small"
+      ],
+      "same_source_scans": [
+        "Mom_6M_Small"
+      ],
+      "scans": [
+        "Mom_6M_Small"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Momentum"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": true
+      },
+      "lifecycle": "Monitor",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "QNST",
+      "company": "QuinStreet Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:QNST",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "SANM",
+      "company": "Sanmina Corp",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:SANM",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "SCCO",
+      "company": "Southern Copper Corp",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:SCCO",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "SEZL",
+      "company": "Sezzle Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:SEZL",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "SMWB",
+      "company": "Similarweb Ltd",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:SMWB",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "Mom_6M_Small"
+      ],
+      "finviz_scans": [
+        "Mom_6M_Small"
+      ],
+      "same_source_scans": [
+        "Mom_6M_Small"
+      ],
+      "scans": [
+        "Mom_6M_Small"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Momentum"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": true
+      },
+      "lifecycle": "Monitor",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "SNDX",
+      "company": "SNDX",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:SNDX",
+      "status": "New",
+      "source_status": "TRADINGVIEW",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [],
+      "same_source_scans": [],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Source Review",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "SNX",
+      "company": "TD Synnex Corp",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:SNX",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "5_Strongest_Stock_10B_Rev_30_VPK"
+      ],
+      "finviz_scans": [
+        "5_Strongest_Stock_10B_Rev_30_VPK"
+      ],
+      "same_source_scans": [
+        "5_Strongest_Stock_10B_Rev_30_VPK"
+      ],
+      "scans": [
+        "5_Strongest_Stock_10B_Rev_30_VPK"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Strength"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Monitor",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "SPAI",
+      "company": "SPAI",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:SPAI",
+      "status": "New",
+      "source_status": "TRADINGVIEW",
+      "tradingview_scans": [
+        "3_Post_Earnings_Cont_Base"
+      ],
+      "finviz_scans": [],
+      "same_source_scans": [],
+      "scans": [
+        "3_Post_Earnings_Cont_Base"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Catalyst"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Monitor",
+      "priority": "Source Review",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "SPSC",
+      "company": "SPS Commerce Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:SPSC",
+      "status": "New",
+      "source_status": "FINVIZ",
+      "tradingview_scans": [],
+      "finviz_scans": [
+        "Daily_Tightness_Swing"
+      ],
+      "same_source_scans": [],
+      "scans": [
+        "Daily_Tightness_Swing"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Tightness"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Monitor",
+      "priority": "Source Review",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "STLN",
+      "company": "STLN",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:STLN",
+      "status": "New",
+      "source_status": "TRADINGVIEW",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [],
+      "same_source_scans": [],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Source Review",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "STRL",
+      "company": "Sterling Infrastructure Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:STRL",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "5_Strongest_Stock_10B_Rev_30_VPK"
+      ],
+      "finviz_scans": [
+        "5_Strongest_Stock_10B_Rev_30_VPK"
+      ],
+      "same_source_scans": [
+        "5_Strongest_Stock_10B_Rev_30_VPK"
+      ],
+      "scans": [
+        "5_Strongest_Stock_10B_Rev_30_VPK"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Strength"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Monitor",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "TNK",
+      "company": "Teekay Tankers Ltd",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:TNK",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "TOWN",
+      "company": "Townebank Portsmouth VA",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:TOWN",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "TTMI",
+      "company": "TTMI",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:TTMI",
+      "status": "New",
+      "source_status": "TRADINGVIEW",
+      "tradingview_scans": [
+        "5_Strongest_Stock_10B_Rev_30_VPK"
+      ],
+      "finviz_scans": [],
+      "same_source_scans": [],
+      "scans": [
+        "5_Strongest_Stock_10B_Rev_30_VPK"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Strength"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Monitor",
+      "priority": "Source Review",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "URGN",
+      "company": "UroGen Pharma Ltd",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:URGN",
+      "status": "New",
+      "source_status": "FINVIZ",
+      "tradingview_scans": [],
+      "finviz_scans": [
+        "Mom_6M_Small"
+      ],
+      "same_source_scans": [],
+      "scans": [
+        "Mom_6M_Small"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Momentum"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": true
+      },
+      "lifecycle": "Monitor",
+      "priority": "Source Review",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "VMET",
+      "company": "Versamet Royalties Corp",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:VMET",
+      "status": "New",
+      "source_status": "FINVIZ",
+      "tradingview_scans": [],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Source Review",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "XMTR",
+      "company": "XMTR",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:XMTR",
+      "status": "New",
+      "source_status": "TRADINGVIEW",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [],
+      "same_source_scans": [],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Source Review",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "YOU",
+      "company": "Clear Secure Inc",
+      "exchange": "NYSE",
+      "tradingview_symbol": "NYSE:YOU",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "finviz_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "same_source_scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scans": [
+        "1_Fundamental_Growth"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Fundamental"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Fundamental Growth",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    },
+    {
+      "ticker": "ZS",
+      "company": "Zscaler Inc",
+      "exchange": "NASDAQ",
+      "tradingview_symbol": "NASDAQ:ZS",
+      "status": "New",
+      "source_status": "FINVIZ",
+      "tradingview_scans": [],
+      "finviz_scans": [
+        "Mom_1M_Large"
+      ],
+      "same_source_scans": [],
+      "scans": [
+        "Mom_1M_Large"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Momentum"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": true,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Emerging Momentum",
+      "priority": "Emerging Momentum",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1
+    }
+  ],
+  "publication": {
+    "scope": "derived-scanner-results",
+    "private_research_included": false,
+    "provider_credentials_included": false,
+    "raw_provider_data_included": false
+  }
+}
