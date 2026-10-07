@@ -20,7 +20,7 @@ async function boot(){
 }
 function renderNoData(error){
   $('#health-strip').className='health-strip warning'; $('#health-strip').innerHTML='<strong>NO VALIDATED DATA</strong><span>Run the complete 13-scanner pipeline before using the workspace.</span>';
-  $('#summary').innerHTML=''; $('#toolbar').classList.add('hidden'); $('#content').innerHTML=`<div class="error-box"><h2>Workspace is ready; market data is not.</h2><p>${esc(error?.message||'No dashboard snapshot found.')}</p><code>python run_scanners.py</code></div>`;
+  $('#summary').innerHTML=''; $('#toolbar').classList.add('hidden'); $('#content').innerHTML=`<div class="error-box"><h2>Workspace is online; validated market data is not published yet.</h2><p>${esc(error?.message||'No dashboard snapshot found.')}</p><p>The public site updates only after the complete 13-scanner release gate succeeds.</p></div>`;
   bindBase();
 }
 function populateControls(){
