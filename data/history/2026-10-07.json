@@ -1246,7 +1246,14 @@
         "Quality 60",
         "4 scanner confirmations",
         "XLK Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 96.4,
+        "quality_score": 60.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "INSW",
@@ -1313,7 +1320,14 @@
         "Quality 100",
         "3 scanner confirmations",
         "XLE Emerging Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 87.5,
+        "quality_score": 100.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "SIMO",
@@ -1374,7 +1388,14 @@
         "Quality 85",
         "3 scanner confirmations",
         "XLK Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 83.9,
+        "quality_score": 85.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "CVI",
@@ -1440,7 +1461,14 @@
         "Quality 63",
         "3 scanner confirmations",
         "XLE Emerging Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 85.7,
+        "quality_score": 63.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "LVWR",
@@ -1502,7 +1530,14 @@
         "RS percentile 69",
         "3 scanner confirmations",
         "XLY Neutral"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 68.8,
+        "quality_score": 23.2,
+        "sma50_state": "Above",
+        "sma200_state": "Below",
+        "volatility_state": "Elevated"
+      }
     },
     {
       "ticker": "PAYS",
@@ -1570,7 +1605,14 @@
         "Quality 95",
         "3 scanner confirmations",
         "XLK Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 94.6,
+        "quality_score": 95.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "SMTC",
@@ -1634,7 +1676,14 @@
         "Quality 80",
         "3 scanner confirmations",
         "XLK Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 92.0,
+        "quality_score": 80.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "CRSR",
@@ -1689,7 +1738,14 @@
         "RS percentile 85",
         "2 scanner confirmations",
         "XLK Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 84.8,
+        "quality_score": 58.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "DGII",
@@ -1749,7 +1805,14 @@
         "Quality 83",
         "2 scanner confirmations",
         "XLK Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 58.9,
+        "quality_score": 83.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "FIX",
@@ -1808,7 +1871,14 @@
         "Quality 95",
         "2 scanner confirmations",
         "XLI Deprioritize"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 50.0,
+        "quality_score": 95.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "KNSA",
@@ -1871,7 +1941,14 @@
         "Quality 85",
         "2 scanner confirmations",
         "XLV Emerging Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 65.2,
+        "quality_score": 85.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "LPG",
@@ -1934,7 +2011,14 @@
         "Quality 90",
         "2 scanner confirmations",
         "XLE Emerging Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 81.2,
+        "quality_score": 90.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "LTRX",
@@ -1995,7 +2079,14 @@
         "RS percentile 64",
         "2 scanner confirmations",
         "XLK Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 64.3,
+        "quality_score": 46.4,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "MEI",
@@ -2046,7 +2137,14 @@
       "why": [
         "RS percentile 80",
         "2 scanner confirmations"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 79.5,
+        "quality_score": 28.3,
+        "sma50_state": "Below",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "MSGE",
@@ -2105,7 +2203,14 @@
         "Quality 68",
         "2 scanner confirmations",
         "XLC Neutral"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 56.2,
+        "quality_score": 68.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "ODD",
@@ -2162,7 +2267,14 @@
       "why": [
         "2 scanner confirmations",
         "XLP Deprioritize"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 41.1,
+        "quality_score": 8.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Elevated"
+      }
     },
     {
       "ticker": "PARR",
@@ -2225,7 +2337,14 @@
         "Quality 90",
         "2 scanner confirmations",
         "XLE Emerging Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 73.2,
+        "quality_score": 90.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "PUBM",
@@ -2284,7 +2403,14 @@
         "RS percentile 88",
         "2 scanner confirmations",
         "XLK Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 88.4,
+        "quality_score": 53.4,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "STNG",
@@ -2345,7 +2471,14 @@
         "Quality 95",
         "2 scanner confirmations",
         "XLE Emerging Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 38.4,
+        "quality_score": 95.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "VIA",
@@ -2404,7 +2537,14 @@
         "RS percentile 71",
         "2 scanner confirmations",
         "XLK Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 71.4,
+        "quality_score": 42.9,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "XRPN",
@@ -2461,7 +2601,14 @@
       "why": [
         "RS percentile 99",
         "4 scanner confirmations"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 99.1,
+        "quality_score": 43.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Elevated"
+      }
     },
     {
       "ticker": "PENG",
@@ -2526,7 +2673,14 @@
         "RS percentile 96",
         "3 scanner confirmations",
         "XLK Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 95.5,
+        "quality_score": 38.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "PS",
@@ -2586,7 +2740,14 @@
         "RS percentile 93",
         "3 scanner confirmations",
         "XLF Deprioritize"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 92.9,
+        "quality_score": 17.9,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Elevated"
+      }
     },
     {
       "ticker": "ALAB",
@@ -2648,7 +2809,14 @@
         "Quality 95",
         "2 scanner confirmations",
         "XLK Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 89.3,
+        "quality_score": 95.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "LIFE",
@@ -2705,7 +2873,14 @@
         "RS percentile 90",
         "2 scanner confirmations",
         "XLF Deprioritize"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 90.2,
+        "quality_score": 43.4,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Elevated"
+      }
     },
     {
       "ticker": "RCEL",
@@ -2765,7 +2940,14 @@
         "RS percentile 98",
         "2 scanner confirmations",
         "XLV Emerging Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 98.2,
+        "quality_score": 34.3,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "AAMI",
@@ -2821,7 +3003,14 @@
         "RS percentile 62",
         "Quality 85",
         "XLF Deprioritize"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 62.5,
+        "quality_score": 85.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "AAON",
@@ -2870,7 +3059,14 @@
       ],
       "why": [
         "Quality 73"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 12.5,
+        "quality_score": 73.0,
+        "sma50_state": "Above",
+        "sma200_state": "Below",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "ADAM",
@@ -2920,7 +3116,14 @@
       "why": [
         "Quality 73",
         "XLRE Deprioritize"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 5.4,
+        "quality_score": 73.0,
+        "sma50_state": "Below",
+        "sma200_state": "Below",
+        "volatility_state": "Lower"
+      }
     },
     {
       "ticker": "AEIS",
@@ -2974,7 +3177,14 @@
       "why": [
         "Quality 73",
         "XLI Deprioritize"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 25.0,
+        "quality_score": 73.0,
+        "sma50_state": "Above",
+        "sma200_state": "Below",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "AGX",
@@ -3028,7 +3238,14 @@
       "why": [
         "Quality 95",
         "XLI Deprioritize"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 4.5,
+        "quality_score": 95.0,
+        "sma50_state": "Below",
+        "sma200_state": "Below",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "AMPH",
@@ -3078,7 +3295,14 @@
       ],
       "why": [
         "XLV Emerging Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 47.3,
+        "quality_score": 47.5,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "ANIP",
@@ -3133,7 +3357,14 @@
       "why": [
         "Quality 73",
         "XLV Emerging Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 7.1,
+        "quality_score": 73.0,
+        "sma50_state": "Below",
+        "sma200_state": "Below",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "ARW",
@@ -3189,7 +3420,14 @@
       "why": [
         "Quality 78",
         "XLK Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 59.8,
+        "quality_score": 78.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "ASC",
@@ -3239,7 +3477,14 @@
       "why": [
         "Quality 90",
         "XLI Deprioritize"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 49.1,
+        "quality_score": 90.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "ATRO",
@@ -3293,7 +3538,14 @@
       "why": [
         "Quality 75",
         "XLI Deprioritize"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 20.5,
+        "quality_score": 75.0,
+        "sma50_state": "Below",
+        "sma200_state": "Below",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "AUGO",
@@ -3347,7 +3599,14 @@
       "why": [
         "Quality 90",
         "XLB Deprioritize"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 52.7,
+        "quality_score": 90.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "BBT",
@@ -3396,7 +3655,14 @@
       ],
       "why": [
         "Quality 83"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 8.0,
+        "quality_score": 83.0,
+        "sma50_state": "Below",
+        "sma200_state": "Below",
+        "volatility_state": "Lower"
+      }
     },
     {
       "ticker": "BKV",
@@ -3449,7 +3715,14 @@
       ],
       "why": [
         "XLE Emerging Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 6.2,
+        "quality_score": 38.0,
+        "sma50_state": "Below",
+        "sma200_state": "Below",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "BRZE",
@@ -3505,7 +3778,14 @@
       "why": [
         "Quality 60",
         "XLK Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 30.4,
+        "quality_score": 60.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "CARE",
@@ -3559,7 +3839,14 @@
       "why": [
         "Quality 100",
         "XLF Deprioritize"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 33.0,
+        "quality_score": 100.0,
+        "sma50_state": "Below",
+        "sma200_state": "Above",
+        "volatility_state": "Lower"
+      }
     },
     {
       "ticker": "CDNA",
@@ -3612,7 +3899,14 @@
         "RS percentile 100",
         "Quality 80",
         "XLV Emerging Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 100.0,
+        "quality_score": 80.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "CNOB",
@@ -3662,7 +3956,14 @@
       "why": [
         "Quality 83",
         "XLF Deprioritize"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 17.0,
+        "quality_score": 83.0,
+        "sma50_state": "Below",
+        "sma200_state": "Above",
+        "volatility_state": "Lower"
+      }
     },
     {
       "ticker": "COCO",
@@ -3716,7 +4017,14 @@
       "why": [
         "Quality 95",
         "XLP Deprioritize"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 9.8,
+        "quality_score": 95.0,
+        "sma50_state": "Below",
+        "sma200_state": "Below",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "CORT",
@@ -3772,7 +4080,14 @@
         "RS percentile 82",
         "Quality 72",
         "XLV Emerging Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 82.1,
+        "quality_score": 72.1,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "CRL",
@@ -3827,7 +4142,14 @@
       "why": [
         "RS percentile 68",
         "XLV Emerging Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 67.9,
+        "quality_score": 20.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "EBS",
@@ -3874,7 +4196,14 @@
       "opportunity_badges": [],
       "why": [
         "Monitor for additional confirmation"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 11.6,
+        "quality_score": 45.0,
+        "sma50_state": "Above",
+        "sma200_state": "Below",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "ECG",
@@ -3929,7 +4258,14 @@
       "why": [
         "Quality 90",
         "XLI Deprioritize"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 25.9,
+        "quality_score": 90.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "ECO",
@@ -3985,7 +4321,14 @@
         "RS percentile 94",
         "Quality 90",
         "XLI Deprioritize"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 93.8,
+        "quality_score": 90.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "EFOR",
@@ -4039,7 +4382,14 @@
       ],
       "why": [
         "XLK Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 55.4,
+        "quality_score": 33.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "ELF",
@@ -4094,7 +4444,14 @@
       "why": [
         "Quality 78",
         "XLP Deprioritize"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 50.9,
+        "quality_score": 78.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "ELMT",
@@ -4143,7 +4500,14 @@
       ],
       "why": [
         "RS percentile 61"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 60.7,
+        "quality_score": 15.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Elevated"
+      }
     },
     {
       "ticker": "ESTA",
@@ -4192,7 +4556,14 @@
       ],
       "why": [
         "Monitor for additional confirmation"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 13.4,
+        "quality_score": 40.0,
+        "sma50_state": "Below",
+        "sma200_state": "Below",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "EVC",
@@ -4243,7 +4614,14 @@
         "RS percentile 63",
         "Quality 63",
         "XLC Neutral"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 63.4,
+        "quality_score": 63.0,
+        "sma50_state": "Below",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "EZPW",
@@ -4297,7 +4675,14 @@
       "why": [
         "Quality 78",
         "XLF Deprioritize"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 24.1,
+        "quality_score": 78.0,
+        "sma50_state": "Below",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "FBK",
@@ -4351,7 +4736,14 @@
       "why": [
         "Quality 88",
         "XLF Deprioritize"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 8.9,
+        "quality_score": 88.0,
+        "sma50_state": "Below",
+        "sma200_state": "Below",
+        "volatility_state": "Lower"
+      }
     },
     {
       "ticker": "FCFS",
@@ -4405,7 +4797,14 @@
       "why": [
         "Quality 73",
         "XLF Deprioritize"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 17.9,
+        "quality_score": 73.0,
+        "sma50_state": "Below",
+        "sma200_state": "Above",
+        "volatility_state": "Lower"
+      }
     },
     {
       "ticker": "FEAM",
@@ -4459,7 +4858,14 @@
       "why": [
         "RS percentile 97",
         "XLB Deprioritize"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 97.3,
+        "quality_score": 35.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Elevated"
+      }
     },
     {
       "ticker": "FEIM",
@@ -4509,7 +4915,14 @@
       "why": [
         "RS percentile 76",
         "Quality 68"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 75.9,
+        "quality_score": 68.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "FORM",
@@ -4566,7 +4979,14 @@
         "RS percentile 87",
         "Quality 78",
         "XLK Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 86.6,
+        "quality_score": 78.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "FROG",
@@ -4623,7 +5043,14 @@
         "RS percentile 78",
         "Quality 60",
         "XLK Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 77.7,
+        "quality_score": 60.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "GCT",
@@ -4680,7 +5107,14 @@
         "RS percentile 72",
         "Quality 85",
         "XLK Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 72.3,
+        "quality_score": 85.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "GNK",
@@ -4731,7 +5165,14 @@
       "why": [
         "Quality 73",
         "XLI Deprioritize"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 39.3,
+        "quality_score": 73.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Lower"
+      }
     },
     {
       "ticker": "HALO",
@@ -4784,7 +5225,14 @@
         "RS percentile 70",
         "Quality 80",
         "XLV Emerging Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 69.6,
+        "quality_score": 80.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Lower"
+      }
     },
     {
       "ticker": "HCC",
@@ -4833,7 +5281,14 @@
       ],
       "why": [
         "Quality 73"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 22.3,
+        "quality_score": 73.0,
+        "sma50_state": "Below",
+        "sma200_state": "Below",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "HHH",
@@ -4884,7 +5339,14 @@
       "why": [
         "Quality 73",
         "XLRE Deprioritize"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 21.4,
+        "quality_score": 73.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "HPK",
@@ -4934,7 +5396,14 @@
       ],
       "why": [
         "Quality 60"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 43.8,
+        "quality_score": 60.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "HRMY",
@@ -4989,7 +5458,14 @@
       "why": [
         "Quality 95",
         "XLV Emerging Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 35.7,
+        "quality_score": 95.0,
+        "sma50_state": "Below",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "HSHP",
@@ -5044,7 +5520,14 @@
         "RS percentile 67",
         "Quality 73",
         "XLI Deprioritize"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 67.0,
+        "quality_score": 73.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "HUM",
@@ -5094,7 +5577,14 @@
       ],
       "why": [
         "Quality 73"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 54.5,
+        "quality_score": 73.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "IESC",
@@ -5148,7 +5638,14 @@
       "why": [
         "Quality 95",
         "XLI Deprioritize"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 27.7,
+        "quality_score": 95.0,
+        "sma50_state": "Below",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "INDB",
@@ -5202,7 +5699,14 @@
       "why": [
         "Quality 88",
         "XLF Deprioritize"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 15.2,
+        "quality_score": 88.0,
+        "sma50_state": "Below",
+        "sma200_state": "Below",
+        "volatility_state": "Lower"
+      }
     },
     {
       "ticker": "INOD",
@@ -5258,7 +5762,14 @@
       "why": [
         "Quality 95",
         "XLK Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 32.1,
+        "quality_score": 95.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Elevated"
+      }
     },
     {
       "ticker": "LIND",
@@ -5312,7 +5823,14 @@
       "why": [
         "RS percentile 91",
         "XLY Neutral"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 91.1,
+        "quality_score": 49.9,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "LSCC",
@@ -5368,7 +5886,14 @@
       "why": [
         "Quality 73",
         "XLK Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 46.4,
+        "quality_score": 73.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "MAMA",
@@ -5422,7 +5947,14 @@
       "why": [
         "Quality 73",
         "XLP Deprioritize"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 2.7,
+        "quality_score": 73.0,
+        "sma50_state": "Below",
+        "sma200_state": "Below",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "MDB",
@@ -5473,7 +6005,14 @@
       "why": [
         "Quality 68",
         "XLK Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 34.8,
+        "quality_score": 68.0,
+        "sma50_state": "Below",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "MFA",
@@ -5527,7 +6066,14 @@
       "why": [
         "Quality 73",
         "XLRE Deprioritize"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 0.9,
+        "quality_score": 73.0,
+        "sma50_state": "Below",
+        "sma200_state": "Below",
+        "volatility_state": "Lower"
+      }
     },
     {
       "ticker": "MPWR",
@@ -5583,7 +6129,14 @@
       "why": [
         "Quality 95",
         "XLK Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 42.0,
+        "quality_score": 95.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "NESR",
@@ -5638,7 +6191,14 @@
       "why": [
         "Quality 78",
         "XLE Emerging Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 19.6,
+        "quality_score": 78.0,
+        "sma50_state": "Below",
+        "sma200_state": "Below",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "NEXA",
@@ -5692,7 +6252,14 @@
       "why": [
         "Quality 78",
         "XLB Deprioritize"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 48.2,
+        "quality_score": 78.0,
+        "sma50_state": "Below",
+        "sma200_state": "Below",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "NSIT",
@@ -5747,7 +6314,14 @@
       "why": [
         "RS percentile 77",
         "XLK Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 76.8,
+        "quality_score": 59.8,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "NVGS",
@@ -5802,7 +6376,14 @@
       "why": [
         "Quality 83",
         "XLE Emerging Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 45.5,
+        "quality_score": 83.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "OOMA",
@@ -5857,7 +6438,14 @@
       "why": [
         "Quality 73",
         "XLK Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 36.6,
+        "quality_score": 73.0,
+        "sma50_state": "Below",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "OPRT",
@@ -5906,7 +6494,14 @@
       ],
       "why": [
         "RS percentile 70"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 70.5,
+        "quality_score": 39.3,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "PAY",
@@ -5961,7 +6556,14 @@
       "why": [
         "Quality 85",
         "XLK Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 18.8,
+        "quality_score": 85.0,
+        "sma50_state": "Below",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "PBYI",
@@ -6016,7 +6618,14 @@
       "why": [
         "Quality 76",
         "XLV Emerging Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 58.0,
+        "quality_score": 76.2,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "PHAT",
@@ -6065,7 +6674,14 @@
       ],
       "why": [
         "Monitor for additional confirmation"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 0.0,
+        "quality_score": 40.0,
+        "sma50_state": "Below",
+        "sma200_state": "Below",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "PICS",
@@ -6121,7 +6737,14 @@
       "why": [
         "Quality 63",
         "XLK Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 28.6,
+        "quality_score": 63.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Elevated"
+      }
     },
     {
       "ticker": "PNTG",
@@ -6176,7 +6799,14 @@
       "why": [
         "Quality 63",
         "XLV Emerging Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 37.5,
+        "quality_score": 63.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "POWL",
@@ -6223,7 +6853,14 @@
       "opportunity_badges": [],
       "why": [
         "Quality 68"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 31.2,
+        "quality_score": 68.4,
+        "sma50_state": "Above",
+        "sma200_state": "Below",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "PSIX",
@@ -6270,7 +6907,14 @@
       "opportunity_badges": [],
       "why": [
         "Monitor for additional confirmation"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 33.9,
+        "quality_score": 50.0,
+        "sma50_state": "Above",
+        "sma200_state": "Below",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "PTGX",
@@ -6321,7 +6965,14 @@
       "why": [
         "Quality 83",
         "XLV Emerging Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 53.6,
+        "quality_score": 83.0,
+        "sma50_state": "Below",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "QLYS",
@@ -6377,7 +7028,14 @@
         "RS percentile 79",
         "Quality 82",
         "XLK Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 78.6,
+        "quality_score": 82.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "QNST",
@@ -6431,7 +7089,14 @@
       "why": [
         "Quality 90",
         "XLC Neutral"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 14.3,
+        "quality_score": 90.0,
+        "sma50_state": "Below",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "SANM",
@@ -6487,7 +7152,14 @@
       "why": [
         "Quality 73",
         "XLK Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 57.1,
+        "quality_score": 73.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "SCCO",
@@ -6542,7 +7214,14 @@
       "why": [
         "Quality 90",
         "XLB Deprioritize"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 40.2,
+        "quality_score": 90.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "SEZL",
@@ -6596,7 +7275,14 @@
       "why": [
         "Quality 95",
         "XLF Deprioritize"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 26.8,
+        "quality_score": 95.0,
+        "sma50_state": "Below",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "SMWB",
@@ -6650,7 +7336,14 @@
       "why": [
         "RS percentile 80",
         "XLK Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 80.4,
+        "quality_score": 32.0,
+        "sma50_state": "Below",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "SNDX",
@@ -6699,7 +7392,14 @@
       ],
       "why": [
         "Monitor for additional confirmation"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 1.8,
+        "quality_score": 40.0,
+        "sma50_state": "Below",
+        "sma200_state": "Below",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "SNX",
@@ -6755,7 +7455,14 @@
       "why": [
         "Quality 63",
         "XLK Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 51.8,
+        "quality_score": 63.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "SPAI",
@@ -6804,7 +7511,14 @@
       ],
       "why": [
         "Monitor for additional confirmation"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 23.2,
+        "quality_score": 35.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Elevated"
+      }
     },
     {
       "ticker": "SPSC",
@@ -6853,7 +7567,14 @@
       ],
       "why": [
         "XLK Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 42.9,
+        "quality_score": 47.4,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "STLN",
@@ -6902,7 +7623,14 @@
       ],
       "why": [
         "RS percentile 66"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 66.1,
+        "quality_score": 40.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "STRL",
@@ -6952,7 +7680,14 @@
       "why": [
         "Quality 90",
         "XLI Deprioritize"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 29.5,
+        "quality_score": 90.0,
+        "sma50_state": "Above",
+        "sma200_state": "Below",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "TNK",
@@ -7009,7 +7744,14 @@
         "RS percentile 74",
         "Quality 100",
         "XLE Emerging Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 74.1,
+        "quality_score": 100.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "TOWN",
@@ -7063,7 +7805,14 @@
       "why": [
         "Quality 88",
         "XLF Deprioritize"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 16.1,
+        "quality_score": 88.0,
+        "sma50_state": "Below",
+        "sma200_state": "Below",
+        "volatility_state": "Lower"
+      }
     },
     {
       "ticker": "TTMI",
@@ -7113,7 +7862,14 @@
       ],
       "why": [
         "Quality 63"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 44.6,
+        "quality_score": 63.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "URGN",
@@ -7164,7 +7920,14 @@
       "why": [
         "RS percentile 75",
         "XLV Emerging Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 75.0,
+        "quality_score": 40.0,
+        "sma50_state": "Below",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "VMET",
@@ -7214,7 +7977,14 @@
       "why": [
         "Quality 83",
         "XLB Deprioritize"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 3.6,
+        "quality_score": 83.0,
+        "sma50_state": "Below",
+        "sma200_state": "Below",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "XMTR",
@@ -7264,7 +8034,14 @@
       ],
       "why": [
         "RS percentile 83"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 83.0,
+        "quality_score": 50.0,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "YOU",
@@ -7319,7 +8096,14 @@
       "why": [
         "Quality 95",
         "XLK Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 10.7,
+        "quality_score": 95.0,
+        "sma50_state": "Below",
+        "sma200_state": "Below",
+        "volatility_state": "Normal"
+      }
     },
     {
       "ticker": "ZS",
@@ -7370,7 +8154,14 @@
       "why": [
         "RS percentile 62",
         "XLK Focus"
-      ]
+      ],
+      "public_signals": {
+        "rs_percentile": 61.6,
+        "quality_score": 54.9,
+        "sma50_state": "Above",
+        "sma200_state": "Above",
+        "volatility_state": "Normal"
+      }
     }
   ],
   "breadth": {
