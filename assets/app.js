@@ -19,8 +19,8 @@ async function boot(){
   populateControls(); bind(); render();
 }
 function renderNoData(error){
-  $('#health-strip').className='health-strip warning'; $('#health-strip').innerHTML='<strong>NO VALIDATED DATA</strong><span>Run the complete 13-scanner pipeline before using the workspace.</span>';
-  $('#summary').innerHTML=''; $('#toolbar').classList.add('hidden'); $('#content').innerHTML=`<div class="error-box"><h2>Workspace is online; validated market data is not published yet.</h2><p>${esc(error?.message||'No dashboard snapshot found.')}</p><p>The public site updates only after the complete 13-scanner release gate succeeds.</p></div>`;
+  $('#health-strip').className='health-strip warning'; $('#health-strip').innerHTML='<strong>✓ WEBSITE ONLINE</strong><span>Awaiting the first validated 13-scanner market snapshot.</span>';
+  $('#summary').innerHTML=''; $('#toolbar').classList.add('hidden'); $('#content').innerHTML='<div class="error-box"><h2>Public VPK workspace is ready.</h2><p>The website is working and can be opened from any device. Market results will appear here only after all 13 scanners complete and pass validation.</p><p>No partial or unvalidated market data has been published.</p></div>';
   bindBase();
 }
 function populateControls(){
