@@ -10,7 +10,7 @@ const viewCopy = {
   methodology:['Methodology','Transparent rules, categories, and limitations.']
 };
 
-async function json(url, options={}) { const r=await fetch(url, options); if(!r.ok) throw new Error((await r.json().catch(()=>({}))).error || `${r.status}`); return r.json(); }
+async function json(url, options={}) { const r=await fetch(url, {cache:'no-store',...options}); if(!r.ok) throw new Error((await r.json().catch(()=>({}))).error || `${r.status}`); return r.json(); }
 async function boot(){
   try { app.data=await json('/api/dashboard'); }
   catch { try { app.data=await json('data/dashboard.json'); } catch(e){ renderNoData(e); return; } }
