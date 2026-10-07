@@ -4,22 +4,24 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="dark light">
-  <title>VPK Scanner Intelligence</title>
-  <link rel="stylesheet" href="assets/app.css?v=5">
+  <title>VPK Market Intelligence</title>
+  <link rel="stylesheet" href="assets/app.css?v=7">
 </head>
 <body>
   <a class="skip-link" href="#workspace">Skip to workspace</a>
   <div class="app-shell">
     <aside class="sidebar" aria-label="Primary navigation">
-      <div class="brand"><span class="brand-mark">V</span><div><strong>VPK</strong><small>Scanner Intelligence</small></div></div>
+      <div class="brand"><span class="brand-mark">V</span><div><strong>VPK</strong><small>Market Intelligence</small></div></div>
       <nav id="nav">
-        <button class="nav-item active" data-view="360"><span>◎</span>Ticker 360°</button>
-        <button class="nav-item" data-view="priority"><span>◇</span>Priority Review</button>
+        <button class="nav-item active" data-view="overview"><span>⌁</span>Market Overview</button>
+        <button class="nav-item" data-view="sectors"><span>◫</span>Sector Rotation</button>
+        <button class="nav-item" data-view="opportunities"><span>✦</span>Opportunities</button>
+        <button class="nav-item" data-view="360"><span>◎</span>Ticker 360°</button>
+        <button class="nav-item" data-view="dma200"><span>〽</span>200 DMA</button>
         <button class="nav-item" data-view="scanners"><span>▦</span>All Scanners</button>
         <button class="nav-item" data-view="compare"><span>⇄</span>Scanner Compare</button>
-        <button class="nav-item" data-view="momentum"><span>↗</span>Momentum Map</button>
+        <button class="nav-item" data-view="history"><span>◷</span>Time Machine</button>
         <button class="nav-item" data-view="research"><span>☆</span>My Research</button>
-        <button class="nav-item" data-view="history"><span>◷</span>History</button>
         <button class="nav-item" data-view="health"><span>✓</span>Data Health</button>
         <button class="nav-item" data-view="methodology"><span>ⓘ</span>Methodology</button>
       </nav>
@@ -29,7 +31,7 @@
     <main id="workspace">
       <header class="topbar">
         <button id="menu-toggle" class="icon-button mobile-only" aria-label="Toggle navigation">☰</button>
-        <div class="page-title"><h1 id="page-title">Ticker 360°</h1><p id="page-subtitle">Scan broadly, then drill into context.</p></div>
+        <div class="page-title"><h1 id="page-title">Market Overview</h1><p id="page-subtitle">Health, breadth, rotation, and today's research map.</p></div>
         <label class="global-search"><span>⌕</span><input id="search" type="search" placeholder="Search ticker or company · /" autocomplete="off"></label>
         <button id="theme-toggle" class="icon-button" aria-label="Toggle theme">◐</button>
       </header>
@@ -71,6 +73,6 @@
 
   <dialog id="modal"><form method="dialog" id="modal-form"><div id="modal-content"></div></form></dialog>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
-  <script src="assets/app.js?v=6" defer></script>
+  <script src="assets/app.js?v=7" defer></script>
 </body>
 </html>

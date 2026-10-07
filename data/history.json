@@ -44,6 +44,227 @@
       ],
       "tradingview_rows": 123,
       "finviz_rows": 119
-    }
+    },
+    "market": {
+      "state": "Constructive",
+      "score": 65.2,
+      "components": {
+        "index_trend": 25.0,
+        "breadth": 9.3,
+        "sector_participation": 5.5,
+        "leadership": 10.4,
+        "volatility": 15.0
+      },
+      "indices": [
+        {
+          "ticker": "SPY",
+          "name": "SPDR S&P 500 ETF TRUST",
+          "close": 777.22,
+          "change_pct": -0.24,
+          "volume": 30002206.0,
+          "relative_volume": 0.66,
+          "sma20": 766.46,
+          "sma50": 765.95,
+          "sma200": 721.99,
+          "atr": 6.69,
+          "atr_pct": 0.86,
+          "adr_pct": 0.71,
+          "weekly_volatility_pct": 0.74,
+          "distance_52w_high_pct": -0.56,
+          "performance": {
+            "1w": 1.41,
+            "1m": 0.67,
+            "3m": 4.0,
+            "6m": 14.08,
+            "12m": 15.56
+          },
+          "trend": {
+            "above_20": true,
+            "above_50": true,
+            "above_200": true
+          }
+        },
+        {
+          "ticker": "QQQ",
+          "name": "Invesco QQQ Trust, Series 1",
+          "close": 757.73,
+          "change_pct": -0.25,
+          "volume": 24481954.0,
+          "relative_volume": 0.78,
+          "sma20": 733.78,
+          "sma50": 721.45,
+          "sma200": 670.87,
+          "atr": 9.07,
+          "atr_pct": 1.2,
+          "adr_pct": 1.05,
+          "weekly_volatility_pct": 0.9,
+          "distance_52w_high_pct": -0.67,
+          "performance": {
+            "1w": 2.37,
+            "1m": 5.34,
+            "3m": 5.48,
+            "6m": 23.84,
+            "12m": 24.42
+          },
+          "trend": {
+            "above_20": true,
+            "above_50": true,
+            "above_200": true
+          }
+        },
+        {
+          "ticker": "IWM",
+          "name": "iShares Russell 2000 Index Fund",
+          "close": 277.7,
+          "change_pct": -1.29,
+          "volume": 24534858.0,
+          "relative_volume": 0.98,
+          "sma20": 283.07,
+          "sma50": 291.88,
+          "sma200": 276.8,
+          "atr": 3.74,
+          "atr_pct": 1.35,
+          "adr_pct": 1.59,
+          "weekly_volatility_pct": 1.29,
+          "distance_52w_high_pct": -9.0,
+          "performance": {
+            "1w": -0.88,
+            "1m": -5.45,
+            "3m": -5.95,
+            "6m": 5.83,
+            "12m": 12.27
+          },
+          "trend": {
+            "above_20": false,
+            "above_50": false,
+            "above_200": true
+          }
+        },
+        {
+          "ticker": "DIA",
+          "name": "State Street SPDR Dow Jones Industrial Average ETF Trust",
+          "close": 511.02,
+          "change_pct": -0.69,
+          "volume": 4094838.0,
+          "relative_volume": 1.28,
+          "sma20": 515.84,
+          "sma50": 526.12,
+          "sma200": 503.19,
+          "atr": 5.03,
+          "atr_pct": 0.98,
+          "adr_pct": 1.2,
+          "weekly_volatility_pct": 0.86,
+          "distance_52w_high_pct": -6.53,
+          "performance": {
+            "1w": -0.58,
+            "1m": -4.51,
+            "3m": -2.41,
+            "6m": 5.98,
+            "12m": 9.3
+          },
+          "trend": {
+            "above_20": false,
+            "above_50": false,
+            "above_200": true
+          }
+        }
+      ],
+      "vix": {
+        "ticker": "VIX",
+        "name": "CBOE Volatility Index",
+        "close": 15.09,
+        "change_pct": 0.53,
+        "volume": null,
+        "relative_volume": null,
+        "sma20": 15.83,
+        "sma50": 15.65,
+        "sma200": 18.03,
+        "atr": 1.23,
+        "atr_pct": 8.15,
+        "adr_pct": 6.95,
+        "weekly_volatility_pct": 6.26,
+        "distance_52w_high_pct": -57.25,
+        "performance": {
+          "1w": -5.27,
+          "1m": 6.64,
+          "3m": -8.99,
+          "6m": -23.44,
+          "12m": -8.99
+        },
+        "trend": {
+          "above_20": false,
+          "above_50": false,
+          "above_200": false
+        }
+      }
+    },
+    "breadth": {
+      "primary_universe": "S&P 500",
+      "sp500": {
+        "name": "S&P 500",
+        "count": 502,
+        "above_20": 207,
+        "below_20": 295,
+        "above_20_pct": 41.2,
+        "below_20_pct": 58.8,
+        "above_50": 148,
+        "below_50": 354,
+        "above_50_pct": 29.5,
+        "below_50_pct": 70.5,
+        "above_200": 227,
+        "below_200": 275,
+        "above_200_pct": 45.2,
+        "below_200_pct": 54.8,
+        "advancing": 168,
+        "declining": 333,
+        "unchanged": 1,
+        "advance_decline_ratio": 0.5,
+        "up_volume_pct": 38.5,
+        "near_52w_high": 10,
+        "near_52w_low": 15
+      },
+      "us_liquid": {
+        "name": "US Liquid Stocks",
+        "count": 3259,
+        "above_20": 1062,
+        "below_20": 2195,
+        "above_20_pct": 32.6,
+        "below_20_pct": 67.4,
+        "above_50": 850,
+        "below_50": 2408,
+        "above_50_pct": 26.1,
+        "below_50_pct": 73.9,
+        "above_200": 1307,
+        "below_200": 1950,
+        "above_200_pct": 40.1,
+        "below_200_pct": 59.8,
+        "advancing": 958,
+        "declining": 2264,
+        "unchanged": 37,
+        "advance_decline_ratio": 0.42,
+        "up_volume_pct": 26.2,
+        "near_52w_high": 47,
+        "near_52w_low": 190
+      },
+      "methodology": "Finviz US stocks; liquid universe requires market cap ≥ $50M, average volume ≥ 250K, and price ≥ $1."
+    },
+    "sector_leaders": [
+      {
+        "ticker": "XLK",
+        "rank": 1,
+        "focus": "Focus"
+      },
+      {
+        "ticker": "XLV",
+        "rank": 2,
+        "focus": "Emerging Focus"
+      },
+      {
+        "ticker": "XLE",
+        "rank": 3,
+        "focus": "Emerging Focus"
+      }
+    ],
+    "path": "data/history/2026-10-07.json"
   }
 ]
