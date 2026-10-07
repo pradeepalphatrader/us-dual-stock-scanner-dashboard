@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="dark light">
   <title>VPK Scanner Intelligence</title>
-  <link rel="stylesheet" href="assets/app.css?v=4">
+  <link rel="stylesheet" href="assets/app.css?v=5">
 </head>
 <body>
   <a class="skip-link" href="#workspace">Skip to workspace</a>
@@ -41,6 +41,8 @@
         <div class="preset-row" id="presets"></div>
         <div class="toolbar-actions">
           <label>Scanner <select id="scanner-filter"><option value="">All scanners</option></select></label>
+          <label>Sector <select id="sector-filter"><option value="">All sectors</option></select></label>
+          <label>Industry <select id="industry-filter"><option value="">All industries</option></select></label>
           <label>Source <select id="source-filter"><option value="">All sources</option><option>BOTH</option><option>TRADINGVIEW</option><option>FINVIZ</option></select></label>
           <label>Sort <select id="sort"><option value="default">Review order</option><option value="ticker">Ticker A–Z</option><option value="categories">Category count</option><option value="scanners">Scanner count</option></select></label>
           <button id="copy-filtered" class="button secondary">Copy filtered</button>
@@ -69,6 +71,6 @@
 
   <dialog id="modal"><form method="dialog" id="modal-form"><div id="modal-content"></div></form></dialog>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
-  <script src="assets/app.js?v=4" defer></script>
+  <script src="assets/app.js?v=5" defer></script>
 </body>
 </html>
