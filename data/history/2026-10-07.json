@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "session_date": "2026-10-07",
-  "generated_at": "2026-10-07T13:29:54.657413-07:00",
+  "generated_at": "2026-10-07T13:32:27.266721-07:00",
   "publishable": true,
   "health": {
     "status": "VALID",
@@ -35,17 +35,17 @@
       "Mom_3M_Large",
       "Mom_6M_Large"
     ],
-    "tradingview_rows": 123,
-    "finviz_rows": 119
+    "tradingview_rows": 126,
+    "finviz_rows": 117
   },
   "summary": {
-    "unique_tickers": 110,
-    "new": 110,
+    "unique_tickers": 113,
+    "new": 113,
     "persistent": 0,
     "reentered": 0,
     "removed": 0,
-    "both_sources": 79,
-    "high_alignment": 19
+    "both_sources": 75,
+    "high_alignment": 20
   },
   "removed_tickers": [],
   "scanners": [
@@ -1004,6 +1004,7 @@
       "INSW",
       "SMTC",
       "DGII",
+      "FIX",
       "KNSA",
       "LPG",
       "MSGE",
@@ -1030,7 +1031,6 @@
       "FBK",
       "FCFS",
       "FEIM",
-      "FIX",
       "FORM",
       "HCC",
       "HHH",
@@ -1066,6 +1066,7 @@
     ],
     "3_Post_Earnings_Cont_Base": [
       "BKV",
+      "FEAM",
       "SPAI"
     ],
     "4_Strongest_Stock_VPK": [
@@ -1074,19 +1075,20 @@
       "SIMO",
       "CVI",
       "PAYS",
-      "ECO",
       "KNSA",
       "LPG",
       "PARR",
       "STNG",
       "ASC",
       "AUGO",
+      "ECO",
       "GCT",
       "GNK"
     ],
     "5_Strongest_Stock_10B_Rev_30_VPK": [
       "AEIS",
       "HALO",
+      "HUM",
       "LSCC",
       "MPWR",
       "SNX",
@@ -1099,21 +1101,23 @@
       "LVWR",
       "CRSR",
       "DGII",
+      "FIX",
       "LTRX",
+      "MEI",
       "MSGE",
       "ODD",
       "PUBM",
       "VIA",
       "AMPH",
-      "ASYS",
-      "CHEF",
       "CRL",
       "EBS",
       "OPRT",
       "PBYI",
+      "POWL",
       "SPSC"
     ],
     "Mom_1W_Small": [
+      "XRPN",
       "PENG"
     ],
     "Mom_1M_Small": [
@@ -1122,7 +1126,9 @@
       "LVWR",
       "LTRX",
       "ODD",
+      "XRPN",
       "PENG",
+      "ELMT",
       "LIND",
       "PSIX"
     ],
@@ -1130,8 +1136,8 @@
       "CVI",
       "LVWR",
       "PAYS",
-      "ECO",
       "VIA",
+      "XRPN",
       "LIFE",
       "RCEL",
       "EFOR"
@@ -1141,7 +1147,9 @@
       "SIMO",
       "PAYS",
       "CRSR",
+      "MEI",
       "PUBM",
+      "XRPN",
       "PENG",
       "LIFE",
       "RCEL",
@@ -1165,8 +1173,7 @@
       "PS",
       "ALAB",
       "CORT",
-      "FROG",
-      "HUM"
+      "FROG"
     ]
   },
   "tickers": [
@@ -1174,7 +1181,7 @@
       "ticker": "COHU",
       "company": "Cohu Inc",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
       "sub_industry": null,
@@ -1221,10 +1228,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 77.2,
+        "leader": 81.8,
         "quality": 60.0,
-        "recovery": 75.8,
-        "contrarian": 46.4
+        "recovery": 81.5,
+        "contrarian": 46.7
       },
       "confidence": "High",
       "opportunity": "Established Leaders",
@@ -1235,7 +1242,7 @@
         "Above 20/50/200 DMA"
       ],
       "why": [
-        "RS percentile 98",
+        "RS percentile 96",
         "Quality 60",
         "4 scanner confirmations",
         "XLK Focus"
@@ -1245,7 +1252,7 @@
       "ticker": "INSW",
       "company": "International Seaways Inc",
       "exchange": "NYSE",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Energy",
       "industry": "Oil & Gas Midstream",
       "sub_industry": null,
@@ -1288,10 +1295,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 74.8,
+        "leader": 76.9,
         "quality": 100.0,
-        "recovery": 82.2,
-        "contrarian": 74.5
+        "recovery": 84.3,
+        "contrarian": 74.9
       },
       "confidence": "High",
       "opportunity": "Established Leaders",
@@ -1302,7 +1309,7 @@
         "Above 20/50/200 DMA"
       ],
       "why": [
-        "RS percentile 89",
+        "RS percentile 88",
         "Quality 100",
         "3 scanner confirmations",
         "XLE Emerging Focus"
@@ -1351,8 +1358,8 @@
       "scores": {
         "leader": 78.1,
         "quality": 85.0,
-        "recovery": 75.4,
-        "contrarian": 69.6
+        "recovery": 76.2,
+        "contrarian": 69.5
       },
       "confidence": "High",
       "opportunity": "Confirmed Recovery",
@@ -1363,7 +1370,7 @@
         "Above 20/50/200 DMA"
       ],
       "why": [
-        "RS percentile 85",
+        "RS percentile 84",
         "Quality 85",
         "3 scanner confirmations",
         "XLK Focus"
@@ -1373,7 +1380,7 @@
       "ticker": "CVI",
       "company": "CVR Energy Inc",
       "exchange": "NYSE",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Energy",
       "industry": "Oil & Gas Refining & Marketing",
       "sub_industry": null,
@@ -1415,10 +1422,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 64.6,
+        "leader": 66.1,
         "quality": 63.0,
-        "recovery": 73.7,
-        "contrarian": 49.2
+        "recovery": 75.5,
+        "contrarian": 49.3
       },
       "confidence": "High",
       "opportunity": "Established Leaders",
@@ -1439,7 +1446,7 @@
       "ticker": "LVWR",
       "company": "LiveWire Group Inc",
       "exchange": "NYSE",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Consumer Cyclical",
       "industry": "Recreational Vehicles",
       "sub_industry": null,
@@ -1452,11 +1459,11 @@
         "Mom_3M_Small"
       ],
       "finviz_scans": [
-        "Mom_1M_Small",
+        "Daily_Tightness_Swing",
         "Mom_3M_Small"
       ],
       "same_source_scans": [
-        "Mom_1M_Small",
+        "Daily_Tightness_Swing",
         "Mom_3M_Small"
       ],
       "scans": [
@@ -1481,10 +1488,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 60.4,
+        "leader": 62.4,
         "quality": 23.2,
-        "recovery": 60.1,
-        "contrarian": 28.3
+        "recovery": 62.2,
+        "contrarian": 29.5
       },
       "confidence": "High",
       "opportunity": "Emerging Leaders",
@@ -1492,7 +1499,7 @@
         "Multi-Scanner"
       ],
       "why": [
-        "RS percentile 72",
+        "RS percentile 69",
         "3 scanner confirmations",
         "XLY Neutral"
       ]
@@ -1501,7 +1508,7 @@
       "ticker": "PAYS",
       "company": "PaySign Inc",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "sub_industry": null,
@@ -1545,10 +1552,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 78.2,
+        "leader": 79.6,
         "quality": 95.0,
-        "recovery": 84.1,
-        "contrarian": 68.0
+        "recovery": 86.6,
+        "contrarian": 68.3
       },
       "confidence": "High",
       "opportunity": "Established Leaders",
@@ -1559,7 +1566,7 @@
         "Above 20/50/200 DMA"
       ],
       "why": [
-        "RS percentile 97",
+        "RS percentile 95",
         "Quality 95",
         "3 scanner confirmations",
         "XLK Focus"
@@ -1569,7 +1576,7 @@
       "ticker": "SMTC",
       "company": "Semtech Corp",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Technology",
       "industry": "Semiconductors",
       "sub_industry": null,
@@ -1609,10 +1616,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 69.8,
+        "leader": 70.1,
         "quality": 80.0,
-        "recovery": 79.7,
-        "contrarian": 56.5
+        "recovery": 80.7,
+        "contrarian": 56.8
       },
       "confidence": "High",
       "opportunity": "Established Leaders",
@@ -1623,7 +1630,7 @@
         "Above 20/50/200 DMA"
       ],
       "why": [
-        "RS percentile 94",
+        "RS percentile 92",
         "Quality 80",
         "3 scanner confirmations",
         "XLK Focus"
@@ -1639,19 +1646,13 @@
       "sub_industry": null,
       "tradingview_symbol": "NASDAQ:CRSR",
       "status": "New",
-      "source_status": "BOTH",
-      "tradingview_scans": [
-        "Daily_Tightness_Swing",
-        "Mom_6M_Small"
-      ],
+      "source_status": "FINVIZ",
+      "tradingview_scans": [],
       "finviz_scans": [
         "Daily_Tightness_Swing",
         "Mom_6M_Small"
       ],
-      "same_source_scans": [
-        "Daily_Tightness_Swing",
-        "Mom_6M_Small"
-      ],
+      "same_source_scans": [],
       "scans": [
         "Daily_Tightness_Swing",
         "Mom_6M_Small"
@@ -1673,10 +1674,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 74.0,
+        "leader": 73.7,
         "quality": 58.0,
-        "recovery": 68.2,
-        "contrarian": 57.3
+        "recovery": 69.0,
+        "contrarian": 57.9
       },
       "confidence": "High",
       "opportunity": "Established Leaders",
@@ -1685,7 +1686,7 @@
         "Above 20/50/200 DMA"
       ],
       "why": [
-        "RS percentile 88",
+        "RS percentile 85",
         "2 scanner confirmations",
         "XLK Focus"
       ]
@@ -1694,7 +1695,7 @@
       "ticker": "DGII",
       "company": "Digi International Inc",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Technology",
       "industry": "Communication Equipment",
       "sub_industry": null,
@@ -1732,10 +1733,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 63.7,
+        "leader": 66.5,
         "quality": 83.0,
-        "recovery": 74.9,
-        "contrarian": 79.9
+        "recovery": 77.8,
+        "contrarian": 79.6
       },
       "confidence": "High",
       "opportunity": "Confirmed Recovery",
@@ -1751,61 +1752,60 @@
       ]
     },
     {
-      "ticker": "ECO",
-      "company": "Okeanis Eco Tankers Corp",
+      "ticker": "FIX",
+      "company": "Comfort Systems USA Inc",
       "exchange": "NYSE",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Industrials",
-      "industry": "Marine Shipping",
+      "industry": "Engineering & Construction",
       "sub_industry": null,
-      "tradingview_symbol": "NYSE:ECO",
+      "tradingview_symbol": "NYSE:FIX",
       "status": "New",
       "source_status": "BOTH",
       "tradingview_scans": [
-        "4_Strongest_Stock_VPK"
+        "1_Fundamental_Growth",
+        "Daily_Tightness_Swing"
       ],
       "finviz_scans": [
-        "4_Strongest_Stock_VPK",
-        "Mom_3M_Small"
+        "1_Fundamental_Growth"
       ],
       "same_source_scans": [
-        "4_Strongest_Stock_VPK"
+        "1_Fundamental_Growth"
       ],
       "scans": [
-        "4_Strongest_Stock_VPK",
-        "Mom_3M_Small"
+        "1_Fundamental_Growth",
+        "Daily_Tightness_Swing"
       ],
       "scanner_count": 2,
       "categories": [
-        "Strength",
-        "Momentum"
+        "Fundamental",
+        "Tightness"
       ],
       "category_count": 2,
       "momentum": {
         "1W": false,
         "1M": false,
-        "3M": true,
+        "3M": false,
         "6M": false
       },
-      "lifecycle": "Established Leader",
+      "lifecycle": "Fundamental Growth",
       "priority": "Review First",
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 63.9,
-        "quality": 90.0,
-        "recovery": 82.4,
-        "contrarian": 62.4
+        "leader": 59.9,
+        "quality": 95.0,
+        "recovery": 77.6,
+        "contrarian": 84.0
       },
       "confidence": "High",
-      "opportunity": "Exceptional Independents",
+      "opportunity": "Hidden Quality",
       "opportunity_badges": [
         "Fundamental Acceleration",
         "Above 20/50/200 DMA"
       ],
       "why": [
-        "RS percentile 94",
-        "Quality 90",
+        "Quality 95",
         "2 scanner confirmations",
         "XLI Deprioritize"
       ]
@@ -1814,7 +1814,7 @@
       "ticker": "KNSA",
       "company": "Kiniksa Pharmaceuticals International Plc",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Healthcare",
       "industry": "Drug Manufacturers - Specialty & Generic",
       "sub_industry": null,
@@ -1854,10 +1854,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 63.9,
+        "leader": 65.6,
         "quality": 85.0,
-        "recovery": 70.3,
-        "contrarian": 79.5
+        "recovery": 72.2,
+        "contrarian": 79.8
       },
       "confidence": "High",
       "opportunity": "Fundamental Acceleration",
@@ -1867,7 +1867,7 @@
         "Above 20/50/200 DMA"
       ],
       "why": [
-        "RS percentile 66",
+        "RS percentile 65",
         "Quality 85",
         "2 scanner confirmations",
         "XLV Emerging Focus"
@@ -1877,7 +1877,7 @@
       "ticker": "LPG",
       "company": "Dorian LPG Ltd",
       "exchange": "NYSE",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Energy",
       "industry": "Oil & Gas Midstream",
       "sub_industry": null,
@@ -1917,10 +1917,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 69.9,
+        "leader": 71.5,
         "quality": 90.0,
-        "recovery": 74.7,
-        "contrarian": 73.5
+        "recovery": 76.3,
+        "contrarian": 74.3
       },
       "confidence": "High",
       "opportunity": "Established Leaders",
@@ -1930,7 +1930,7 @@
         "Above 20/50/200 DMA"
       ],
       "why": [
-        "RS percentile 83",
+        "RS percentile 81",
         "Quality 90",
         "2 scanner confirmations",
         "XLE Emerging Focus"
@@ -1940,7 +1940,7 @@
       "ticker": "LTRX",
       "company": "Lantronix Inc",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Technology",
       "industry": "Communication Equipment",
       "sub_industry": null,
@@ -1980,10 +1980,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 59.9,
+        "leader": 61.7,
         "quality": 46.4,
-        "recovery": 71.1,
-        "contrarian": 46.6
+        "recovery": 72.4,
+        "contrarian": 47.0
       },
       "confidence": "High",
       "opportunity": "Emerging Leaders",
@@ -1998,10 +1998,61 @@
       ]
     },
     {
+      "ticker": "MEI",
+      "company": "Methode Electronics, Inc.",
+      "exchange": "NYSE",
+      "security_type": "stock",
+      "sector": "Electronic Technology",
+      "industry": "Electronic Components",
+      "sub_industry": null,
+      "tradingview_symbol": "NYSE:MEI",
+      "status": "New",
+      "source_status": "TRADINGVIEW",
+      "tradingview_scans": [
+        "Daily_Tightness_Swing",
+        "Mom_6M_Small"
+      ],
+      "finviz_scans": [],
+      "same_source_scans": [],
+      "scans": [
+        "Daily_Tightness_Swing",
+        "Mom_6M_Small"
+      ],
+      "scanner_count": 2,
+      "categories": [
+        "Tightness",
+        "Momentum"
+      ],
+      "category_count": 2,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": true
+      },
+      "lifecycle": "Monitor",
+      "priority": "Review First",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1,
+      "scores": {
+        "leader": 70.8,
+        "quality": 28.3,
+        "recovery": 45.8,
+        "contrarian": 47.3
+      },
+      "confidence": "High",
+      "opportunity": "Established Leaders",
+      "opportunity_badges": [],
+      "why": [
+        "RS percentile 80",
+        "2 scanner confirmations"
+      ]
+    },
+    {
       "ticker": "MSGE",
       "company": "Madison Square Garden Entertainment Corp",
       "exchange": "NYSE",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Communication Services",
       "industry": "Entertainment",
       "sub_industry": null,
@@ -2039,10 +2090,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 58.3,
+        "leader": 65.2,
         "quality": 68.0,
-        "recovery": 65.2,
-        "contrarian": 71.4
+        "recovery": 72.0,
+        "contrarian": 71.0
       },
       "confidence": "High",
       "opportunity": "Fundamental Acceleration",
@@ -2060,7 +2111,7 @@
       "ticker": "ODD",
       "company": "ODDITY Tech Ltd",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Consumer Defensive",
       "industry": "Household & Personal Products",
       "sub_industry": null,
@@ -2098,10 +2149,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 45.2,
+        "leader": 47.2,
         "quality": 8.0,
-        "recovery": 52.1,
-        "contrarian": 28.6
+        "recovery": 53.5,
+        "contrarian": 29.2
       },
       "confidence": "High",
       "opportunity": "Emerging Leaders",
@@ -2117,7 +2168,7 @@
       "ticker": "PARR",
       "company": "Par Pacific Holdings Inc",
       "exchange": "NYSE",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Energy",
       "industry": "Oil & Gas Refining & Marketing",
       "sub_industry": null,
@@ -2157,10 +2208,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 67.0,
+        "leader": 68.6,
         "quality": 90.0,
-        "recovery": 73.8,
-        "contrarian": 75.9
+        "recovery": 76.1,
+        "contrarian": 75.2
       },
       "confidence": "High",
       "opportunity": "Fundamental Acceleration",
@@ -2180,7 +2231,7 @@
       "ticker": "PUBM",
       "company": "PubMatic Inc",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Technology",
       "industry": "Software - Application",
       "sub_industry": null,
@@ -2218,10 +2269,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 74.1,
+        "leader": 75.2,
         "quality": 53.4,
-        "recovery": 67.4,
-        "contrarian": 53.9
+        "recovery": 69.1,
+        "contrarian": 54.0
       },
       "confidence": "High",
       "opportunity": "Established Leaders",
@@ -2230,7 +2281,7 @@
         "Above 20/50/200 DMA"
       ],
       "why": [
-        "RS percentile 90",
+        "RS percentile 88",
         "2 scanner confirmations",
         "XLK Focus"
       ]
@@ -2239,7 +2290,7 @@
       "ticker": "STNG",
       "company": "Scorpio Tankers Inc",
       "exchange": "NYSE",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Energy",
       "industry": "Oil & Gas Midstream",
       "sub_industry": null,
@@ -2279,17 +2330,16 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 55.6,
+        "leader": 52.0,
         "quality": 95.0,
-        "recovery": 75.4,
-        "contrarian": 85.0
+        "recovery": 77.5,
+        "contrarian": 86.4
       },
       "confidence": "High",
       "opportunity": "Contrarian Quality / Fear Dislocation",
       "opportunity_badges": [
         "Fundamental Acceleration",
-        "Emerging Focus",
-        "Above 20/50/200 DMA"
+        "Emerging Focus"
       ],
       "why": [
         "Quality 95",
@@ -2301,7 +2351,7 @@
       "ticker": "VIA",
       "company": "Via Transportation Inc",
       "exchange": "NYSE",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Technology",
       "industry": "Software - Application",
       "sub_industry": null,
@@ -2339,28 +2389,85 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 66.0,
+        "leader": 69.2,
         "quality": 42.9,
-        "recovery": 64.7,
-        "contrarian": 46.8
+        "recovery": 67.9,
+        "contrarian": 48.2
       },
       "confidence": "High",
-      "opportunity": "Established Leaders",
+      "opportunity": "Emerging Leaders",
       "opportunity_badges": [
         "Focus",
         "Above 20/50/200 DMA"
       ],
       "why": [
-        "RS percentile 75",
+        "RS percentile 71",
         "2 scanner confirmations",
         "XLK Focus"
+      ]
+    },
+    {
+      "ticker": "XRPN",
+      "company": "Armada Acquisition Corp. II",
+      "exchange": "NASDAQ",
+      "security_type": "stock",
+      "sector": "Finance",
+      "industry": "Financial Conglomerates",
+      "sub_industry": null,
+      "tradingview_symbol": "NASDAQ:XRPN",
+      "status": "New",
+      "source_status": "TRADINGVIEW",
+      "tradingview_scans": [
+        "Mom_1W_Small",
+        "Mom_1M_Small",
+        "Mom_3M_Small",
+        "Mom_6M_Small"
+      ],
+      "finviz_scans": [],
+      "same_source_scans": [],
+      "scans": [
+        "Mom_1W_Small",
+        "Mom_1M_Small",
+        "Mom_3M_Small",
+        "Mom_6M_Small"
+      ],
+      "scanner_count": 4,
+      "categories": [
+        "Momentum"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": true,
+        "1M": true,
+        "3M": true,
+        "6M": true
+      },
+      "lifecycle": "Full Momentum Alignment",
+      "priority": "Emerging Momentum",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1,
+      "scores": {
+        "leader": 77.6,
+        "quality": 43.0,
+        "recovery": 72.0,
+        "contrarian": 31.6
+      },
+      "confidence": "High",
+      "opportunity": "Established Leaders",
+      "opportunity_badges": [
+        "Multi-Scanner",
+        "Above 20/50/200 DMA"
+      ],
+      "why": [
+        "RS percentile 99",
+        "4 scanner confirmations"
       ]
     },
     {
       "ticker": "PENG",
       "company": "Penguin Solutions Inc",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Technology",
       "industry": "Information Technology Services",
       "sub_industry": null,
@@ -2403,7 +2510,7 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 78.5,
+        "leader": 78.6,
         "quality": 38.0,
         "recovery": 76.5,
         "contrarian": 35.2
@@ -2416,7 +2523,7 @@
         "Above 20/50/200 DMA"
       ],
       "why": [
-        "RS percentile 95",
+        "RS percentile 96",
         "3 scanner confirmations",
         "XLK Focus"
       ]
@@ -2425,7 +2532,7 @@
       "ticker": "PS",
       "company": "Pershing Square Inc",
       "exchange": "NYSE",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Financial",
       "industry": "Asset Management",
       "sub_industry": null,
@@ -2438,12 +2545,10 @@
         "Mom_6M_Large"
       ],
       "finviz_scans": [
-        "Mom_1M_Large",
-        "Mom_3M_Large"
+        "Mom_1M_Large"
       ],
       "same_source_scans": [
-        "Mom_1M_Large",
-        "Mom_3M_Large"
+        "Mom_1M_Large"
       ],
       "scans": [
         "Mom_1M_Large",
@@ -2466,10 +2571,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 69.0,
+        "leader": 70.1,
         "quality": 17.9,
-        "recovery": 59.6,
-        "contrarian": 23.3
+        "recovery": 61.9,
+        "contrarian": 23.8
       },
       "confidence": "High",
       "opportunity": "Exceptional Independents",
@@ -2478,7 +2583,7 @@
         "Above 20/50/200 DMA"
       ],
       "why": [
-        "RS percentile 96",
+        "RS percentile 93",
         "3 scanner confirmations",
         "XLF Deprioritize"
       ]
@@ -2487,7 +2592,7 @@
       "ticker": "ALAB",
       "company": "Astera Labs Inc",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Technology",
       "industry": "Semiconductors",
       "sub_industry": null,
@@ -2526,10 +2631,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 71.3,
+        "leader": 73.3,
         "quality": 95.0,
-        "recovery": 90.0,
-        "contrarian": 66.8
+        "recovery": 93.0,
+        "contrarian": 66.6
       },
       "confidence": "High",
       "opportunity": "Confirmed Recovery",
@@ -2539,7 +2644,7 @@
         "Above 20/50/200 DMA"
       ],
       "why": [
-        "RS percentile 91",
+        "RS percentile 89",
         "Quality 95",
         "2 scanner confirmations",
         "XLK Focus"
@@ -2549,7 +2654,7 @@
       "ticker": "LIFE",
       "company": "Ethos Technologies Inc",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Financial",
       "industry": "Insurance Brokers",
       "sub_industry": null,
@@ -2588,16 +2693,16 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 64.3,
+        "leader": 65.4,
         "quality": 43.4,
-        "recovery": 43.1,
+        "recovery": 44.8,
         "contrarian": 51.1
       },
       "confidence": "High",
       "opportunity": "Exceptional Independents",
       "opportunity_badges": [],
       "why": [
-        "RS percentile 92",
+        "RS percentile 90",
         "2 scanner confirmations",
         "XLF Deprioritize"
       ]
@@ -2606,7 +2711,7 @@
       "ticker": "RCEL",
       "company": "AVITA Medical Inc",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Healthcare",
       "industry": "Medical Devices",
       "sub_industry": null,
@@ -2645,10 +2750,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 65.5,
+        "leader": 67.4,
         "quality": 34.3,
-        "recovery": 64.8,
-        "contrarian": 32.7
+        "recovery": 66.9,
+        "contrarian": 32.8
       },
       "confidence": "High",
       "opportunity": "Established Leaders",
@@ -2657,7 +2762,7 @@
         "Above 20/50/200 DMA"
       ],
       "why": [
-        "RS percentile 99",
+        "RS percentile 98",
         "2 scanner confirmations",
         "XLV Emerging Focus"
       ]
@@ -2666,7 +2771,7 @@
       "ticker": "AAMI",
       "company": "Acadian Asset Management Inc",
       "exchange": "NYSE",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Financial",
       "industry": "Asset Management",
       "sub_industry": null,
@@ -2701,10 +2806,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 55.9,
+        "leader": 58.5,
         "quality": 85.0,
-        "recovery": 67.1,
-        "contrarian": 79.5
+        "recovery": 69.8,
+        "contrarian": 79.8
       },
       "confidence": "High",
       "opportunity": "Fundamental Acceleration",
@@ -2713,18 +2818,18 @@
         "Above 20/50/200 DMA"
       ],
       "why": [
-        "RS percentile 63",
+        "RS percentile 62",
         "Quality 85",
         "XLF Deprioritize"
       ]
     },
     {
       "ticker": "AAON",
-      "company": "AAON",
+      "company": "AAON, Inc.",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
-      "sector": null,
-      "industry": null,
+      "security_type": "stock",
+      "sector": "Producer Manufacturing",
+      "industry": "Industrial Machinery",
       "sub_industry": null,
       "tradingview_symbol": "NASDAQ:AAON",
       "status": "New",
@@ -2753,10 +2858,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 34.0,
+        "leader": 36.7,
         "quality": 73.0,
-        "recovery": 68.8,
-        "contrarian": 74.8
+        "recovery": 70.9,
+        "contrarian": 74.3
       },
       "confidence": "High",
       "opportunity": "Contrarian Quality / Fear Dislocation",
@@ -2802,10 +2907,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 21.3,
+        "leader": 22.5,
         "quality": 73.0,
-        "recovery": 36.5,
-        "contrarian": 68.4
+        "recovery": 37.9,
+        "contrarian": 68.8
       },
       "confidence": "High",
       "opportunity": "Contrarian Quality / Fear Dislocation",
@@ -2821,7 +2926,7 @@
       "ticker": "AEIS",
       "company": "Advanced Energy Industries Inc",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Industrials",
       "industry": "Electrical Equipment & Parts",
       "sub_industry": null,
@@ -2856,10 +2961,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 37.7,
+        "leader": 41.1,
         "quality": 73.0,
-        "recovery": 64.1,
-        "contrarian": 78.1
+        "recovery": 66.7,
+        "contrarian": 77.5
       },
       "confidence": "High",
       "opportunity": "Contrarian Quality / Fear Dislocation",
@@ -2875,7 +2980,7 @@
       "ticker": "AGX",
       "company": "Argan Inc",
       "exchange": "NYSE",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Industrials",
       "industry": "Engineering & Construction",
       "sub_industry": null,
@@ -2910,10 +3015,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 26.2,
+        "leader": 28.2,
         "quality": 95.0,
-        "recovery": 51.7,
-        "contrarian": 78.3
+        "recovery": 54.3,
+        "contrarian": 79.1
       },
       "confidence": "High",
       "opportunity": "Hidden Quality",
@@ -2960,10 +3065,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 54.8,
+        "leader": 60.0,
         "quality": 47.5,
-        "recovery": 63.8,
-        "contrarian": 56.1
+        "recovery": 69.0,
+        "contrarian": 56.7
       },
       "confidence": "High",
       "opportunity": "Watch and Wait",
@@ -2979,7 +3084,7 @@
       "ticker": "ANIP",
       "company": "ANI Pharmaceuticals Inc",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Healthcare",
       "industry": "Drug Manufacturers - Specialty & Generic",
       "sub_industry": null,
@@ -3014,10 +3119,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 25.0,
+        "leader": 29.0,
         "quality": 73.0,
-        "recovery": 52.7,
-        "contrarian": 78.7
+        "recovery": 56.4,
+        "contrarian": 78.2
       },
       "confidence": "High",
       "opportunity": "Contrarian Quality / Fear Dislocation",
@@ -3034,7 +3139,7 @@
       "ticker": "ARW",
       "company": "Arrow Electronics Inc",
       "exchange": "NYSE",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Technology",
       "industry": "Electronics & Computer Distribution",
       "sub_industry": null,
@@ -3069,10 +3174,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 60.5,
+        "leader": 61.9,
         "quality": 78.0,
-        "recovery": 73.1,
-        "contrarian": 72.7
+        "recovery": 74.8,
+        "contrarian": 73.3
       },
       "confidence": "High",
       "opportunity": "Fundamental Acceleration",
@@ -3082,7 +3187,6 @@
         "Above 20/50/200 DMA"
       ],
       "why": [
-        "RS percentile 62",
         "Quality 78",
         "XLK Focus"
       ]
@@ -3097,16 +3201,12 @@
       "sub_industry": null,
       "tradingview_symbol": "NYSE:ASC",
       "status": "New",
-      "source_status": "BOTH",
-      "tradingview_scans": [
-        "4_Strongest_Stock_VPK"
-      ],
+      "source_status": "FINVIZ",
+      "tradingview_scans": [],
       "finviz_scans": [
         "4_Strongest_Stock_VPK"
       ],
-      "same_source_scans": [
-        "4_Strongest_Stock_VPK"
-      ],
+      "same_source_scans": [],
       "scans": [
         "4_Strongest_Stock_VPK"
       ],
@@ -3122,20 +3222,19 @@
         "6M": false
       },
       "lifecycle": "Monitor",
-      "priority": "Monitor",
+      "priority": "Source Review",
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 53.4,
+        "leader": 51.1,
         "quality": 90.0,
-        "recovery": 72.1,
-        "contrarian": 82.1
+        "recovery": 74.9,
+        "contrarian": 83.2
       },
       "confidence": "High",
       "opportunity": "Hidden Quality",
       "opportunity_badges": [
-        "Fundamental Acceleration",
-        "Above 20/50/200 DMA"
+        "Fundamental Acceleration"
       ],
       "why": [
         "Quality 90",
@@ -3143,59 +3242,10 @@
       ]
     },
     {
-      "ticker": "ASYS",
-      "company": "ASYS",
-      "exchange": "NASDAQ",
-      "security_type": "Stock",
-      "sector": null,
-      "industry": null,
-      "sub_industry": null,
-      "tradingview_symbol": "NASDAQ:ASYS",
-      "status": "New",
-      "source_status": "TRADINGVIEW",
-      "tradingview_scans": [
-        "Daily_Tightness_Swing"
-      ],
-      "finviz_scans": [],
-      "same_source_scans": [],
-      "scans": [
-        "Daily_Tightness_Swing"
-      ],
-      "scanner_count": 1,
-      "categories": [
-        "Tightness"
-      ],
-      "category_count": 1,
-      "momentum": {
-        "1W": false,
-        "1M": false,
-        "3M": false,
-        "6M": false
-      },
-      "lifecycle": "Monitor",
-      "priority": "Source Review",
-      "first_detected": "2026-10-07",
-      "consecutive_sessions": 1,
-      "scores": {
-        "leader": 54.0,
-        "quality": 64.6,
-        "recovery": 69.4,
-        "contrarian": 63.8
-      },
-      "confidence": "High",
-      "opportunity": "Confirmed Recovery",
-      "opportunity_badges": [
-        "Above 20/50/200 DMA"
-      ],
-      "why": [
-        "Quality 65"
-      ]
-    },
-    {
       "ticker": "ATRO",
       "company": "Astronics Corp",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Industrials",
       "industry": "Aerospace & Defense",
       "sub_industry": null,
@@ -3230,9 +3280,9 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 27.4,
+        "leader": 31.8,
         "quality": 75.0,
-        "recovery": 42.2,
+        "recovery": 46.5,
         "contrarian": 73.3
       },
       "confidence": "High",
@@ -3249,7 +3299,7 @@
       "ticker": "AUGO",
       "company": "Aura Minerals Inc",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Basic Materials",
       "industry": "Gold",
       "sub_industry": null,
@@ -3284,13 +3334,13 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 49.1,
+        "leader": 50.4,
         "quality": 90.0,
-        "recovery": 67.6,
-        "contrarian": 80.7
+        "recovery": 69.7,
+        "contrarian": 82.2
       },
       "confidence": "High",
-      "opportunity": "Fundamental Acceleration",
+      "opportunity": "Hidden Quality",
       "opportunity_badges": [
         "Fundamental Acceleration"
       ],
@@ -3301,11 +3351,11 @@
     },
     {
       "ticker": "BBT",
-      "company": "BBT",
+      "company": "Beacon Financial Corporation",
       "exchange": "NYSE",
-      "security_type": "Stock",
-      "sector": null,
-      "industry": null,
+      "security_type": "stock",
+      "sector": "Finance",
+      "industry": "Regional Banks",
       "sub_industry": null,
       "tradingview_symbol": "NYSE:BBT",
       "status": "New",
@@ -3334,10 +3384,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 23.5,
+        "leader": 25.9,
         "quality": 83.0,
-        "recovery": 46.5,
-        "contrarian": 80.0
+        "recovery": 48.8,
+        "contrarian": 79.6
       },
       "confidence": "High",
       "opportunity": "Contrarian Quality / Fear Dislocation",
@@ -3352,7 +3402,7 @@
       "ticker": "BKV",
       "company": "BKV Corp",
       "exchange": "NYSE",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Energy",
       "industry": "Oil & Gas E&P",
       "sub_industry": null,
@@ -3405,7 +3455,7 @@
       "ticker": "BRZE",
       "company": "Braze Inc",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Technology",
       "industry": "Software - Application",
       "sub_industry": null,
@@ -3440,10 +3490,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 53.0,
+        "leader": 57.8,
         "quality": 60.0,
-        "recovery": 63.0,
-        "contrarian": 67.9
+        "recovery": 68.3,
+        "contrarian": 69.4
       },
       "confidence": "High",
       "opportunity": "Fundamental Acceleration",
@@ -3461,7 +3511,7 @@
       "ticker": "CARE",
       "company": "Carter Bankshares Inc",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Financial",
       "industry": "Banks - Regional",
       "sub_industry": null,
@@ -3496,9 +3546,9 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 34.9,
+        "leader": 36.7,
         "quality": 100.0,
-        "recovery": 54.6,
+        "recovery": 56.4,
         "contrarian": 90.4
       },
       "confidence": "High",
@@ -3546,10 +3596,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 69.3,
+        "leader": 71.3,
         "quality": 80.0,
-        "recovery": 84.1,
-        "contrarian": 57.5
+        "recovery": 85.7,
+        "contrarian": 57.8
       },
       "confidence": "High",
       "opportunity": "Fundamental Acceleration",
@@ -3562,55 +3612,6 @@
         "RS percentile 100",
         "Quality 80",
         "XLV Emerging Focus"
-      ]
-    },
-    {
-      "ticker": "CHEF",
-      "company": "CHEF",
-      "exchange": "NASDAQ",
-      "security_type": "Stock",
-      "sector": null,
-      "industry": null,
-      "sub_industry": null,
-      "tradingview_symbol": "NASDAQ:CHEF",
-      "status": "New",
-      "source_status": "TRADINGVIEW",
-      "tradingview_scans": [
-        "Daily_Tightness_Swing"
-      ],
-      "finviz_scans": [],
-      "same_source_scans": [],
-      "scans": [
-        "Daily_Tightness_Swing"
-      ],
-      "scanner_count": 1,
-      "categories": [
-        "Tightness"
-      ],
-      "category_count": 1,
-      "momentum": {
-        "1W": false,
-        "1M": false,
-        "3M": false,
-        "6M": false
-      },
-      "lifecycle": "Monitor",
-      "priority": "Source Review",
-      "first_detected": "2026-10-07",
-      "consecutive_sessions": 1,
-      "scores": {
-        "leader": 59.1,
-        "quality": 53.3,
-        "recovery": 59.0,
-        "contrarian": 63.2
-      },
-      "confidence": "High",
-      "opportunity": "Emerging Leaders",
-      "opportunity_badges": [
-        "Above 20/50/200 DMA"
-      ],
-      "why": [
-        "RS percentile 67"
       ]
     },
     {
@@ -3648,10 +3649,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 30.5,
+        "leader": 33.2,
         "quality": 83.0,
-        "recovery": 48.9,
-        "contrarian": 84.1
+        "recovery": 51.5,
+        "contrarian": 83.9
       },
       "confidence": "High",
       "opportunity": "Contrarian Quality / Fear Dislocation",
@@ -3667,7 +3668,7 @@
       "ticker": "COCO",
       "company": "Vita Coco Company Inc",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Consumer Defensive",
       "industry": "Beverages - Non-Alcoholic",
       "sub_industry": null,
@@ -3702,10 +3703,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 23.5,
+        "leader": 27.3,
         "quality": 95.0,
-        "recovery": 54.4,
-        "contrarian": 79.9
+        "recovery": 57.8,
+        "contrarian": 78.1
       },
       "confidence": "High",
       "opportunity": "Contrarian Quality / Fear Dislocation",
@@ -3721,7 +3722,7 @@
       "ticker": "CORT",
       "company": "Corcept Therapeutics Inc",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Healthcare",
       "industry": "Biotechnology",
       "sub_industry": null,
@@ -3756,10 +3757,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 66.0,
+        "leader": 67.3,
         "quality": 72.1,
-        "recovery": 68.1,
-        "contrarian": 66.6
+        "recovery": 69.4,
+        "contrarian": 67.3
       },
       "confidence": "High",
       "opportunity": "Quality Compounders",
@@ -3768,7 +3769,7 @@
         "Above 20/50/200 DMA"
       ],
       "why": [
-        "RS percentile 84",
+        "RS percentile 82",
         "Quality 72",
         "XLV Emerging Focus"
       ]
@@ -3777,7 +3778,7 @@
       "ticker": "CRL",
       "company": "Charles River Laboratories International Inc",
       "exchange": "NYSE",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Healthcare",
       "industry": "Diagnostics & Research",
       "sub_industry": null,
@@ -3812,9 +3813,9 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 61.9,
+        "leader": 64.7,
         "quality": 20.0,
-        "recovery": 51.8,
+        "recovery": 54.5,
         "contrarian": 42.5
       },
       "confidence": "High",
@@ -3830,11 +3831,11 @@
     },
     {
       "ticker": "EBS",
-      "company": "EBS",
+      "company": "Emergent BioSolutions Inc.",
       "exchange": "NYSE",
-      "security_type": "Stock",
-      "sector": null,
-      "industry": null,
+      "security_type": "stock",
+      "sector": "Health Technology",
+      "industry": "Pharmaceuticals: Major",
       "sub_industry": null,
       "tradingview_symbol": "NYSE:EBS",
       "status": "New",
@@ -3863,10 +3864,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 34.2,
+        "leader": 36.8,
         "quality": 45.0,
-        "recovery": 65.0,
-        "contrarian": 51.8
+        "recovery": 67.7,
+        "contrarian": 51.6
       },
       "confidence": "High",
       "opportunity": "Confirmed Recovery",
@@ -3879,7 +3880,7 @@
       "ticker": "ECG",
       "company": "Everus Construction Group",
       "exchange": "NYSE",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Industrials",
       "industry": "Engineering & Construction",
       "sub_industry": null,
@@ -3914,17 +3915,74 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 37.4,
+        "leader": 47.3,
         "quality": 90.0,
-        "recovery": 71.2,
-        "contrarian": 88.4
+        "recovery": 75.1,
+        "contrarian": 87.0
       },
       "confidence": "High",
       "opportunity": "Contrarian Quality / Fear Dislocation",
       "opportunity_badges": [
-        "Fundamental Acceleration"
+        "Fundamental Acceleration",
+        "Above 20/50/200 DMA"
       ],
       "why": [
+        "Quality 90",
+        "XLI Deprioritize"
+      ]
+    },
+    {
+      "ticker": "ECO",
+      "company": "Okeanis Eco Tankers Corp",
+      "exchange": "NYSE",
+      "security_type": "stock",
+      "sector": "Industrials",
+      "industry": "Marine Shipping",
+      "sub_industry": null,
+      "tradingview_symbol": "NYSE:ECO",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "4_Strongest_Stock_VPK"
+      ],
+      "finviz_scans": [
+        "4_Strongest_Stock_VPK"
+      ],
+      "same_source_scans": [
+        "4_Strongest_Stock_VPK"
+      ],
+      "scans": [
+        "4_Strongest_Stock_VPK"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Strength"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Monitor",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1,
+      "scores": {
+        "leader": 62.0,
+        "quality": 90.0,
+        "recovery": 83.6,
+        "contrarian": 63.4
+      },
+      "confidence": "High",
+      "opportunity": "Exceptional Independents",
+      "opportunity_badges": [
+        "Fundamental Acceleration",
+        "Above 20/50/200 DMA"
+      ],
+      "why": [
+        "RS percentile 94",
         "Quality 90",
         "XLI Deprioritize"
       ]
@@ -3933,7 +3991,7 @@
       "ticker": "EFOR",
       "company": "Everforth Inc",
       "exchange": "NYSE",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Technology",
       "industry": "Information Technology Services",
       "sub_industry": null,
@@ -3968,13 +4026,13 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 57.4,
+        "leader": 61.4,
         "quality": 33.0,
-        "recovery": 59.4,
-        "contrarian": 49.3
+        "recovery": 63.2,
+        "contrarian": 48.8
       },
       "confidence": "High",
-      "opportunity": "Watch and Wait",
+      "opportunity": "Emerging Leaders",
       "opportunity_badges": [
         "Focus",
         "Above 20/50/200 DMA"
@@ -3987,7 +4045,7 @@
       "ticker": "ELF",
       "company": "e.l.f. Beauty Inc",
       "exchange": "NYSE",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Consumer Defensive",
       "industry": "Household & Personal Products",
       "sub_industry": null,
@@ -4022,10 +4080,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 53.7,
+        "leader": 55.4,
         "quality": 78.0,
-        "recovery": 66.3,
-        "contrarian": 73.1
+        "recovery": 68.4,
+        "contrarian": 74.0
       },
       "confidence": "High",
       "opportunity": "Hidden Quality",
@@ -4039,12 +4097,61 @@
       ]
     },
     {
-      "ticker": "ESTA",
-      "company": "ESTA",
+      "ticker": "ELMT",
+      "company": "The Elmet Group Co.",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
-      "sector": null,
-      "industry": null,
+      "security_type": "stock",
+      "sector": "Producer Manufacturing",
+      "industry": "Metal Fabrication",
+      "sub_industry": null,
+      "tradingview_symbol": "NASDAQ:ELMT",
+      "status": "New",
+      "source_status": "TRADINGVIEW",
+      "tradingview_scans": [
+        "Mom_1M_Small"
+      ],
+      "finviz_scans": [],
+      "same_source_scans": [],
+      "scans": [
+        "Mom_1M_Small"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Momentum"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": true,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Emerging Momentum",
+      "priority": "Emerging Momentum",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1,
+      "scores": {
+        "leader": 55.6,
+        "quality": 15.0,
+        "recovery": 60.0,
+        "contrarian": 28.6
+      },
+      "confidence": "Medium",
+      "opportunity": "Emerging Leaders",
+      "opportunity_badges": [
+        "Above 20/50/200 DMA"
+      ],
+      "why": [
+        "RS percentile 61"
+      ]
+    },
+    {
+      "ticker": "ESTA",
+      "company": "Establishment Labs Holdings Inc.",
+      "exchange": "NASDAQ",
+      "security_type": "stock",
+      "sector": "Health Technology",
+      "industry": "Medical Specialties",
       "sub_industry": null,
       "tradingview_symbol": "NASDAQ:ESTA",
       "status": "New",
@@ -4073,10 +4180,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 25.9,
+        "leader": 29.3,
         "quality": 40.0,
-        "recovery": 31.2,
-        "contrarian": 54.0
+        "recovery": 34.2,
+        "contrarian": 53.1
       },
       "confidence": "High",
       "opportunity": "Fundamental Acceleration",
@@ -4122,10 +4229,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 48.7,
+        "leader": 49.4,
         "quality": 63.0,
-        "recovery": 37.2,
-        "contrarian": 55.4
+        "recovery": 38.2,
+        "contrarian": 55.3
       },
       "confidence": "High",
       "opportunity": "Fundamental Acceleration",
@@ -4133,7 +4240,7 @@
         "Fundamental Acceleration"
       ],
       "why": [
-        "RS percentile 65",
+        "RS percentile 63",
         "Quality 63",
         "XLC Neutral"
       ]
@@ -4142,7 +4249,7 @@
       "ticker": "EZPW",
       "company": "EZCorp Inc",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Financial",
       "industry": "Credit Services",
       "sub_industry": null,
@@ -4177,9 +4284,9 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 33.3,
+        "leader": 38.2,
         "quality": 78.0,
-        "recovery": 46.6,
+        "recovery": 51.2,
         "contrarian": 81.9
       },
       "confidence": "High",
@@ -4196,7 +4303,7 @@
       "ticker": "FBK",
       "company": "FB Financial Corp",
       "exchange": "NYSE",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Financial",
       "industry": "Banks - Regional",
       "sub_industry": null,
@@ -4231,9 +4338,9 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 22.4,
+        "leader": 24.7,
         "quality": 88.0,
-        "recovery": 49.8,
+        "recovery": 52.2,
         "contrarian": 84.5
       },
       "confidence": "High",
@@ -4250,7 +4357,7 @@
       "ticker": "FCFS",
       "company": "FirstCash Holdings Inc",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Financial",
       "industry": "Credit Services",
       "sub_industry": null,
@@ -4285,10 +4392,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 34.8,
+        "leader": 38.1,
         "quality": 73.0,
-        "recovery": 48.6,
-        "contrarian": 79.8
+        "recovery": 52.1,
+        "contrarian": 79.9
       },
       "confidence": "High",
       "opportunity": "Contrarian Quality / Fear Dislocation",
@@ -4301,12 +4408,66 @@
       ]
     },
     {
-      "ticker": "FEIM",
-      "company": "FEIM",
+      "ticker": "FEAM",
+      "company": "5E Advanced Materials Inc",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
-      "sector": null,
-      "industry": null,
+      "security_type": "stock",
+      "sector": "Basic Materials",
+      "industry": "Specialty Chemicals",
+      "sub_industry": null,
+      "tradingview_symbol": "NASDAQ:FEAM",
+      "status": "New",
+      "source_status": "BOTH",
+      "tradingview_scans": [
+        "3_Post_Earnings_Cont_Base"
+      ],
+      "finviz_scans": [
+        "3_Post_Earnings_Cont_Base"
+      ],
+      "same_source_scans": [
+        "3_Post_Earnings_Cont_Base"
+      ],
+      "scans": [
+        "3_Post_Earnings_Cont_Base"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Catalyst"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Monitor",
+      "priority": "Monitor",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1,
+      "scores": {
+        "leader": 65.1,
+        "quality": 35.0,
+        "recovery": 69.3,
+        "contrarian": 27.9
+      },
+      "confidence": "High",
+      "opportunity": "Exceptional Independents",
+      "opportunity_badges": [
+        "Above 20/50/200 DMA"
+      ],
+      "why": [
+        "RS percentile 97",
+        "XLB Deprioritize"
+      ]
+    },
+    {
+      "ticker": "FEIM",
+      "company": "Frequency Electronics, Inc.",
+      "exchange": "NASDAQ",
+      "security_type": "stock",
+      "sector": "Electronic Technology",
+      "industry": "Telecommunications Equipment",
       "sub_industry": null,
       "tradingview_symbol": "NASDAQ:FEIM",
       "status": "New",
@@ -4335,10 +4496,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 58.7,
+        "leader": 60.2,
         "quality": 68.0,
-        "recovery": 74.4,
-        "contrarian": 63.2
+        "recovery": 76.2,
+        "contrarian": 63.5
       },
       "confidence": "High",
       "opportunity": "Fundamental Acceleration",
@@ -4346,70 +4507,15 @@
         "Fundamental Acceleration"
       ],
       "why": [
-        "RS percentile 77",
+        "RS percentile 76",
         "Quality 68"
-      ]
-    },
-    {
-      "ticker": "FIX",
-      "company": "Comfort Systems USA Inc",
-      "exchange": "NYSE",
-      "security_type": "Stock",
-      "sector": "Industrials",
-      "industry": "Engineering & Construction",
-      "sub_industry": null,
-      "tradingview_symbol": "NYSE:FIX",
-      "status": "New",
-      "source_status": "BOTH",
-      "tradingview_scans": [
-        "1_Fundamental_Growth"
-      ],
-      "finviz_scans": [
-        "1_Fundamental_Growth"
-      ],
-      "same_source_scans": [
-        "1_Fundamental_Growth"
-      ],
-      "scans": [
-        "1_Fundamental_Growth"
-      ],
-      "scanner_count": 1,
-      "categories": [
-        "Fundamental"
-      ],
-      "category_count": 1,
-      "momentum": {
-        "1W": false,
-        "1M": false,
-        "3M": false,
-        "6M": false
-      },
-      "lifecycle": "Fundamental Growth",
-      "priority": "Monitor",
-      "first_detected": "2026-10-07",
-      "consecutive_sessions": 1,
-      "scores": {
-        "leader": 52.1,
-        "quality": 95.0,
-        "recovery": 74.0,
-        "contrarian": 85.6
-      },
-      "confidence": "High",
-      "opportunity": "Hidden Quality",
-      "opportunity_badges": [
-        "Fundamental Acceleration",
-        "Above 20/50/200 DMA"
-      ],
-      "why": [
-        "Quality 95",
-        "XLI Deprioritize"
       ]
     },
     {
       "ticker": "FORM",
       "company": "FormFactor Inc",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
       "sub_industry": null,
@@ -4444,10 +4550,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 64.9,
+        "leader": 65.5,
         "quality": 78.0,
-        "recovery": 81.4,
-        "contrarian": 61.3
+        "recovery": 82.4,
+        "contrarian": 61.2
       },
       "confidence": "High",
       "opportunity": "Fundamental Acceleration",
@@ -4466,7 +4572,7 @@
       "ticker": "FROG",
       "company": "JFrog Ltd",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Technology",
       "industry": "Software - Application",
       "sub_industry": null,
@@ -4501,10 +4607,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 66.7,
+        "leader": 67.0,
         "quality": 60.0,
-        "recovery": 69.6,
-        "contrarian": 58.7
+        "recovery": 70.6,
+        "contrarian": 59.6
       },
       "confidence": "High",
       "opportunity": "Confirmed Recovery",
@@ -4514,7 +4620,7 @@
         "Above 20/50/200 DMA"
       ],
       "why": [
-        "RS percentile 81",
+        "RS percentile 78",
         "Quality 60",
         "XLK Focus"
       ]
@@ -4523,7 +4629,7 @@
       "ticker": "GCT",
       "company": "GigaCloud Technology Inc",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "sub_industry": null,
@@ -4558,20 +4664,20 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 66.6,
+        "leader": 71.3,
         "quality": 85.0,
-        "recovery": 77.1,
-        "contrarian": 72.0
+        "recovery": 82.5,
+        "contrarian": 72.3
       },
       "confidence": "High",
-      "opportunity": "Fundamental Acceleration",
+      "opportunity": "Breakout Candidates",
       "opportunity_badges": [
         "Fundamental Acceleration",
         "Focus",
         "Above 20/50/200 DMA"
       ],
       "why": [
-        "RS percentile 74",
+        "RS percentile 72",
         "Quality 85",
         "XLK Focus"
       ]
@@ -4611,10 +4717,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 50.0,
+        "leader": 51.4,
         "quality": 73.0,
-        "recovery": 65.7,
-        "contrarian": 76.6
+        "recovery": 66.9,
+        "contrarian": 76.9
       },
       "confidence": "High",
       "opportunity": "Contrarian Quality / Fear Dislocation",
@@ -4637,16 +4743,12 @@
       "sub_industry": null,
       "tradingview_symbol": "NASDAQ:HALO",
       "status": "New",
-      "source_status": "BOTH",
-      "tradingview_scans": [
-        "5_Strongest_Stock_10B_Rev_30_VPK"
-      ],
+      "source_status": "FINVIZ",
+      "tradingview_scans": [],
       "finviz_scans": [
         "5_Strongest_Stock_10B_Rev_30_VPK"
       ],
-      "same_source_scans": [
-        "5_Strongest_Stock_10B_Rev_30_VPK"
-      ],
+      "same_source_scans": [],
       "scans": [
         "5_Strongest_Stock_10B_Rev_30_VPK"
       ],
@@ -4662,14 +4764,14 @@
         "6M": false
       },
       "lifecycle": "Monitor",
-      "priority": "Monitor",
+      "priority": "Source Review",
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 62.9,
+        "leader": 64.5,
         "quality": 80.0,
-        "recovery": 70.7,
-        "contrarian": 72.8
+        "recovery": 72.5,
+        "contrarian": 73.8
       },
       "confidence": "High",
       "opportunity": "Fundamental Acceleration",
@@ -4679,18 +4781,18 @@
         "Above 20/50/200 DMA"
       ],
       "why": [
-        "RS percentile 72",
+        "RS percentile 70",
         "Quality 80",
         "XLV Emerging Focus"
       ]
     },
     {
       "ticker": "HCC",
-      "company": "HCC",
+      "company": "Warrior Met Coal, Inc.",
       "exchange": "NYSE",
-      "security_type": "Stock",
-      "sector": null,
-      "industry": null,
+      "security_type": "stock",
+      "sector": "Energy Minerals",
+      "industry": "Coal",
       "sub_industry": null,
       "tradingview_symbol": "NYSE:HCC",
       "status": "New",
@@ -4719,10 +4821,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 29.2,
+        "leader": 30.4,
         "quality": 73.0,
-        "recovery": 41.7,
-        "contrarian": 76.0
+        "recovery": 43.7,
+        "contrarian": 76.2
       },
       "confidence": "High",
       "opportunity": "Contrarian Quality / Fear Dislocation",
@@ -4768,10 +4870,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 44.7,
+        "leader": 45.2,
         "quality": 73.0,
-        "recovery": 70.3,
-        "contrarian": 74.3
+        "recovery": 72.5,
+        "contrarian": 75.2
       },
       "confidence": "High",
       "opportunity": "Contrarian Quality / Fear Dislocation",
@@ -4786,11 +4888,11 @@
     },
     {
       "ticker": "HPK",
-      "company": "HPK",
+      "company": "HighPeak Energy, Inc.",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
-      "sector": null,
-      "industry": null,
+      "security_type": "stock",
+      "sector": "Energy Minerals",
+      "industry": "Oil & Gas Production",
       "sub_industry": null,
       "tradingview_symbol": "NASDAQ:HPK",
       "status": "New",
@@ -4819,10 +4921,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 51.9,
+        "leader": 55.5,
         "quality": 60.0,
-        "recovery": 63.3,
-        "contrarian": 65.2
+        "recovery": 66.6,
+        "contrarian": 63.6
       },
       "confidence": "High",
       "opportunity": "Fundamental Acceleration",
@@ -4838,7 +4940,7 @@
       "ticker": "HRMY",
       "company": "Harmony Biosciences Holdings Inc",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Healthcare",
       "industry": "Biotechnology",
       "sub_industry": null,
@@ -4873,10 +4975,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 39.0,
+        "leader": 40.9,
         "quality": 95.0,
-        "recovery": 54.9,
-        "contrarian": 89.2
+        "recovery": 56.6,
+        "contrarian": 89.0
       },
       "confidence": "High",
       "opportunity": "Contrarian Quality / Fear Dislocation",
@@ -4893,7 +4995,7 @@
       "ticker": "HSHP",
       "company": "Himalaya Shipping Ltd",
       "exchange": "NYSE",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Industrials",
       "industry": "Marine Shipping",
       "sub_industry": null,
@@ -4928,10 +5030,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 53.1,
+        "leader": 54.6,
         "quality": 73.0,
-        "recovery": 62.2,
-        "contrarian": 70.1
+        "recovery": 64.0,
+        "contrarian": 70.8
       },
       "confidence": "High",
       "opportunity": "Fundamental Acceleration",
@@ -4939,72 +5041,66 @@
         "Fundamental Acceleration"
       ],
       "why": [
-        "RS percentile 69",
+        "RS percentile 67",
         "Quality 73",
         "XLI Deprioritize"
       ]
     },
     {
       "ticker": "HUM",
-      "company": "Humana Inc",
+      "company": "Humana Inc.",
       "exchange": "NYSE",
-      "security_type": "Stock",
-      "sector": "Healthcare",
-      "industry": "Healthcare Plans",
+      "security_type": "stock",
+      "sector": "Health Services",
+      "industry": "Managed Health Care",
       "sub_industry": null,
       "tradingview_symbol": "NYSE:HUM",
       "status": "New",
-      "source_status": "BOTH",
+      "source_status": "TRADINGVIEW",
       "tradingview_scans": [
-        "Mom_6M_Large"
+        "5_Strongest_Stock_10B_Rev_30_VPK"
       ],
-      "finviz_scans": [
-        "Mom_6M_Large"
-      ],
-      "same_source_scans": [
-        "Mom_6M_Large"
-      ],
+      "finviz_scans": [],
+      "same_source_scans": [],
       "scans": [
-        "Mom_6M_Large"
+        "5_Strongest_Stock_10B_Rev_30_VPK"
       ],
       "scanner_count": 1,
       "categories": [
-        "Momentum"
+        "Strength"
       ],
       "category_count": 1,
       "momentum": {
         "1W": false,
         "1M": false,
         "3M": false,
-        "6M": true
+        "6M": false
       },
       "lifecycle": "Monitor",
-      "priority": "Monitor",
+      "priority": "Source Review",
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 60.1,
+        "leader": 59.8,
         "quality": 73.0,
-        "recovery": 68.5,
-        "contrarian": 71.8
+        "recovery": 68.7,
+        "contrarian": 74.2
       },
       "confidence": "High",
-      "opportunity": "Confirmed Recovery",
+      "opportunity": "Fundamental Acceleration",
       "opportunity_badges": [
         "Fundamental Acceleration",
-        "Emerging Focus",
         "Above 20/50/200 DMA"
       ],
       "why": [
-        "Quality 73",
-        "XLV Emerging Focus"
+        "Quality 73"
       ]
     },
     {
       "ticker": "IESC",
       "company": "IES Holdings Inc",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Industrials",
       "industry": "Engineering & Construction",
       "sub_industry": null,
@@ -5039,10 +5135,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 37.4,
+        "leader": 41.7,
         "quality": 95.0,
-        "recovery": 53.4,
-        "contrarian": 84.3
+        "recovery": 58.5,
+        "contrarian": 85.0
       },
       "confidence": "High",
       "opportunity": "Contrarian Quality / Fear Dislocation",
@@ -5058,7 +5154,7 @@
       "ticker": "INDB",
       "company": "Independent Bank Corp",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Financial",
       "industry": "Banks - Regional",
       "sub_industry": null,
@@ -5093,10 +5189,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 24.8,
+        "leader": 27.7,
         "quality": 88.0,
-        "recovery": 50.9,
-        "contrarian": 86.6
+        "recovery": 53.7,
+        "contrarian": 86.3
       },
       "confidence": "High",
       "opportunity": "Contrarian Quality / Fear Dislocation",
@@ -5112,7 +5208,7 @@
       "ticker": "INOD",
       "company": "Innodata Inc",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Technology",
       "industry": "Information Technology Services",
       "sub_industry": null,
@@ -5147,16 +5243,17 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 45.2,
+        "leader": 52.2,
         "quality": 95.0,
-        "recovery": 81.9,
-        "contrarian": 85.7
+        "recovery": 83.9,
+        "contrarian": 85.3
       },
       "confidence": "High",
       "opportunity": "Contrarian Quality / Fear Dislocation",
       "opportunity_badges": [
         "Fundamental Acceleration",
-        "Focus"
+        "Focus",
+        "Above 20/50/200 DMA"
       ],
       "why": [
         "Quality 95",
@@ -5167,7 +5264,7 @@
       "ticker": "LIND",
       "company": "Lindblad Expeditions Holdings Inc",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Consumer Cyclical",
       "industry": "Travel Services",
       "sub_industry": null,
@@ -5202,18 +5299,18 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 65.5,
+        "leader": 69.7,
         "quality": 49.9,
-        "recovery": 68.9,
-        "contrarian": 48.0
+        "recovery": 73.4,
+        "contrarian": 48.4
       },
       "confidence": "High",
-      "opportunity": "Emerging Leaders",
+      "opportunity": "Breakout Candidates",
       "opportunity_badges": [
         "Above 20/50/200 DMA"
       ],
       "why": [
-        "RS percentile 93",
+        "RS percentile 91",
         "XLY Neutral"
       ]
     },
@@ -5221,7 +5318,7 @@
       "ticker": "LSCC",
       "company": "Lattice Semiconductor Corp",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Technology",
       "industry": "Semiconductors",
       "sub_industry": null,
@@ -5256,10 +5353,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 56.1,
+        "leader": 58.5,
         "quality": 73.0,
-        "recovery": 74.5,
-        "contrarian": 72.0
+        "recovery": 76.8,
+        "contrarian": 71.8
       },
       "confidence": "High",
       "opportunity": "Confirmed Recovery",
@@ -5277,7 +5374,7 @@
       "ticker": "MAMA",
       "company": "Mama's Creations Inc",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Consumer Defensive",
       "industry": "Packaged Foods",
       "sub_industry": null,
@@ -5312,10 +5409,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 22.1,
+        "leader": 24.9,
         "quality": 73.0,
-        "recovery": 41.0,
-        "contrarian": 66.2
+        "recovery": 44.1,
+        "contrarian": 66.8
       },
       "confidence": "High",
       "opportunity": "Contrarian Quality / Fear Dislocation",
@@ -5362,10 +5459,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 41.6,
+        "leader": 42.4,
         "quality": 68.0,
-        "recovery": 52.2,
-        "contrarian": 69.3
+        "recovery": 53.2,
+        "contrarian": 69.5
       },
       "confidence": "High",
       "opportunity": "Contrarian Quality / Fear Dislocation",
@@ -5382,7 +5479,7 @@
       "ticker": "MFA",
       "company": "MFA Financial Inc",
       "exchange": "NYSE",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Real Estate",
       "industry": "REIT - Mortgage",
       "sub_industry": null,
@@ -5417,10 +5514,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 19.9,
+        "leader": 21.7,
         "quality": 73.0,
-        "recovery": 38.7,
-        "contrarian": 67.0
+        "recovery": 40.5,
+        "contrarian": 66.9
       },
       "confidence": "High",
       "opportunity": "Fundamental Acceleration",
@@ -5436,7 +5533,7 @@
       "ticker": "MPWR",
       "company": "Monolithic Power System Inc",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Technology",
       "industry": "Semiconductors",
       "sub_industry": null,
@@ -5471,10 +5568,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 53.6,
+        "leader": 56.0,
         "quality": 95.0,
-        "recovery": 83.6,
-        "contrarian": 82.8
+        "recovery": 86.3,
+        "contrarian": 83.2
       },
       "confidence": "High",
       "opportunity": "Contrarian Quality / Fear Dislocation",
@@ -5492,7 +5589,7 @@
       "ticker": "NESR",
       "company": "National Energy Services Reunited Corp",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Energy",
       "industry": "Oil & Gas Equipment & Services",
       "sub_industry": null,
@@ -5527,10 +5624,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 30.0,
+        "leader": 31.3,
         "quality": 78.0,
-        "recovery": 40.0,
-        "contrarian": 65.0
+        "recovery": 42.7,
+        "contrarian": 65.2
       },
       "confidence": "High",
       "opportunity": "Contrarian Quality / Fear Dislocation",
@@ -5547,7 +5644,7 @@
       "ticker": "NEXA",
       "company": "Nexa Resources SA",
       "exchange": "NYSE",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Basic Materials",
       "industry": "Other Industrial Metals & Mining",
       "sub_industry": null,
@@ -5582,10 +5679,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 47.6,
+        "leader": 45.1,
         "quality": 78.0,
-        "recovery": 45.5,
-        "contrarian": 75.3
+        "recovery": 48.3,
+        "contrarian": 74.8
       },
       "confidence": "High",
       "opportunity": "Hidden Quality",
@@ -5601,7 +5698,7 @@
       "ticker": "NSIT",
       "company": "Insight Enterprises Inc",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Technology",
       "industry": "Electronics & Computer Distribution",
       "sub_industry": null,
@@ -5636,10 +5733,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 66.5,
+        "leader": 68.7,
         "quality": 59.8,
-        "recovery": 64.3,
-        "contrarian": 62.2
+        "recovery": 66.8,
+        "contrarian": 62.6
       },
       "confidence": "High",
       "opportunity": "Emerging Leaders",
@@ -5648,7 +5745,7 @@
         "Above 20/50/200 DMA"
       ],
       "why": [
-        "RS percentile 78",
+        "RS percentile 77",
         "XLK Focus"
       ]
     },
@@ -5656,7 +5753,7 @@
       "ticker": "NVGS",
       "company": "Navigator Holdings Ltd",
       "exchange": "NYSE",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Energy",
       "industry": "Oil & Gas Midstream",
       "sub_industry": null,
@@ -5691,10 +5788,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 48.9,
+        "leader": 50.8,
         "quality": 83.0,
-        "recovery": 71.9,
-        "contrarian": 78.7
+        "recovery": 74.4,
+        "contrarian": 79.2
       },
       "confidence": "High",
       "opportunity": "Hidden Quality",
@@ -5711,7 +5808,7 @@
       "ticker": "OOMA",
       "company": "Ooma Inc",
       "exchange": "NYSE",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Technology",
       "industry": "Software - Application",
       "sub_industry": null,
@@ -5746,10 +5843,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 43.4,
+        "leader": 45.3,
         "quality": 73.0,
-        "recovery": 47.1,
-        "contrarian": 72.8
+        "recovery": 49.4,
+        "contrarian": 72.6
       },
       "confidence": "High",
       "opportunity": "Contrarian Quality / Fear Dislocation",
@@ -5764,11 +5861,11 @@
     },
     {
       "ticker": "OPRT",
-      "company": "OPRT",
+      "company": "Oportun Financial Corporation",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
-      "sector": null,
-      "industry": null,
+      "security_type": "stock",
+      "sector": "Finance",
+      "industry": "Finance/Rental/Leasing",
       "sub_industry": null,
       "tradingview_symbol": "NASDAQ:OPRT",
       "status": "New",
@@ -5797,9 +5894,9 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 60.6,
+        "leader": 62.8,
         "quality": 39.3,
-        "recovery": 54.9,
+        "recovery": 57.2,
         "contrarian": 50.4
       },
       "confidence": "High",
@@ -5808,14 +5905,14 @@
         "Above 20/50/200 DMA"
       ],
       "why": [
-        "RS percentile 71"
+        "RS percentile 70"
       ]
     },
     {
       "ticker": "PAY",
       "company": "Paymentus Holdings Inc",
       "exchange": "NYSE",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "sub_industry": null,
@@ -5850,10 +5947,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 37.2,
+        "leader": 36.5,
         "quality": 85.0,
-        "recovery": 50.6,
-        "contrarian": 78.0
+        "recovery": 51.8,
+        "contrarian": 78.3
       },
       "confidence": "High",
       "opportunity": "Contrarian Quality / Fear Dislocation",
@@ -5870,7 +5967,7 @@
       "ticker": "PBYI",
       "company": "Puma Biotechnology Inc",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Healthcare",
       "industry": "Biotechnology",
       "sub_industry": null,
@@ -5905,30 +6002,29 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 58.8,
+        "leader": 60.6,
         "quality": 76.2,
-        "recovery": 69.8,
-        "contrarian": 71.2
+        "recovery": 72.4,
+        "contrarian": 71.8
       },
       "confidence": "High",
-      "opportunity": "Quality Compounders",
+      "opportunity": "Breakout Candidates",
       "opportunity_badges": [
         "Emerging Focus",
         "Above 20/50/200 DMA"
       ],
       "why": [
-        "RS percentile 61",
         "Quality 76",
         "XLV Emerging Focus"
       ]
     },
     {
       "ticker": "PHAT",
-      "company": "PHAT",
+      "company": "Phathom Pharmaceuticals, Inc.",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
-      "sector": null,
-      "industry": null,
+      "security_type": "stock",
+      "sector": "Health Technology",
+      "industry": "Pharmaceuticals: Major",
       "sub_industry": null,
       "tradingview_symbol": "NASDAQ:PHAT",
       "status": "New",
@@ -5957,10 +6053,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 22.8,
+        "leader": 25.3,
         "quality": 40.0,
-        "recovery": 27.8,
-        "contrarian": 44.8
+        "recovery": 30.3,
+        "contrarian": 44.2
       },
       "confidence": "High",
       "opportunity": "Fundamental Acceleration",
@@ -5975,7 +6071,7 @@
       "ticker": "PICS",
       "company": "PicS NV",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "sub_industry": null,
@@ -6010,10 +6106,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 50.1,
+        "leader": 52.5,
         "quality": 63.0,
-        "recovery": 71.8,
-        "contrarian": 62.4
+        "recovery": 73.1,
+        "contrarian": 64.1
       },
       "confidence": "High",
       "opportunity": "Fundamental Acceleration",
@@ -6031,7 +6127,7 @@
       "ticker": "PNTG",
       "company": "Pennant Group Inc",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Healthcare",
       "industry": "Medical Care Facilities",
       "sub_industry": null,
@@ -6066,10 +6162,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 49.8,
+        "leader": 53.3,
         "quality": 63.0,
-        "recovery": 67.8,
-        "contrarian": 72.3
+        "recovery": 70.8,
+        "contrarian": 72.5
       },
       "confidence": "High",
       "opportunity": "Confirmed Recovery",
@@ -6083,12 +6179,59 @@
       ]
     },
     {
-      "ticker": "PSIX",
-      "company": "PSIX",
+      "ticker": "POWL",
+      "company": "Powell Industries, Inc.",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
-      "sector": null,
-      "industry": null,
+      "security_type": "stock",
+      "sector": "Producer Manufacturing",
+      "industry": "Electrical Products",
+      "sub_industry": null,
+      "tradingview_symbol": "NASDAQ:POWL",
+      "status": "New",
+      "source_status": "TRADINGVIEW",
+      "tradingview_scans": [
+        "Daily_Tightness_Swing"
+      ],
+      "finviz_scans": [],
+      "same_source_scans": [],
+      "scans": [
+        "Daily_Tightness_Swing"
+      ],
+      "scanner_count": 1,
+      "categories": [
+        "Tightness"
+      ],
+      "category_count": 1,
+      "momentum": {
+        "1W": false,
+        "1M": false,
+        "3M": false,
+        "6M": false
+      },
+      "lifecycle": "Monitor",
+      "priority": "Source Review",
+      "first_detected": "2026-10-07",
+      "consecutive_sessions": 1,
+      "scores": {
+        "leader": 45.7,
+        "quality": 68.4,
+        "recovery": 71.1,
+        "contrarian": 73.3
+      },
+      "confidence": "High",
+      "opportunity": "Contrarian Quality / Fear Dislocation",
+      "opportunity_badges": [],
+      "why": [
+        "Quality 68"
+      ]
+    },
+    {
+      "ticker": "PSIX",
+      "company": "Power Solutions International, Inc.",
+      "exchange": "NASDAQ",
+      "security_type": "stock",
+      "sector": "Producer Manufacturing",
+      "industry": "Auto Parts: OEM",
       "sub_industry": null,
       "tradingview_symbol": "NASDAQ:PSIX",
       "status": "New",
@@ -6117,10 +6260,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 35.3,
+        "leader": 39.8,
         "quality": 50.0,
-        "recovery": 68.8,
-        "contrarian": 49.5
+        "recovery": 73.4,
+        "contrarian": 49.3
       },
       "confidence": "High",
       "opportunity": "Emerging Leaders",
@@ -6164,13 +6307,13 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 55.0,
+        "leader": 51.1,
         "quality": 83.0,
-        "recovery": 55.9,
-        "contrarian": 79.0
+        "recovery": 57.9,
+        "contrarian": 78.9
       },
       "confidence": "High",
-      "opportunity": "Fundamental Acceleration",
+      "opportunity": "Hidden Quality",
       "opportunity_badges": [
         "Fundamental Acceleration",
         "Emerging Focus"
@@ -6184,7 +6327,7 @@
       "ticker": "QLYS",
       "company": "Qualys Inc",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "sub_industry": null,
@@ -6219,19 +6362,19 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 66.3,
+        "leader": 70.9,
         "quality": 82.0,
-        "recovery": 78.1,
-        "contrarian": 70.5
+        "recovery": 82.4,
+        "contrarian": 69.3
       },
       "confidence": "High",
-      "opportunity": "Quality Compounders",
+      "opportunity": "Breakout Candidates",
       "opportunity_badges": [
         "Focus",
         "Above 20/50/200 DMA"
       ],
       "why": [
-        "RS percentile 76",
+        "RS percentile 79",
         "Quality 82",
         "XLK Focus"
       ]
@@ -6240,7 +6383,7 @@
       "ticker": "QNST",
       "company": "QuinStreet Inc",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Communication Services",
       "industry": "Advertising Agencies",
       "sub_industry": null,
@@ -6275,10 +6418,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 30.5,
+        "leader": 32.7,
         "quality": 90.0,
-        "recovery": 47.4,
-        "contrarian": 81.0
+        "recovery": 50.0,
+        "contrarian": 81.3
       },
       "confidence": "High",
       "opportunity": "Contrarian Quality / Fear Dislocation",
@@ -6294,7 +6437,7 @@
       "ticker": "SANM",
       "company": "Sanmina Corp",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Technology",
       "industry": "Electronic Components",
       "sub_industry": null,
@@ -6329,10 +6472,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 58.6,
+        "leader": 60.5,
         "quality": 73.0,
-        "recovery": 70.8,
-        "contrarian": 70.1
+        "recovery": 72.7,
+        "contrarian": 69.7
       },
       "confidence": "High",
       "opportunity": "Confirmed Recovery",
@@ -6350,7 +6493,7 @@
       "ticker": "SCCO",
       "company": "Southern Copper Corp",
       "exchange": "NYSE",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Basic Materials",
       "industry": "Copper",
       "sub_industry": null,
@@ -6385,10 +6528,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 46.2,
+        "leader": 49.0,
         "quality": 90.0,
-        "recovery": 65.6,
-        "contrarian": 86.6
+        "recovery": 67.6,
+        "contrarian": 86.0
       },
       "confidence": "High",
       "opportunity": "Contrarian Quality / Fear Dislocation",
@@ -6405,7 +6548,7 @@
       "ticker": "SEZL",
       "company": "Sezzle Inc",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Financial",
       "industry": "Credit Services",
       "sub_industry": null,
@@ -6440,10 +6583,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 39.0,
+        "leader": 39.7,
         "quality": 95.0,
-        "recovery": 53.4,
-        "contrarian": 84.7
+        "recovery": 54.8,
+        "contrarian": 84.9
       },
       "confidence": "High",
       "opportunity": "Contrarian Quality / Fear Dislocation",
@@ -6459,7 +6602,7 @@
       "ticker": "SMWB",
       "company": "Similarweb Ltd",
       "exchange": "NYSE",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Technology",
       "industry": "Software - Application",
       "sub_industry": null,
@@ -6494,10 +6637,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 61.8,
+        "leader": 63.2,
         "quality": 32.0,
-        "recovery": 36.1,
-        "contrarian": 49.2
+        "recovery": 38.0,
+        "contrarian": 49.4
       },
       "confidence": "High",
       "opportunity": "Emerging Leaders",
@@ -6505,17 +6648,17 @@
         "Focus"
       ],
       "why": [
-        "RS percentile 82",
+        "RS percentile 80",
         "XLK Focus"
       ]
     },
     {
       "ticker": "SNDX",
-      "company": "SNDX",
+      "company": "Syndax Pharmaceuticals, Inc.",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
-      "sector": null,
-      "industry": null,
+      "security_type": "stock",
+      "sector": "Health Technology",
+      "industry": "Biotechnology",
       "sub_industry": null,
       "tradingview_symbol": "NASDAQ:SNDX",
       "status": "New",
@@ -6544,10 +6687,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 21.0,
+        "leader": 24.3,
         "quality": 40.0,
-        "recovery": 31.7,
-        "contrarian": 56.9
+        "recovery": 33.6,
+        "contrarian": 54.2
       },
       "confidence": "High",
       "opportunity": "Fundamental Acceleration",
@@ -6562,7 +6705,7 @@
       "ticker": "SNX",
       "company": "TD Synnex Corp",
       "exchange": "NYSE",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Technology",
       "industry": "Electronics & Computer Distribution",
       "sub_industry": null,
@@ -6597,10 +6740,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 56.2,
+        "leader": 57.3,
         "quality": 63.0,
-        "recovery": 66.1,
-        "contrarian": 67.8
+        "recovery": 66.8,
+        "contrarian": 68.4
       },
       "confidence": "High",
       "opportunity": "Fundamental Acceleration",
@@ -6616,11 +6759,11 @@
     },
     {
       "ticker": "SPAI",
-      "company": "SPAI",
+      "company": "Safe Pro Group Inc.",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
-      "sector": null,
-      "industry": null,
+      "security_type": "stock",
+      "sector": "Electronic Technology",
+      "industry": "Aerospace & Defense",
       "sub_industry": null,
       "tradingview_symbol": "NASDAQ:SPAI",
       "status": "New",
@@ -6649,14 +6792,16 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 45.8,
+        "leader": 52.1,
         "quality": 35.0,
-        "recovery": 42.2,
-        "contrarian": 58.0
+        "recovery": 58.2,
+        "contrarian": 57.3
       },
       "confidence": "High",
       "opportunity": "Watch and Wait",
-      "opportunity_badges": [],
+      "opportunity_badges": [
+        "Above 20/50/200 DMA"
+      ],
       "why": [
         "Monitor for additional confirmation"
       ]
@@ -6696,16 +6841,15 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 55.4,
+        "leader": 52.2,
         "quality": 47.4,
-        "recovery": 61.3,
-        "contrarian": 62.6
+        "recovery": 63.2,
+        "contrarian": 63.1
       },
       "confidence": "High",
       "opportunity": "Watch and Wait",
       "opportunity_badges": [
-        "Focus",
-        "Above 20/50/200 DMA"
+        "Focus"
       ],
       "why": [
         "XLK Focus"
@@ -6713,11 +6857,11 @@
     },
     {
       "ticker": "STLN",
-      "company": "STLN",
+      "company": "Starling Oncology, Inc.",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
-      "sector": null,
-      "industry": null,
+      "security_type": "stock",
+      "sector": "Health Services",
+      "industry": "Medical/Nursing Services",
       "sub_industry": null,
       "tradingview_symbol": "NASDAQ:STLN",
       "status": "New",
@@ -6746,10 +6890,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 55.8,
+        "leader": 56.5,
         "quality": 40.0,
-        "recovery": 55.2,
-        "contrarian": 51.7
+        "recovery": 56.4,
+        "contrarian": 53.2
       },
       "confidence": "High",
       "opportunity": "Fundamental Acceleration",
@@ -6757,7 +6901,7 @@
         "Fundamental Acceleration"
       ],
       "why": [
-        "RS percentile 70"
+        "RS percentile 66"
       ]
     },
     {
@@ -6770,16 +6914,12 @@
       "sub_industry": null,
       "tradingview_symbol": "NASDAQ:STRL",
       "status": "New",
-      "source_status": "BOTH",
-      "tradingview_scans": [
-        "5_Strongest_Stock_10B_Rev_30_VPK"
-      ],
+      "source_status": "FINVIZ",
+      "tradingview_scans": [],
       "finviz_scans": [
         "5_Strongest_Stock_10B_Rev_30_VPK"
       ],
-      "same_source_scans": [
-        "5_Strongest_Stock_10B_Rev_30_VPK"
-      ],
+      "same_source_scans": [],
       "scans": [
         "5_Strongest_Stock_10B_Rev_30_VPK"
       ],
@@ -6795,14 +6935,14 @@
         "6M": false
       },
       "lifecycle": "Monitor",
-      "priority": "Monitor",
+      "priority": "Source Review",
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 42.3,
+        "leader": 43.0,
         "quality": 90.0,
-        "recovery": 74.4,
-        "contrarian": 85.3
+        "recovery": 75.5,
+        "contrarian": 84.3
       },
       "confidence": "High",
       "opportunity": "Contrarian Quality / Fear Dislocation",
@@ -6818,7 +6958,7 @@
       "ticker": "TNK",
       "company": "Teekay Tankers Ltd",
       "exchange": "NYSE",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Energy",
       "industry": "Oil & Gas Midstream",
       "sub_industry": null,
@@ -6853,10 +6993,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 64.4,
+        "leader": 65.5,
         "quality": 100.0,
-        "recovery": 82.2,
-        "contrarian": 76.4
+        "recovery": 83.3,
+        "contrarian": 78.3
       },
       "confidence": "High",
       "opportunity": "Fundamental Acceleration",
@@ -6866,7 +7006,7 @@
         "Above 20/50/200 DMA"
       ],
       "why": [
-        "RS percentile 80",
+        "RS percentile 74",
         "Quality 100",
         "XLE Emerging Focus"
       ]
@@ -6875,7 +7015,7 @@
       "ticker": "TOWN",
       "company": "Townebank Portsmouth VA",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Financial",
       "industry": "Banks - Regional",
       "sub_industry": null,
@@ -6910,10 +7050,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 26.1,
+        "leader": 29.8,
         "quality": 88.0,
-        "recovery": 51.6,
-        "contrarian": 86.9
+        "recovery": 55.3,
+        "contrarian": 86.6
       },
       "confidence": "High",
       "opportunity": "Contrarian Quality / Fear Dislocation",
@@ -6927,11 +7067,11 @@
     },
     {
       "ticker": "TTMI",
-      "company": "TTMI",
+      "company": "TTM Technologies, Inc.",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
-      "sector": null,
-      "industry": null,
+      "security_type": "stock",
+      "sector": "Electronic Technology",
+      "industry": "Electronic Components",
       "sub_industry": null,
       "tradingview_symbol": "NASDAQ:TTMI",
       "status": "New",
@@ -6960,10 +7100,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 52.9,
+        "leader": 54.4,
         "quality": 63.0,
-        "recovery": 61.9,
-        "contrarian": 68.4
+        "recovery": 63.5,
+        "contrarian": 68.5
       },
       "confidence": "High",
       "opportunity": "Fundamental Acceleration",
@@ -7010,10 +7150,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 54.2,
+        "leader": 54.3,
         "quality": 40.0,
-        "recovery": 35.8,
-        "contrarian": 51.1
+        "recovery": 36.6,
+        "contrarian": 51.0
       },
       "confidence": "High",
       "opportunity": "Fundamental Acceleration",
@@ -7022,7 +7162,7 @@
         "Emerging Focus"
       ],
       "why": [
-        "RS percentile 79",
+        "RS percentile 75",
         "XLV Emerging Focus"
       ]
     },
@@ -7061,13 +7201,13 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 20.1,
+        "leader": 21.0,
         "quality": 83.0,
-        "recovery": 42.6,
-        "contrarian": 73.0
+        "recovery": 44.4,
+        "contrarian": 74.5
       },
       "confidence": "High",
-      "opportunity": "Hidden Quality",
+      "opportunity": "Contrarian Quality / Fear Dislocation",
       "opportunity_badges": [
         "Fundamental Acceleration"
       ],
@@ -7078,11 +7218,11 @@
     },
     {
       "ticker": "XMTR",
-      "company": "XMTR",
+      "company": "Xometry, Inc.",
       "exchange": "NASDAQ",
-      "security_type": "Stock",
-      "sector": null,
-      "industry": null,
+      "security_type": "stock",
+      "sector": "Technology Services",
+      "industry": "Information Technology Services",
       "sub_industry": null,
       "tradingview_symbol": "NASDAQ:XMTR",
       "status": "New",
@@ -7111,9 +7251,9 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 63.7,
+        "leader": 65.6,
         "quality": 50.0,
-        "recovery": 64.7,
+        "recovery": 67.7,
         "contrarian": 48.9
       },
       "confidence": "High",
@@ -7123,14 +7263,14 @@
         "Above 20/50/200 DMA"
       ],
       "why": [
-        "RS percentile 84"
+        "RS percentile 83"
       ]
     },
     {
       "ticker": "YOU",
       "company": "Clear Secure Inc",
       "exchange": "NYSE",
-      "security_type": "Stock",
+      "security_type": "stock",
       "sector": "Technology",
       "industry": "Software - Application",
       "sub_industry": null,
@@ -7165,10 +7305,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 33.3,
+        "leader": 35.8,
         "quality": 95.0,
-        "recovery": 59.3,
-        "contrarian": 87.1
+        "recovery": 62.3,
+        "contrarian": 87.3
       },
       "confidence": "High",
       "opportunity": "Contrarian Quality / Fear Dislocation",
@@ -7216,10 +7356,10 @@
       "first_detected": "2026-10-07",
       "consecutive_sessions": 1,
       "scores": {
-        "leader": 60.0,
+        "leader": 60.6,
         "quality": 54.9,
-        "recovery": 76.0,
-        "contrarian": 54.5
+        "recovery": 77.1,
+        "contrarian": 54.4
       },
       "confidence": "High",
       "opportunity": "Emerging Leaders",
@@ -7238,48 +7378,48 @@
     "sp500": {
       "name": "S&P 500",
       "count": 502,
-      "above_20": 207,
-      "below_20": 295,
-      "above_20_pct": 41.2,
-      "below_20_pct": 58.8,
-      "above_50": 148,
-      "below_50": 354,
-      "above_50_pct": 29.5,
-      "below_50_pct": 70.5,
-      "above_200": 227,
-      "below_200": 275,
-      "above_200_pct": 45.2,
-      "below_200_pct": 54.8,
-      "advancing": 168,
-      "declining": 333,
-      "unchanged": 1,
-      "advance_decline_ratio": 0.5,
-      "up_volume_pct": 38.5,
-      "near_52w_high": 10,
-      "near_52w_low": 15
+      "above_20": 188,
+      "below_20": 313,
+      "above_20_pct": 37.5,
+      "below_20_pct": 62.4,
+      "above_50": 143,
+      "below_50": 358,
+      "above_50_pct": 28.5,
+      "below_50_pct": 71.3,
+      "above_200": 226,
+      "below_200": 276,
+      "above_200_pct": 45.0,
+      "below_200_pct": 55.0,
+      "advancing": 136,
+      "declining": 361,
+      "unchanged": 5,
+      "advance_decline_ratio": 0.38,
+      "up_volume_pct": 34.7,
+      "near_52w_high": 8,
+      "near_52w_low": 18
     },
     "us_liquid": {
       "name": "US Liquid Stocks",
-      "count": 3259,
-      "above_20": 1062,
-      "below_20": 2195,
-      "above_20_pct": 32.6,
-      "below_20_pct": 67.4,
-      "above_50": 850,
-      "below_50": 2408,
-      "above_50_pct": 26.1,
-      "below_50_pct": 73.9,
-      "above_200": 1307,
-      "below_200": 1950,
-      "above_200_pct": 40.1,
-      "below_200_pct": 59.8,
-      "advancing": 958,
-      "declining": 2264,
-      "unchanged": 37,
-      "advance_decline_ratio": 0.42,
-      "up_volume_pct": 26.2,
-      "near_52w_high": 47,
-      "near_52w_low": 190
+      "count": 3260,
+      "above_20": 1037,
+      "below_20": 2220,
+      "above_20_pct": 31.8,
+      "below_20_pct": 68.1,
+      "above_50": 832,
+      "below_50": 2426,
+      "above_50_pct": 25.5,
+      "below_50_pct": 74.4,
+      "above_200": 1295,
+      "below_200": 1964,
+      "above_200_pct": 39.7,
+      "below_200_pct": 60.2,
+      "advancing": 837,
+      "declining": 2359,
+      "unchanged": 64,
+      "advance_decline_ratio": 0.35,
+      "up_volume_pct": 26.6,
+      "near_52w_high": 39,
+      "near_52w_low": 181
     },
     "methodology": "Finviz US stocks; liquid universe requires market cap ≥ $50M, average volume ≥ 250K, and price ≥ $1."
   },
@@ -7297,27 +7437,27 @@
       "breadth": {
         "name": "Information Technology",
         "count": 510,
-        "above_20": 287,
-        "below_20": 222,
-        "above_20_pct": 56.3,
-        "below_20_pct": 43.5,
-        "above_50": 248,
-        "below_50": 262,
-        "above_50_pct": 48.6,
-        "below_50_pct": 51.4,
-        "above_200": 295,
-        "below_200": 215,
-        "above_200_pct": 57.8,
-        "below_200_pct": 42.2,
-        "advancing": 175,
-        "declining": 328,
-        "unchanged": 7,
-        "advance_decline_ratio": 0.53,
-        "up_volume_pct": 29.8,
-        "near_52w_high": 12,
-        "near_52w_low": 9
+        "above_20": 290,
+        "below_20": 220,
+        "above_20_pct": 56.9,
+        "below_20_pct": 43.1,
+        "above_50": 252,
+        "below_50": 258,
+        "above_50_pct": 49.4,
+        "below_50_pct": 50.6,
+        "above_200": 297,
+        "below_200": 213,
+        "above_200_pct": 58.2,
+        "below_200_pct": 41.8,
+        "advancing": 149,
+        "declining": 351,
+        "unchanged": 10,
+        "advance_decline_ratio": 0.42,
+        "up_volume_pct": 31.9,
+        "near_52w_high": 9,
+        "near_52w_low": 10
       },
-      "score": 81.5,
+      "score": 81.6,
       "rank": 1,
       "rank_change": 0,
       "confidence": "High",
@@ -7325,7 +7465,7 @@
       "rotation": "Leading",
       "why": [
         "RS rank 100/100",
-        "48.6% above 50 DMA",
+        "49.4% above 50 DMA",
         "3/3 ETF trend confirmations"
       ]
     },
@@ -7342,27 +7482,27 @@
       "breadth": {
         "name": "Health Care",
         "count": 598,
-        "above_20": 173,
-        "below_20": 425,
-        "above_20_pct": 28.9,
-        "below_20_pct": 71.1,
-        "above_50": 182,
-        "below_50": 416,
-        "above_50_pct": 30.4,
-        "below_50_pct": 69.6,
-        "above_200": 293,
-        "below_200": 305,
-        "above_200_pct": 49.0,
-        "below_200_pct": 51.0,
-        "advancing": 290,
-        "declining": 300,
-        "unchanged": 8,
-        "advance_decline_ratio": 0.97,
-        "up_volume_pct": 44.0,
-        "near_52w_high": 7,
+        "above_20": 165,
+        "below_20": 433,
+        "above_20_pct": 27.6,
+        "below_20_pct": 72.4,
+        "above_50": 176,
+        "below_50": 422,
+        "above_50_pct": 29.4,
+        "below_50_pct": 70.6,
+        "above_200": 287,
+        "below_200": 311,
+        "above_200_pct": 48.0,
+        "below_200_pct": 52.0,
+        "advancing": 238,
+        "declining": 353,
+        "unchanged": 7,
+        "advance_decline_ratio": 0.67,
+        "up_volume_pct": 44.1,
+        "near_52w_high": 5,
         "near_52w_low": 16
       },
-      "score": 62.1,
+      "score": 61.8,
       "rank": 2,
       "rank_change": 0,
       "confidence": "High",
@@ -7370,7 +7510,7 @@
       "rotation": "Lagging",
       "why": [
         "RS rank 80/100",
-        "30.4% above 50 DMA",
+        "29.4% above 50 DMA",
         "3/3 ETF trend confirmations"
       ]
     },
@@ -7387,23 +7527,23 @@
       "breadth": {
         "name": "Energy",
         "count": 179,
-        "above_20": 52,
-        "below_20": 127,
-        "above_20_pct": 29.1,
-        "below_20_pct": 70.9,
+        "above_20": 56,
+        "below_20": 123,
+        "above_20_pct": 31.3,
+        "below_20_pct": 68.7,
         "above_50": 58,
         "below_50": 121,
         "above_50_pct": 32.4,
         "below_50_pct": 67.6,
-        "above_200": 101,
-        "below_200": 78,
-        "above_200_pct": 56.4,
-        "below_200_pct": 43.6,
-        "advancing": 39,
-        "declining": 138,
-        "unchanged": 2,
-        "advance_decline_ratio": 0.28,
-        "up_volume_pct": 22.1,
+        "above_200": 104,
+        "below_200": 75,
+        "above_200_pct": 58.1,
+        "below_200_pct": 41.9,
+        "advancing": 42,
+        "declining": 134,
+        "unchanged": 3,
+        "advance_decline_ratio": 0.31,
+        "up_volume_pct": 21.0,
         "near_52w_high": 2,
         "near_52w_low": 4
       },
@@ -7431,28 +7571,28 @@
       "finviz_sector": "Consumer Cyclical",
       "breadth": {
         "name": "Consumer Discretionary",
-        "count": 318,
-        "above_20": 112,
-        "below_20": 206,
-        "above_20_pct": 35.2,
-        "below_20_pct": 64.8,
-        "above_50": 59,
-        "below_50": 259,
-        "above_50_pct": 18.6,
-        "below_50_pct": 81.4,
+        "count": 319,
+        "above_20": 107,
+        "below_20": 211,
+        "above_20_pct": 33.5,
+        "below_20_pct": 66.1,
+        "above_50": 58,
+        "below_50": 261,
+        "above_50_pct": 18.2,
+        "below_50_pct": 81.8,
         "above_200": 90,
-        "below_200": 228,
-        "above_200_pct": 28.3,
-        "below_200_pct": 71.7,
-        "advancing": 85,
-        "declining": 230,
-        "unchanged": 3,
-        "advance_decline_ratio": 0.37,
-        "up_volume_pct": 32.2,
+        "below_200": 229,
+        "above_200_pct": 28.2,
+        "below_200_pct": 71.8,
+        "advancing": 81,
+        "declining": 232,
+        "unchanged": 6,
+        "advance_decline_ratio": 0.35,
+        "up_volume_pct": 27.4,
         "near_52w_high": 4,
-        "near_52w_low": 16
+        "near_52w_low": 15
       },
-      "score": 45.7,
+      "score": 46.0,
       "rank": 4,
       "rank_change": 0,
       "confidence": "High",
@@ -7460,7 +7600,7 @@
       "rotation": "Lagging",
       "why": [
         "RS rank 60/100",
-        "18.6% above 50 DMA",
+        "18.2% above 50 DMA",
         "1/3 ETF trend confirmations"
       ]
     },
@@ -7476,28 +7616,28 @@
       "finviz_sector": "Communication Services",
       "breadth": {
         "name": "Communication Services",
-        "count": 151,
-        "above_20": 58,
-        "below_20": 93,
-        "above_20_pct": 38.4,
-        "below_20_pct": 61.6,
-        "above_50": 41,
-        "below_50": 110,
-        "above_50_pct": 27.2,
-        "below_50_pct": 72.8,
+        "count": 150,
+        "above_20": 60,
+        "below_20": 90,
+        "above_20_pct": 40.0,
+        "below_20_pct": 60.0,
+        "above_50": 43,
+        "below_50": 107,
+        "above_50_pct": 28.7,
+        "below_50_pct": 71.3,
         "above_200": 61,
-        "below_200": 90,
-        "above_200_pct": 40.4,
-        "below_200_pct": 59.6,
-        "advancing": 90,
-        "declining": 59,
-        "unchanged": 2,
-        "advance_decline_ratio": 1.53,
-        "up_volume_pct": 56.4,
+        "below_200": 89,
+        "above_200_pct": 40.7,
+        "below_200_pct": 59.3,
+        "advancing": 89,
+        "declining": 56,
+        "unchanged": 5,
+        "advance_decline_ratio": 1.59,
+        "up_volume_pct": 60.3,
         "near_52w_high": 4,
         "near_52w_low": 2
       },
-      "score": 43.4,
+      "score": 43.8,
       "rank": 5,
       "rank_change": 0,
       "confidence": "High",
@@ -7505,52 +7645,7 @@
       "rotation": "Lagging",
       "why": [
         "RS rank 70/100",
-        "27.2% above 50 DMA",
-        "0/3 ETF trend confirmations"
-      ]
-    },
-    {
-      "ticker": "XLP",
-      "name": "State Street Consumer Staples Select Sector SPDR ETF",
-      "trend": {
-        "above_20": false,
-        "above_50": false,
-        "above_200": false
-      },
-      "sector": "Consumer Staples",
-      "finviz_sector": "Consumer Defensive",
-      "breadth": {
-        "name": "Consumer Staples",
-        "count": 127,
-        "above_20": 53,
-        "below_20": 74,
-        "above_20_pct": 41.7,
-        "below_20_pct": 58.3,
-        "above_50": 34,
-        "below_50": 93,
-        "above_50_pct": 26.8,
-        "below_50_pct": 73.2,
-        "above_200": 42,
-        "below_200": 85,
-        "above_200_pct": 33.1,
-        "below_200_pct": 66.9,
-        "advancing": 63,
-        "declining": 63,
-        "unchanged": 1,
-        "advance_decline_ratio": 1.0,
-        "up_volume_pct": 42.3,
-        "near_52w_high": 1,
-        "near_52w_low": 9
-      },
-      "score": 32.4,
-      "rank": 6,
-      "rank_change": 0,
-      "confidence": "High",
-      "focus": "Deprioritize",
-      "rotation": "Lagging",
-      "why": [
-        "RS rank 40/100",
-        "26.8% above 50 DMA",
+        "28.7% above 50 DMA",
         "0/3 ETF trend confirmations"
       ]
     },
@@ -7567,28 +7662,28 @@
       "breadth": {
         "name": "Utilities",
         "count": 79,
-        "above_20": 46,
-        "below_20": 33,
-        "above_20_pct": 58.2,
-        "below_20_pct": 41.8,
+        "above_20": 42,
+        "below_20": 37,
+        "above_20_pct": 53.2,
+        "below_20_pct": 46.8,
         "above_50": 13,
         "below_50": 66,
         "above_50_pct": 16.5,
         "below_50_pct": 83.5,
-        "above_200": 14,
+        "above_200": 15,
         "below_200": 64,
-        "above_200_pct": 17.7,
+        "above_200_pct": 19.0,
         "below_200_pct": 81.0,
-        "advancing": 33,
-        "declining": 46,
-        "unchanged": 0,
-        "advance_decline_ratio": 0.72,
-        "up_volume_pct": 50.8,
-        "near_52w_high": 1,
+        "advancing": 19,
+        "declining": 56,
+        "unchanged": 4,
+        "advance_decline_ratio": 0.34,
+        "up_volume_pct": 38.2,
+        "near_52w_high": 0,
         "near_52w_low": 2
       },
       "score": 31.3,
-      "rank": 7,
+      "rank": 6,
       "rank_change": 0,
       "confidence": "High",
       "focus": "Deprioritize",
@@ -7597,6 +7692,51 @@
         "RS rank 10/100",
         "16.5% above 50 DMA",
         "1/3 ETF trend confirmations"
+      ]
+    },
+    {
+      "ticker": "XLP",
+      "name": "State Street Consumer Staples Select Sector SPDR ETF",
+      "trend": {
+        "above_20": false,
+        "above_50": false,
+        "above_200": false
+      },
+      "sector": "Consumer Staples",
+      "finviz_sector": "Consumer Defensive",
+      "breadth": {
+        "name": "Consumer Staples",
+        "count": 127,
+        "above_20": 48,
+        "below_20": 79,
+        "above_20_pct": 37.8,
+        "below_20_pct": 62.2,
+        "above_50": 28,
+        "below_50": 99,
+        "above_50_pct": 22.0,
+        "below_50_pct": 78.0,
+        "above_200": 42,
+        "below_200": 85,
+        "above_200_pct": 33.1,
+        "below_200_pct": 66.9,
+        "advancing": 54,
+        "declining": 72,
+        "unchanged": 1,
+        "advance_decline_ratio": 0.75,
+        "up_volume_pct": 36.2,
+        "near_52w_high": 1,
+        "near_52w_low": 7
+      },
+      "score": 31.1,
+      "rank": 7,
+      "rank_change": 0,
+      "confidence": "High",
+      "focus": "Deprioritize",
+      "rotation": "Lagging",
+      "why": [
+        "RS rank 40/100",
+        "22.0% above 50 DMA",
+        "0/3 ETF trend confirmations"
       ]
     },
     {
@@ -7612,27 +7752,27 @@
       "breadth": {
         "name": "Financials",
         "count": 506,
-        "above_20": 86,
-        "below_20": 419,
-        "above_20_pct": 17.0,
-        "below_20_pct": 82.8,
-        "above_50": 75,
-        "below_50": 430,
-        "above_50_pct": 14.8,
-        "below_50_pct": 85.0,
-        "above_200": 179,
-        "below_200": 326,
-        "above_200_pct": 35.4,
-        "below_200_pct": 64.4,
-        "advancing": 74,
-        "declining": 420,
-        "unchanged": 12,
+        "above_20": 84,
+        "below_20": 421,
+        "above_20_pct": 16.6,
+        "below_20_pct": 83.2,
+        "above_50": 70,
+        "below_50": 434,
+        "above_50_pct": 13.8,
+        "below_50_pct": 85.8,
+        "above_200": 174,
+        "below_200": 331,
+        "above_200_pct": 34.4,
+        "below_200_pct": 65.4,
+        "advancing": 75,
+        "declining": 418,
+        "unchanged": 13,
         "advance_decline_ratio": 0.18,
-        "up_volume_pct": 8.6,
-        "near_52w_high": 11,
-        "near_52w_low": 53
+        "up_volume_pct": 10.5,
+        "near_52w_high": 10,
+        "near_52w_low": 48
       },
-      "score": 31.0,
+      "score": 30.8,
       "rank": 8,
       "rank_change": 0,
       "confidence": "High",
@@ -7640,7 +7780,7 @@
       "rotation": "Lagging",
       "why": [
         "RS rank 50/100",
-        "14.8% above 50 DMA",
+        "13.8% above 50 DMA",
         "1/3 ETF trend confirmations"
       ]
     },
@@ -7657,27 +7797,27 @@
       "breadth": {
         "name": "Industrials",
         "count": 425,
-        "above_20": 130,
-        "below_20": 295,
-        "above_20_pct": 30.6,
-        "below_20_pct": 69.4,
-        "above_50": 100,
-        "below_50": 325,
-        "above_50_pct": 23.5,
-        "below_50_pct": 76.5,
-        "above_200": 140,
-        "below_200": 285,
-        "above_200_pct": 32.9,
-        "below_200_pct": 67.1,
-        "advancing": 66,
-        "declining": 358,
-        "unchanged": 1,
-        "advance_decline_ratio": 0.18,
-        "up_volume_pct": 10.4,
+        "above_20": 125,
+        "below_20": 300,
+        "above_20_pct": 29.4,
+        "below_20_pct": 70.6,
+        "above_50": 94,
+        "below_50": 331,
+        "above_50_pct": 22.1,
+        "below_50_pct": 77.9,
+        "above_200": 139,
+        "below_200": 286,
+        "above_200_pct": 32.7,
+        "below_200_pct": 67.3,
+        "advancing": 57,
+        "declining": 363,
+        "unchanged": 5,
+        "advance_decline_ratio": 0.16,
+        "up_volume_pct": 14.0,
         "near_52w_high": 3,
-        "near_52w_low": 33
+        "near_52w_low": 29
       },
-      "score": 30.4,
+      "score": 30.1,
       "rank": 9,
       "rank_change": 0,
       "confidence": "High",
@@ -7685,7 +7825,7 @@
       "rotation": "Lagging",
       "why": [
         "RS rank 20/100",
-        "23.5% above 50 DMA",
+        "22.1% above 50 DMA",
         "0/3 ETF trend confirmations"
       ]
     },
@@ -7701,28 +7841,28 @@
       "finviz_sector": "Basic Materials",
       "breadth": {
         "name": "Materials",
-        "count": 201,
-        "above_20": 42,
-        "below_20": 159,
-        "above_20_pct": 20.9,
-        "below_20_pct": 79.1,
-        "above_50": 29,
+        "count": 202,
+        "above_20": 41,
+        "below_20": 160,
+        "above_20_pct": 20.3,
+        "below_20_pct": 79.2,
+        "above_50": 30,
         "below_50": 172,
-        "above_50_pct": 14.4,
-        "below_50_pct": 85.6,
-        "above_200": 53,
-        "below_200": 148,
-        "above_200_pct": 26.4,
-        "below_200_pct": 73.6,
-        "advancing": 18,
-        "declining": 183,
-        "unchanged": 0,
-        "advance_decline_ratio": 0.1,
-        "up_volume_pct": 10.3,
-        "near_52w_high": 2,
+        "above_50_pct": 14.9,
+        "below_50_pct": 85.1,
+        "above_200": 51,
+        "below_200": 151,
+        "above_200_pct": 25.2,
+        "below_200_pct": 74.8,
+        "advancing": 16,
+        "declining": 180,
+        "unchanged": 6,
+        "advance_decline_ratio": 0.09,
+        "up_volume_pct": 12.5,
+        "near_52w_high": 1,
         "near_52w_low": 13
       },
-      "score": 20.8,
+      "score": 20.9,
       "rank": 10,
       "rank_change": 0,
       "confidence": "High",
@@ -7730,7 +7870,7 @@
       "rotation": "Lagging",
       "why": [
         "RS rank 30/100",
-        "14.4% above 50 DMA",
+        "14.9% above 50 DMA",
         "0/3 ETF trend confirmations"
       ]
     },
@@ -7747,27 +7887,27 @@
       "breadth": {
         "name": "Real Estate",
         "count": 165,
-        "above_20": 23,
-        "below_20": 142,
-        "above_20_pct": 13.9,
-        "below_20_pct": 86.1,
-        "above_50": 11,
-        "below_50": 154,
-        "above_50_pct": 6.7,
-        "below_50_pct": 93.3,
-        "above_200": 39,
-        "below_200": 126,
-        "above_200_pct": 23.6,
-        "below_200_pct": 76.4,
-        "advancing": 25,
-        "declining": 139,
-        "unchanged": 1,
-        "advance_decline_ratio": 0.18,
-        "up_volume_pct": 18.4,
+        "above_20": 19,
+        "below_20": 146,
+        "above_20_pct": 11.5,
+        "below_20_pct": 88.5,
+        "above_50": 10,
+        "below_50": 155,
+        "above_50_pct": 6.1,
+        "below_50_pct": 93.9,
+        "above_200": 35,
+        "below_200": 130,
+        "above_200_pct": 21.2,
+        "below_200_pct": 78.8,
+        "advancing": 17,
+        "declining": 144,
+        "unchanged": 4,
+        "advance_decline_ratio": 0.12,
+        "up_volume_pct": 7.1,
         "near_52w_high": 0,
-        "near_52w_low": 33
+        "near_52w_low": 35
       },
-      "score": 12.4,
+      "score": 12.2,
       "rank": 11,
       "rank_change": 0,
       "confidence": "High",
@@ -7775,7 +7915,7 @@
       "rotation": "Lagging",
       "why": [
         "RS rank 0/100",
-        "6.7% above 50 DMA",
+        "6.1% above 50 DMA",
         "0/3 ETF trend confirmations"
       ]
     }
@@ -7783,32 +7923,13 @@
   "opportunities": {
     "Established Leaders": [
       {
-        "ticker": "PAYS",
-        "company": "PaySign Inc",
-        "sector": "Technology",
-        "score": 78.2,
-        "confidence": "High",
-        "why": [
-          "RS percentile 97",
-          "Quality 95",
-          "3 scanner confirmations",
-          "XLK Focus"
-        ],
-        "badges": [
-          "Fundamental Acceleration",
-          "Multi-Scanner",
-          "Focus",
-          "Above 20/50/200 DMA"
-        ]
-      },
-      {
         "ticker": "COHU",
         "company": "Cohu Inc",
         "sector": "Technology",
-        "score": 77.2,
+        "score": 81.8,
         "confidence": "High",
         "why": [
-          "RS percentile 98",
+          "RS percentile 96",
           "Quality 60",
           "4 scanner confirmations",
           "XLK Focus"
@@ -7821,13 +7942,47 @@
         ]
       },
       {
+        "ticker": "PAYS",
+        "company": "PaySign Inc",
+        "sector": "Technology",
+        "score": 79.6,
+        "confidence": "High",
+        "why": [
+          "RS percentile 95",
+          "Quality 95",
+          "3 scanner confirmations",
+          "XLK Focus"
+        ],
+        "badges": [
+          "Fundamental Acceleration",
+          "Multi-Scanner",
+          "Focus",
+          "Above 20/50/200 DMA"
+        ]
+      },
+      {
+        "ticker": "XRPN",
+        "company": "Armada Acquisition Corp. II",
+        "sector": "Finance",
+        "score": 77.6,
+        "confidence": "High",
+        "why": [
+          "RS percentile 99",
+          "4 scanner confirmations"
+        ],
+        "badges": [
+          "Multi-Scanner",
+          "Above 20/50/200 DMA"
+        ]
+      },
+      {
         "ticker": "INSW",
         "company": "International Seaways Inc",
         "sector": "Energy",
-        "score": 74.8,
+        "score": 76.9,
         "confidence": "High",
         "why": [
-          "RS percentile 89",
+          "RS percentile 88",
           "Quality 100",
           "3 scanner confirmations",
           "XLE Emerging Focus"
@@ -7843,23 +7998,7 @@
         "ticker": "PUBM",
         "company": "PubMatic Inc",
         "sector": "Technology",
-        "score": 74.1,
-        "confidence": "High",
-        "why": [
-          "RS percentile 90",
-          "2 scanner confirmations",
-          "XLK Focus"
-        ],
-        "badges": [
-          "Focus",
-          "Above 20/50/200 DMA"
-        ]
-      },
-      {
-        "ticker": "CRSR",
-        "company": "Corsair Gaming Inc",
-        "sector": "Technology",
-        "score": 74.0,
+        "score": 75.2,
         "confidence": "High",
         "why": [
           "RS percentile 88",
@@ -7872,13 +8011,29 @@
         ]
       },
       {
+        "ticker": "CRSR",
+        "company": "Corsair Gaming Inc",
+        "sector": "Technology",
+        "score": 73.7,
+        "confidence": "High",
+        "why": [
+          "RS percentile 85",
+          "2 scanner confirmations",
+          "XLK Focus"
+        ],
+        "badges": [
+          "Focus",
+          "Above 20/50/200 DMA"
+        ]
+      },
+      {
         "ticker": "LPG",
         "company": "Dorian LPG Ltd",
         "sector": "Energy",
-        "score": 69.9,
+        "score": 71.5,
         "confidence": "High",
         "why": [
-          "RS percentile 83",
+          "RS percentile 81",
           "Quality 90",
           "2 scanner confirmations",
           "XLE Emerging Focus"
@@ -7890,13 +8045,25 @@
         ]
       },
       {
+        "ticker": "MEI",
+        "company": "Methode Electronics, Inc.",
+        "sector": "Electronic Technology",
+        "score": 70.8,
+        "confidence": "High",
+        "why": [
+          "RS percentile 80",
+          "2 scanner confirmations"
+        ],
+        "badges": []
+      },
+      {
         "ticker": "SMTC",
         "company": "Semtech Corp",
         "sector": "Technology",
-        "score": 69.8,
+        "score": 70.1,
         "confidence": "High",
         "why": [
-          "RS percentile 94",
+          "RS percentile 92",
           "Quality 80",
           "3 scanner confirmations",
           "XLK Focus"
@@ -7909,29 +8076,13 @@
         ]
       },
       {
-        "ticker": "VIA",
-        "company": "Via Transportation Inc",
-        "sector": "Technology",
-        "score": 66.0,
-        "confidence": "High",
-        "why": [
-          "RS percentile 75",
-          "2 scanner confirmations",
-          "XLK Focus"
-        ],
-        "badges": [
-          "Focus",
-          "Above 20/50/200 DMA"
-        ]
-      },
-      {
         "ticker": "RCEL",
         "company": "AVITA Medical Inc",
         "sector": "Healthcare",
-        "score": 65.5,
+        "score": 67.4,
         "confidence": "High",
         "why": [
-          "RS percentile 99",
+          "RS percentile 98",
           "2 scanner confirmations",
           "XLV Emerging Focus"
         ],
@@ -7944,7 +8095,7 @@
         "ticker": "CVI",
         "company": "CVR Energy Inc",
         "sector": "Energy",
-        "score": 64.6,
+        "score": 66.1,
         "confidence": "High",
         "why": [
           "RS percentile 86",
@@ -7965,10 +8116,10 @@
         "ticker": "ALAB",
         "company": "Astera Labs Inc",
         "sector": "Technology",
-        "score": 90.0,
+        "score": 93.0,
         "confidence": "High",
         "why": [
-          "RS percentile 91",
+          "RS percentile 89",
           "Quality 95",
           "2 scanner confirmations",
           "XLK Focus"
@@ -7980,46 +8131,10 @@
         ]
       },
       {
-        "ticker": "PENG",
-        "company": "Penguin Solutions Inc",
-        "sector": "Technology",
-        "score": 76.5,
-        "confidence": "High",
-        "why": [
-          "RS percentile 95",
-          "3 scanner confirmations",
-          "XLK Focus"
-        ],
-        "badges": [
-          "Multi-Scanner",
-          "Focus",
-          "Above 20/50/200 DMA"
-        ]
-      },
-      {
-        "ticker": "SIMO",
-        "company": "Silicon Motion Technology Corp ADR",
-        "sector": "Technology",
-        "score": 75.4,
-        "confidence": "High",
-        "why": [
-          "RS percentile 85",
-          "Quality 85",
-          "3 scanner confirmations",
-          "XLK Focus"
-        ],
-        "badges": [
-          "Fundamental Acceleration",
-          "Multi-Scanner",
-          "Focus",
-          "Above 20/50/200 DMA"
-        ]
-      },
-      {
         "ticker": "DGII",
         "company": "Digi International Inc",
         "sector": "Technology",
-        "score": 74.9,
+        "score": 77.8,
         "confidence": "High",
         "why": [
           "Quality 83",
@@ -8036,7 +8151,7 @@
         "ticker": "LSCC",
         "company": "Lattice Semiconductor Corp",
         "sector": "Technology",
-        "score": 74.5,
+        "score": 76.8,
         "confidence": "High",
         "why": [
           "Quality 73",
@@ -8044,6 +8159,42 @@
         ],
         "badges": [
           "Fundamental Acceleration",
+          "Focus",
+          "Above 20/50/200 DMA"
+        ]
+      },
+      {
+        "ticker": "PENG",
+        "company": "Penguin Solutions Inc",
+        "sector": "Technology",
+        "score": 76.5,
+        "confidence": "High",
+        "why": [
+          "RS percentile 96",
+          "3 scanner confirmations",
+          "XLK Focus"
+        ],
+        "badges": [
+          "Multi-Scanner",
+          "Focus",
+          "Above 20/50/200 DMA"
+        ]
+      },
+      {
+        "ticker": "SIMO",
+        "company": "Silicon Motion Technology Corp ADR",
+        "sector": "Technology",
+        "score": 76.2,
+        "confidence": "High",
+        "why": [
+          "RS percentile 84",
+          "Quality 85",
+          "3 scanner confirmations",
+          "XLK Focus"
+        ],
+        "badges": [
+          "Fundamental Acceleration",
+          "Multi-Scanner",
           "Focus",
           "Above 20/50/200 DMA"
         ]
@@ -8052,7 +8203,7 @@
         "ticker": "SANM",
         "company": "Sanmina Corp",
         "sector": "Technology",
-        "score": 70.8,
+        "score": 72.7,
         "confidence": "High",
         "why": [
           "Quality 73",
@@ -8061,52 +8212,6 @@
         "badges": [
           "Fundamental Acceleration",
           "Focus",
-          "Above 20/50/200 DMA"
-        ]
-      },
-      {
-        "ticker": "FROG",
-        "company": "JFrog Ltd",
-        "sector": "Technology",
-        "score": 69.6,
-        "confidence": "High",
-        "why": [
-          "RS percentile 81",
-          "Quality 60",
-          "XLK Focus"
-        ],
-        "badges": [
-          "Fundamental Acceleration",
-          "Focus",
-          "Above 20/50/200 DMA"
-        ]
-      },
-      {
-        "ticker": "ASYS",
-        "company": "ASYS",
-        "sector": null,
-        "score": 69.4,
-        "confidence": "High",
-        "why": [
-          "Quality 65"
-        ],
-        "badges": [
-          "Above 20/50/200 DMA"
-        ]
-      },
-      {
-        "ticker": "HUM",
-        "company": "Humana Inc",
-        "sector": "Healthcare",
-        "score": 68.5,
-        "confidence": "High",
-        "why": [
-          "Quality 73",
-          "XLV Emerging Focus"
-        ],
-        "badges": [
-          "Fundamental Acceleration",
-          "Emerging Focus",
           "Above 20/50/200 DMA"
         ]
       },
@@ -8114,7 +8219,7 @@
         "ticker": "PNTG",
         "company": "Pennant Group Inc",
         "sector": "Healthcare",
-        "score": 67.8,
+        "score": 70.8,
         "confidence": "High",
         "why": [
           "Quality 63",
@@ -8126,10 +8231,27 @@
         ]
       },
       {
+        "ticker": "FROG",
+        "company": "JFrog Ltd",
+        "sector": "Technology",
+        "score": 70.6,
+        "confidence": "High",
+        "why": [
+          "RS percentile 78",
+          "Quality 60",
+          "XLK Focus"
+        ],
+        "badges": [
+          "Fundamental Acceleration",
+          "Focus",
+          "Above 20/50/200 DMA"
+        ]
+      },
+      {
         "ticker": "EBS",
-        "company": "EBS",
-        "sector": null,
-        "score": 65.0,
+        "company": "Emergent BioSolutions Inc.",
+        "sector": "Health Technology",
+        "score": 67.7,
         "confidence": "High",
         "why": [
           "Monitor for additional confirmation"
@@ -8139,13 +8261,14 @@
     ],
     "Emerging Leaders": [
       {
-        "ticker": "NSIT",
-        "company": "Insight Enterprises Inc",
+        "ticker": "VIA",
+        "company": "Via Transportation Inc",
         "sector": "Technology",
-        "score": 66.5,
+        "score": 69.2,
         "confidence": "High",
         "why": [
-          "RS percentile 78",
+          "RS percentile 71",
+          "2 scanner confirmations",
           "XLK Focus"
         ],
         "badges": [
@@ -8154,16 +8277,17 @@
         ]
       },
       {
-        "ticker": "LIND",
-        "company": "Lindblad Expeditions Holdings Inc",
-        "sector": "Consumer Cyclical",
-        "score": 65.5,
+        "ticker": "NSIT",
+        "company": "Insight Enterprises Inc",
+        "sector": "Technology",
+        "score": 68.7,
         "confidence": "High",
         "why": [
-          "RS percentile 93",
-          "XLY Neutral"
+          "RS percentile 77",
+          "XLK Focus"
         ],
         "badges": [
+          "Focus",
           "Above 20/50/200 DMA"
         ]
       },
@@ -8171,7 +8295,7 @@
         "ticker": "CRL",
         "company": "Charles River Laboratories International Inc",
         "sector": "Healthcare",
-        "score": 61.9,
+        "score": 64.7,
         "confidence": "High",
         "why": [
           "RS percentile 68",
@@ -8186,10 +8310,10 @@
         "ticker": "SMWB",
         "company": "Similarweb Ltd",
         "sector": "Technology",
-        "score": 61.8,
+        "score": 63.2,
         "confidence": "High",
         "why": [
-          "RS percentile 82",
+          "RS percentile 80",
           "XLK Focus"
         ],
         "badges": [
@@ -8198,12 +8322,12 @@
       },
       {
         "ticker": "OPRT",
-        "company": "OPRT",
-        "sector": null,
-        "score": 60.6,
+        "company": "Oportun Financial Corporation",
+        "sector": "Finance",
+        "score": 62.8,
         "confidence": "High",
         "why": [
-          "RS percentile 71"
+          "RS percentile 70"
         ],
         "badges": [
           "Above 20/50/200 DMA"
@@ -8213,10 +8337,10 @@
         "ticker": "LVWR",
         "company": "LiveWire Group Inc",
         "sector": "Consumer Cyclical",
-        "score": 60.4,
+        "score": 62.4,
         "confidence": "High",
         "why": [
-          "RS percentile 72",
+          "RS percentile 69",
           "3 scanner confirmations",
           "XLY Neutral"
         ],
@@ -8225,25 +8349,10 @@
         ]
       },
       {
-        "ticker": "ZS",
-        "company": "Zscaler Inc",
-        "sector": "Technology",
-        "score": 60.0,
-        "confidence": "High",
-        "why": [
-          "RS percentile 62",
-          "XLK Focus"
-        ],
-        "badges": [
-          "Focus",
-          "Above 20/50/200 DMA"
-        ]
-      },
-      {
         "ticker": "LTRX",
         "company": "Lantronix Inc",
         "sector": "Technology",
-        "score": 59.9,
+        "score": 61.7,
         "confidence": "High",
         "why": [
           "RS percentile 64",
@@ -8256,13 +8365,42 @@
         ]
       },
       {
-        "ticker": "CHEF",
-        "company": "CHEF",
-        "sector": null,
-        "score": 59.1,
+        "ticker": "EFOR",
+        "company": "Everforth Inc",
+        "sector": "Technology",
+        "score": 61.4,
         "confidence": "High",
         "why": [
-          "RS percentile 67"
+          "XLK Focus"
+        ],
+        "badges": [
+          "Focus",
+          "Above 20/50/200 DMA"
+        ]
+      },
+      {
+        "ticker": "ZS",
+        "company": "Zscaler Inc",
+        "sector": "Technology",
+        "score": 60.6,
+        "confidence": "High",
+        "why": [
+          "RS percentile 62",
+          "XLK Focus"
+        ],
+        "badges": [
+          "Focus",
+          "Above 20/50/200 DMA"
+        ]
+      },
+      {
+        "ticker": "ELMT",
+        "company": "The Elmet Group Co.",
+        "sector": "Producer Manufacturing",
+        "score": 55.6,
+        "confidence": "Medium",
+        "why": [
+          "RS percentile 61"
         ],
         "badges": [
           "Above 20/50/200 DMA"
@@ -8272,7 +8410,7 @@
         "ticker": "ODD",
         "company": "ODDITY Tech Ltd",
         "sector": "Consumer Defensive",
-        "score": 45.2,
+        "score": 47.2,
         "confidence": "High",
         "why": [
           "2 scanner confirmations",
@@ -8284,9 +8422,9 @@
       },
       {
         "ticker": "PSIX",
-        "company": "PSIX",
-        "sector": null,
-        "score": 35.3,
+        "company": "Power Solutions International, Inc.",
+        "sector": "Producer Manufacturing",
+        "score": 39.8,
         "confidence": "High",
         "why": [
           "Monitor for additional confirmation"
@@ -8294,47 +8432,118 @@
         "badges": []
       }
     ],
-    "Exceptional Independents": [
+    "Hidden Quality": [
       {
-        "ticker": "PS",
-        "company": "Pershing Square Inc",
-        "sector": "Financial",
-        "score": 69.0,
+        "ticker": "FIX",
+        "company": "Comfort Systems USA Inc",
+        "sector": "Industrials",
+        "score": 84.0,
         "confidence": "High",
         "why": [
-          "RS percentile 96",
-          "3 scanner confirmations",
-          "XLF Deprioritize"
+          "Quality 95",
+          "2 scanner confirmations",
+          "XLI Deprioritize"
         ],
         "badges": [
-          "Multi-Scanner",
+          "Fundamental Acceleration",
           "Above 20/50/200 DMA"
         ]
       },
       {
-        "ticker": "LIFE",
-        "company": "Ethos Technologies Inc",
-        "sector": "Financial",
-        "score": 64.3,
+        "ticker": "ASC",
+        "company": "Ardmore Shipping Corp",
+        "sector": "Industrials",
+        "score": 83.2,
         "confidence": "High",
         "why": [
-          "RS percentile 92",
-          "2 scanner confirmations",
-          "XLF Deprioritize"
+          "Quality 90",
+          "XLI Deprioritize"
         ],
-        "badges": []
+        "badges": [
+          "Fundamental Acceleration"
+        ]
       },
       {
-        "ticker": "ECO",
-        "company": "Okeanis Eco Tankers Corp",
-        "sector": "Industrials",
-        "score": 63.9,
+        "ticker": "AUGO",
+        "company": "Aura Minerals Inc",
+        "sector": "Basic Materials",
+        "score": 82.2,
         "confidence": "High",
         "why": [
-          "RS percentile 94",
           "Quality 90",
-          "2 scanner confirmations",
+          "XLB Deprioritize"
+        ],
+        "badges": [
+          "Fundamental Acceleration"
+        ]
+      },
+      {
+        "ticker": "NVGS",
+        "company": "Navigator Holdings Ltd",
+        "sector": "Energy",
+        "score": 79.2,
+        "confidence": "High",
+        "why": [
+          "Quality 83",
+          "XLE Emerging Focus"
+        ],
+        "badges": [
+          "Fundamental Acceleration",
+          "Emerging Focus"
+        ]
+      },
+      {
+        "ticker": "AGX",
+        "company": "Argan Inc",
+        "sector": "Industrials",
+        "score": 79.1,
+        "confidence": "High",
+        "why": [
+          "Quality 95",
           "XLI Deprioritize"
+        ],
+        "badges": [
+          "Fundamental Acceleration"
+        ]
+      },
+      {
+        "ticker": "PTGX",
+        "company": "Protagonist Therapeutics Inc",
+        "sector": "Healthcare",
+        "score": 78.9,
+        "confidence": "High",
+        "why": [
+          "Quality 83",
+          "XLV Emerging Focus"
+        ],
+        "badges": [
+          "Fundamental Acceleration",
+          "Emerging Focus"
+        ]
+      },
+      {
+        "ticker": "NEXA",
+        "company": "Nexa Resources SA",
+        "sector": "Basic Materials",
+        "score": 74.8,
+        "confidence": "High",
+        "why": [
+          "Quality 78",
+          "XLB Deprioritize"
+        ],
+        "badges": [
+          "Fundamental Acceleration"
+        ]
+      },
+      {
+        "ticker": "ELF",
+        "company": "e.l.f. Beauty Inc",
+        "sector": "Consumer Defensive",
+        "score": 74.0,
+        "confidence": "High",
+        "why": [
+          "Quality 78",
+          "XLP Deprioritize"
         ],
         "badges": [
           "Fundamental Acceleration",
@@ -8350,7 +8559,7 @@
         "score": 100.0,
         "confidence": "High",
         "why": [
-          "RS percentile 80",
+          "RS percentile 74",
           "Quality 100",
           "XLE Emerging Focus"
         ],
@@ -8358,20 +8567,6 @@
           "Fundamental Acceleration",
           "Emerging Focus",
           "Above 20/50/200 DMA"
-        ]
-      },
-      {
-        "ticker": "AUGO",
-        "company": "Aura Minerals Inc",
-        "sector": "Basic Materials",
-        "score": 90.0,
-        "confidence": "High",
-        "why": [
-          "Quality 90",
-          "XLB Deprioritize"
-        ],
-        "badges": [
-          "Fundamental Acceleration"
         ]
       },
       {
@@ -8399,29 +8594,12 @@
         "score": 85.0,
         "confidence": "High",
         "why": [
-          "RS percentile 63",
+          "RS percentile 62",
           "Quality 85",
           "XLF Deprioritize"
         ],
         "badges": [
           "Fundamental Acceleration",
-          "Above 20/50/200 DMA"
-        ]
-      },
-      {
-        "ticker": "GCT",
-        "company": "GigaCloud Technology Inc",
-        "sector": "Technology",
-        "score": 85.0,
-        "confidence": "High",
-        "why": [
-          "RS percentile 74",
-          "Quality 85",
-          "XLK Focus"
-        ],
-        "badges": [
-          "Fundamental Acceleration",
-          "Focus",
           "Above 20/50/200 DMA"
         ]
       },
@@ -8432,7 +8610,7 @@
         "score": 85.0,
         "confidence": "High",
         "why": [
-          "RS percentile 66",
+          "RS percentile 65",
           "Quality 85",
           "2 scanner confirmations",
           "XLV Emerging Focus"
@@ -8441,21 +8619,6 @@
           "Fundamental Acceleration",
           "Emerging Focus",
           "Above 20/50/200 DMA"
-        ]
-      },
-      {
-        "ticker": "PTGX",
-        "company": "Protagonist Therapeutics Inc",
-        "sector": "Healthcare",
-        "score": 83.0,
-        "confidence": "High",
-        "why": [
-          "Quality 83",
-          "XLV Emerging Focus"
-        ],
-        "badges": [
-          "Fundamental Acceleration",
-          "Emerging Focus"
         ]
       },
       {
@@ -8482,7 +8645,7 @@
         "score": 80.0,
         "confidence": "High",
         "why": [
-          "RS percentile 72",
+          "RS percentile 70",
           "Quality 80",
           "XLV Emerging Focus"
         ],
@@ -8499,7 +8662,6 @@
         "score": 78.0,
         "confidence": "High",
         "why": [
-          "RS percentile 62",
           "Quality 78",
           "XLK Focus"
         ],
@@ -8533,12 +8695,26 @@
         "score": 73.0,
         "confidence": "High",
         "why": [
-          "RS percentile 69",
+          "RS percentile 67",
           "Quality 73",
           "XLI Deprioritize"
         ],
         "badges": [
           "Fundamental Acceleration"
+        ]
+      },
+      {
+        "ticker": "HUM",
+        "company": "Humana Inc.",
+        "sector": "Health Services",
+        "score": 73.0,
+        "confidence": "High",
+        "why": [
+          "Quality 73"
+        ],
+        "badges": [
+          "Fundamental Acceleration",
+          "Above 20/50/200 DMA"
         ]
       },
       {
@@ -8557,12 +8733,12 @@
       },
       {
         "ticker": "FEIM",
-        "company": "FEIM",
-        "sector": null,
+        "company": "Frequency Electronics, Inc.",
+        "sector": "Electronic Technology",
         "score": 68.0,
         "confidence": "High",
         "why": [
-          "RS percentile 77",
+          "RS percentile 76",
           "Quality 68"
         ],
         "badges": [
@@ -8592,7 +8768,7 @@
         "score": 63.0,
         "confidence": "High",
         "why": [
-          "RS percentile 65",
+          "RS percentile 63",
           "Quality 63",
           "XLC Neutral"
         ],
@@ -8634,8 +8810,8 @@
       },
       {
         "ticker": "TTMI",
-        "company": "TTMI",
-        "sector": null,
+        "company": "TTM Technologies, Inc.",
+        "sector": "Electronic Technology",
         "score": 63.0,
         "confidence": "High",
         "why": [
@@ -8664,8 +8840,8 @@
       },
       {
         "ticker": "HPK",
-        "company": "HPK",
-        "sector": null,
+        "company": "HighPeak Energy, Inc.",
+        "sector": "Energy Minerals",
         "score": 60.0,
         "confidence": "High",
         "why": [
@@ -8678,12 +8854,12 @@
       },
       {
         "ticker": "XMTR",
-        "company": "XMTR",
-        "sector": null,
+        "company": "Xometry, Inc.",
+        "sector": "Technology Services",
         "score": 50.0,
         "confidence": "High",
         "why": [
-          "RS percentile 84"
+          "RS percentile 83"
         ],
         "badges": [
           "Fundamental Acceleration",
@@ -8692,8 +8868,8 @@
       },
       {
         "ticker": "ESTA",
-        "company": "ESTA",
-        "sector": null,
+        "company": "Establishment Labs Holdings Inc.",
+        "sector": "Health Technology",
         "score": 40.0,
         "confidence": "High",
         "why": [
@@ -8705,8 +8881,8 @@
       },
       {
         "ticker": "PHAT",
-        "company": "PHAT",
-        "sector": null,
+        "company": "Phathom Pharmaceuticals, Inc.",
+        "sector": "Health Technology",
         "score": 40.0,
         "confidence": "High",
         "why": [
@@ -8718,8 +8894,8 @@
       },
       {
         "ticker": "SNDX",
-        "company": "SNDX",
-        "sector": null,
+        "company": "Syndax Pharmaceuticals, Inc.",
+        "sector": "Health Technology",
         "score": 40.0,
         "confidence": "High",
         "why": [
@@ -8731,12 +8907,12 @@
       },
       {
         "ticker": "STLN",
-        "company": "STLN",
-        "sector": null,
+        "company": "Starling Oncology, Inc.",
+        "sector": "Health Services",
         "score": 40.0,
         "confidence": "High",
         "why": [
-          "RS percentile 70"
+          "RS percentile 66"
         ],
         "badges": [
           "Fundamental Acceleration"
@@ -8749,7 +8925,7 @@
         "score": 40.0,
         "confidence": "High",
         "why": [
-          "RS percentile 79",
+          "RS percentile 75",
           "XLV Emerging Focus"
         ],
         "badges": [
@@ -8777,7 +8953,7 @@
         "ticker": "HRMY",
         "company": "Harmony Biosciences Holdings Inc",
         "sector": "Healthcare",
-        "score": 89.2,
+        "score": 89.0,
         "confidence": "High",
         "why": [
           "Quality 95",
@@ -8789,24 +8965,10 @@
         ]
       },
       {
-        "ticker": "ECG",
-        "company": "Everus Construction Group",
-        "sector": "Industrials",
-        "score": 88.4,
-        "confidence": "High",
-        "why": [
-          "Quality 90",
-          "XLI Deprioritize"
-        ],
-        "badges": [
-          "Fundamental Acceleration"
-        ]
-      },
-      {
         "ticker": "YOU",
         "company": "Clear Secure Inc",
         "sector": "Technology",
-        "score": 87.1,
+        "score": 87.3,
         "confidence": "High",
         "why": [
           "Quality 95",
@@ -8818,10 +8980,25 @@
         ]
       },
       {
+        "ticker": "ECG",
+        "company": "Everus Construction Group",
+        "sector": "Industrials",
+        "score": 87.0,
+        "confidence": "High",
+        "why": [
+          "Quality 90",
+          "XLI Deprioritize"
+        ],
+        "badges": [
+          "Fundamental Acceleration",
+          "Above 20/50/200 DMA"
+        ]
+      },
+      {
         "ticker": "TOWN",
         "company": "Townebank Portsmouth VA",
         "sector": "Financial",
-        "score": 86.9,
+        "score": 86.6,
         "confidence": "High",
         "why": [
           "Quality 88",
@@ -8832,10 +9009,26 @@
         ]
       },
       {
+        "ticker": "STNG",
+        "company": "Scorpio Tankers Inc",
+        "sector": "Energy",
+        "score": 86.4,
+        "confidence": "High",
+        "why": [
+          "Quality 95",
+          "2 scanner confirmations",
+          "XLE Emerging Focus"
+        ],
+        "badges": [
+          "Fundamental Acceleration",
+          "Emerging Focus"
+        ]
+      },
+      {
         "ticker": "INDB",
         "company": "Independent Bank Corp",
         "sector": "Financial",
-        "score": 86.6,
+        "score": 86.3,
         "confidence": "High",
         "why": [
           "Quality 88",
@@ -8849,7 +9042,7 @@
         "ticker": "SCCO",
         "company": "Southern Copper Corp",
         "sector": "Basic Materials",
-        "score": 86.6,
+        "score": 86.0,
         "confidence": "High",
         "why": [
           "Quality 90",
@@ -8864,7 +9057,7 @@
         "ticker": "INOD",
         "company": "Innodata Inc",
         "sector": "Technology",
-        "score": 85.7,
+        "score": 85.3,
         "confidence": "High",
         "why": [
           "Quality 95",
@@ -8872,17 +9065,18 @@
         ],
         "badges": [
           "Fundamental Acceleration",
-          "Focus"
+          "Focus",
+          "Above 20/50/200 DMA"
         ]
       },
       {
-        "ticker": "STRL",
-        "company": "Sterling Infrastructure Inc",
+        "ticker": "IESC",
+        "company": "IES Holdings Inc",
         "sector": "Industrials",
-        "score": 85.3,
+        "score": 85.0,
         "confidence": "High",
         "why": [
-          "Quality 90",
+          "Quality 95",
           "XLI Deprioritize"
         ],
         "badges": [
@@ -8890,27 +9084,10 @@
         ]
       },
       {
-        "ticker": "STNG",
-        "company": "Scorpio Tankers Inc",
-        "sector": "Energy",
-        "score": 85.0,
-        "confidence": "High",
-        "why": [
-          "Quality 95",
-          "2 scanner confirmations",
-          "XLE Emerging Focus"
-        ],
-        "badges": [
-          "Fundamental Acceleration",
-          "Emerging Focus",
-          "Above 20/50/200 DMA"
-        ]
-      },
-      {
         "ticker": "SEZL",
         "company": "Sezzle Inc",
         "sector": "Financial",
-        "score": 84.7,
+        "score": 84.9,
         "confidence": "High",
         "why": [
           "Quality 95",
@@ -8935,13 +9112,13 @@
         ]
       },
       {
-        "ticker": "IESC",
-        "company": "IES Holdings Inc",
+        "ticker": "STRL",
+        "company": "Sterling Infrastructure Inc",
         "sector": "Industrials",
         "score": 84.3,
         "confidence": "High",
         "why": [
-          "Quality 95",
+          "Quality 90",
           "XLI Deprioritize"
         ],
         "badges": [
@@ -8952,7 +9129,7 @@
         "ticker": "CNOB",
         "company": "ConnectOne Bancorp Inc",
         "sector": "Financial",
-        "score": 84.1,
+        "score": 83.9,
         "confidence": "High",
         "why": [
           "Quality 83",
@@ -8966,7 +9143,7 @@
         "ticker": "MPWR",
         "company": "Monolithic Power System Inc",
         "sector": "Technology",
-        "score": 82.8,
+        "score": 83.2,
         "confidence": "High",
         "why": [
           "Quality 95",
@@ -8996,7 +9173,7 @@
         "ticker": "QNST",
         "company": "QuinStreet Inc",
         "sector": "Communication Services",
-        "score": 81.0,
+        "score": 81.3,
         "confidence": "High",
         "why": [
           "Quality 90",
@@ -9007,37 +9184,10 @@
         ]
       },
       {
-        "ticker": "BBT",
-        "company": "BBT",
-        "sector": null,
-        "score": 80.0,
-        "confidence": "High",
-        "why": [
-          "Quality 83"
-        ],
-        "badges": [
-          "Fundamental Acceleration"
-        ]
-      },
-      {
-        "ticker": "COCO",
-        "company": "Vita Coco Company Inc",
-        "sector": "Consumer Defensive",
-        "score": 79.9,
-        "confidence": "High",
-        "why": [
-          "Quality 95",
-          "XLP Deprioritize"
-        ],
-        "badges": [
-          "Fundamental Acceleration"
-        ]
-      },
-      {
         "ticker": "FCFS",
         "company": "FirstCash Holdings Inc",
         "sector": "Financial",
-        "score": 79.8,
+        "score": 79.9,
         "confidence": "High",
         "why": [
           "Quality 73",
@@ -9048,29 +9198,13 @@
         ]
       },
       {
-        "ticker": "ANIP",
-        "company": "ANI Pharmaceuticals Inc",
-        "sector": "Healthcare",
-        "score": 78.7,
+        "ticker": "BBT",
+        "company": "Beacon Financial Corporation",
+        "sector": "Finance",
+        "score": 79.6,
         "confidence": "High",
         "why": [
-          "Quality 73",
-          "XLV Emerging Focus"
-        ],
-        "badges": [
-          "Fundamental Acceleration",
-          "Emerging Focus"
-        ]
-      },
-      {
-        "ticker": "AEIS",
-        "company": "Advanced Energy Industries Inc",
-        "sector": "Industrials",
-        "score": 78.1,
-        "confidence": "High",
-        "why": [
-          "Quality 73",
-          "XLI Deprioritize"
+          "Quality 83"
         ],
         "badges": [
           "Fundamental Acceleration"
@@ -9080,7 +9214,7 @@
         "ticker": "PAY",
         "company": "Paymentus Holdings Inc",
         "sector": "Technology",
-        "score": 78.0,
+        "score": 78.3,
         "confidence": "High",
         "why": [
           "Quality 85",
@@ -9092,10 +9226,53 @@
         ]
       },
       {
+        "ticker": "ANIP",
+        "company": "ANI Pharmaceuticals Inc",
+        "sector": "Healthcare",
+        "score": 78.2,
+        "confidence": "High",
+        "why": [
+          "Quality 73",
+          "XLV Emerging Focus"
+        ],
+        "badges": [
+          "Fundamental Acceleration",
+          "Emerging Focus"
+        ]
+      },
+      {
+        "ticker": "COCO",
+        "company": "Vita Coco Company Inc",
+        "sector": "Consumer Defensive",
+        "score": 78.1,
+        "confidence": "High",
+        "why": [
+          "Quality 95",
+          "XLP Deprioritize"
+        ],
+        "badges": [
+          "Fundamental Acceleration"
+        ]
+      },
+      {
+        "ticker": "AEIS",
+        "company": "Advanced Energy Industries Inc",
+        "sector": "Industrials",
+        "score": 77.5,
+        "confidence": "High",
+        "why": [
+          "Quality 73",
+          "XLI Deprioritize"
+        ],
+        "badges": [
+          "Fundamental Acceleration"
+        ]
+      },
+      {
         "ticker": "GNK",
         "company": "Genco Shipping & Trading Limited",
         "sector": "Industrials",
-        "score": 76.6,
+        "score": 76.9,
         "confidence": "High",
         "why": [
           "Quality 73",
@@ -9108,22 +9285,9 @@
       },
       {
         "ticker": "HCC",
-        "company": "HCC",
-        "sector": null,
-        "score": 76.0,
-        "confidence": "High",
-        "why": [
-          "Quality 73"
-        ],
-        "badges": [
-          "Fundamental Acceleration"
-        ]
-      },
-      {
-        "ticker": "AAON",
-        "company": "AAON",
-        "sector": null,
-        "score": 74.8,
+        "company": "Warrior Met Coal, Inc.",
+        "sector": "Energy Minerals",
+        "score": 76.2,
         "confidence": "High",
         "why": [
           "Quality 73"
@@ -9136,7 +9300,7 @@
         "ticker": "HHH",
         "company": "Howard Hughes Holdings Inc",
         "sector": "Real Estate",
-        "score": 74.3,
+        "score": 75.2,
         "confidence": "High",
         "why": [
           "Quality 73",
@@ -9145,6 +9309,33 @@
         "badges": [
           "Fundamental Acceleration",
           "Above 20/50/200 DMA"
+        ]
+      },
+      {
+        "ticker": "VMET",
+        "company": "Versamet Royalties Corp",
+        "sector": "Basic Materials",
+        "score": 74.5,
+        "confidence": "High",
+        "why": [
+          "Quality 83",
+          "XLB Deprioritize"
+        ],
+        "badges": [
+          "Fundamental Acceleration"
+        ]
+      },
+      {
+        "ticker": "AAON",
+        "company": "AAON, Inc.",
+        "sector": "Producer Manufacturing",
+        "score": 74.3,
+        "confidence": "High",
+        "why": [
+          "Quality 73"
+        ],
+        "badges": [
+          "Fundamental Acceleration"
         ]
       },
       {
@@ -9162,10 +9353,21 @@
         ]
       },
       {
+        "ticker": "POWL",
+        "company": "Powell Industries, Inc.",
+        "sector": "Producer Manufacturing",
+        "score": 73.3,
+        "confidence": "High",
+        "why": [
+          "Quality 68"
+        ],
+        "badges": []
+      },
+      {
         "ticker": "OOMA",
         "company": "Ooma Inc",
         "sector": "Technology",
-        "score": 72.8,
+        "score": 72.6,
         "confidence": "High",
         "why": [
           "Quality 73",
@@ -9180,7 +9382,7 @@
         "ticker": "MDB",
         "company": "MongoDB Inc",
         "sector": "Technology",
-        "score": 69.3,
+        "score": 69.5,
         "confidence": "High",
         "why": [
           "Quality 68",
@@ -9195,7 +9397,7 @@
         "ticker": "ADAM",
         "company": "Adamas Trust Inc",
         "sector": "Real Estate",
-        "score": 68.4,
+        "score": 68.8,
         "confidence": "High",
         "why": [
           "Quality 73",
@@ -9209,7 +9411,7 @@
         "ticker": "MAMA",
         "company": "Mama's Creations Inc",
         "sector": "Consumer Defensive",
-        "score": 66.2,
+        "score": 66.8,
         "confidence": "High",
         "why": [
           "Quality 73",
@@ -9223,7 +9425,7 @@
         "ticker": "NESR",
         "company": "National Energy Services Reunited Corp",
         "sector": "Energy",
-        "score": 65.0,
+        "score": 65.2,
         "confidence": "High",
         "why": [
           "Quality 78",
@@ -9235,29 +9437,58 @@
         ]
       }
     ],
-    "Hidden Quality": [
+    "Exceptional Independents": [
       {
-        "ticker": "FIX",
-        "company": "Comfort Systems USA Inc",
-        "sector": "Industrials",
-        "score": 85.6,
+        "ticker": "PS",
+        "company": "Pershing Square Inc",
+        "sector": "Financial",
+        "score": 70.1,
         "confidence": "High",
         "why": [
-          "Quality 95",
-          "XLI Deprioritize"
+          "RS percentile 93",
+          "3 scanner confirmations",
+          "XLF Deprioritize"
         ],
         "badges": [
-          "Fundamental Acceleration",
+          "Multi-Scanner",
           "Above 20/50/200 DMA"
         ]
       },
       {
-        "ticker": "ASC",
-        "company": "Ardmore Shipping Corp",
-        "sector": "Industrials",
-        "score": 82.1,
+        "ticker": "LIFE",
+        "company": "Ethos Technologies Inc",
+        "sector": "Financial",
+        "score": 65.4,
         "confidence": "High",
         "why": [
+          "RS percentile 90",
+          "2 scanner confirmations",
+          "XLF Deprioritize"
+        ],
+        "badges": []
+      },
+      {
+        "ticker": "FEAM",
+        "company": "5E Advanced Materials Inc",
+        "sector": "Basic Materials",
+        "score": 65.1,
+        "confidence": "High",
+        "why": [
+          "RS percentile 97",
+          "XLB Deprioritize"
+        ],
+        "badges": [
+          "Above 20/50/200 DMA"
+        ]
+      },
+      {
+        "ticker": "ECO",
+        "company": "Okeanis Eco Tankers Corp",
+        "sector": "Industrials",
+        "score": 62.0,
+        "confidence": "High",
+        "why": [
+          "RS percentile 94",
           "Quality 90",
           "XLI Deprioritize"
         ],
@@ -9265,114 +9496,14 @@
           "Fundamental Acceleration",
           "Above 20/50/200 DMA"
         ]
-      },
-      {
-        "ticker": "NVGS",
-        "company": "Navigator Holdings Ltd",
-        "sector": "Energy",
-        "score": 78.7,
-        "confidence": "High",
-        "why": [
-          "Quality 83",
-          "XLE Emerging Focus"
-        ],
-        "badges": [
-          "Fundamental Acceleration",
-          "Emerging Focus"
-        ]
-      },
-      {
-        "ticker": "AGX",
-        "company": "Argan Inc",
-        "sector": "Industrials",
-        "score": 78.3,
-        "confidence": "High",
-        "why": [
-          "Quality 95",
-          "XLI Deprioritize"
-        ],
-        "badges": [
-          "Fundamental Acceleration"
-        ]
-      },
-      {
-        "ticker": "NEXA",
-        "company": "Nexa Resources SA",
-        "sector": "Basic Materials",
-        "score": 75.3,
-        "confidence": "High",
-        "why": [
-          "Quality 78",
-          "XLB Deprioritize"
-        ],
-        "badges": [
-          "Fundamental Acceleration"
-        ]
-      },
-      {
-        "ticker": "ELF",
-        "company": "e.l.f. Beauty Inc",
-        "sector": "Consumer Defensive",
-        "score": 73.1,
-        "confidence": "High",
-        "why": [
-          "Quality 78",
-          "XLP Deprioritize"
-        ],
-        "badges": [
-          "Fundamental Acceleration",
-          "Above 20/50/200 DMA"
-        ]
-      },
-      {
-        "ticker": "VMET",
-        "company": "Versamet Royalties Corp",
-        "sector": "Basic Materials",
-        "score": 73.0,
-        "confidence": "High",
-        "why": [
-          "Quality 83",
-          "XLB Deprioritize"
-        ],
-        "badges": [
-          "Fundamental Acceleration"
-        ]
       }
     ],
     "Watch and Wait": [
       {
-        "ticker": "EFOR",
-        "company": "Everforth Inc",
-        "sector": "Technology",
-        "score": 57.4,
-        "confidence": "High",
-        "why": [
-          "XLK Focus"
-        ],
-        "badges": [
-          "Focus",
-          "Above 20/50/200 DMA"
-        ]
-      },
-      {
-        "ticker": "SPSC",
-        "company": "SPS Commerce Inc",
-        "sector": "Technology",
-        "score": 55.4,
-        "confidence": "High",
-        "why": [
-          "XLK Focus"
-        ],
-        "badges": [
-          "Focus",
-          "Above 20/50/200 DMA"
-        ]
-      },
-      {
         "ticker": "AMPH",
         "company": "Amphastar Pharmaceuticals Inc",
         "sector": "Healthcare",
-        "score": 54.8,
+        "score": 60.0,
         "confidence": "High",
         "why": [
           "XLV Emerging Focus"
@@ -9383,15 +9514,30 @@
         ]
       },
       {
+        "ticker": "SPSC",
+        "company": "SPS Commerce Inc",
+        "sector": "Technology",
+        "score": 52.2,
+        "confidence": "High",
+        "why": [
+          "XLK Focus"
+        ],
+        "badges": [
+          "Focus"
+        ]
+      },
+      {
         "ticker": "SPAI",
-        "company": "SPAI",
-        "sector": null,
-        "score": 45.8,
+        "company": "Safe Pro Group Inc.",
+        "sector": "Electronic Technology",
+        "score": 52.1,
         "confidence": "High",
         "why": [
           "Monitor for additional confirmation"
         ],
-        "badges": []
+        "badges": [
+          "Above 20/50/200 DMA"
+        ]
       },
       {
         "ticker": "BKV",
@@ -9409,13 +9555,48 @@
     ],
     "Quality Compounders": [
       {
+        "ticker": "CORT",
+        "company": "Corcept Therapeutics Inc",
+        "sector": "Healthcare",
+        "score": 72.1,
+        "confidence": "High",
+        "why": [
+          "RS percentile 82",
+          "Quality 72",
+          "XLV Emerging Focus"
+        ],
+        "badges": [
+          "Emerging Focus",
+          "Above 20/50/200 DMA"
+        ]
+      }
+    ],
+    "Breakout Candidates": [
+      {
+        "ticker": "GCT",
+        "company": "GigaCloud Technology Inc",
+        "sector": "Technology",
+        "score": 71.3,
+        "confidence": "High",
+        "why": [
+          "RS percentile 72",
+          "Quality 85",
+          "XLK Focus"
+        ],
+        "badges": [
+          "Fundamental Acceleration",
+          "Focus",
+          "Above 20/50/200 DMA"
+        ]
+      },
+      {
         "ticker": "QLYS",
         "company": "Qualys Inc",
         "sector": "Technology",
-        "score": 82.0,
+        "score": 70.9,
         "confidence": "High",
         "why": [
-          "RS percentile 76",
+          "RS percentile 79",
           "Quality 82",
           "XLK Focus"
         ],
@@ -9425,30 +9606,27 @@
         ]
       },
       {
-        "ticker": "PBYI",
-        "company": "Puma Biotechnology Inc",
-        "sector": "Healthcare",
-        "score": 76.2,
+        "ticker": "LIND",
+        "company": "Lindblad Expeditions Holdings Inc",
+        "sector": "Consumer Cyclical",
+        "score": 69.7,
         "confidence": "High",
         "why": [
-          "RS percentile 61",
-          "Quality 76",
-          "XLV Emerging Focus"
+          "RS percentile 91",
+          "XLY Neutral"
         ],
         "badges": [
-          "Emerging Focus",
           "Above 20/50/200 DMA"
         ]
       },
       {
-        "ticker": "CORT",
-        "company": "Corcept Therapeutics Inc",
+        "ticker": "PBYI",
+        "company": "Puma Biotechnology Inc",
         "sector": "Healthcare",
-        "score": 72.1,
+        "score": 60.6,
         "confidence": "High",
         "why": [
-          "RS percentile 84",
-          "Quality 72",
+          "Quality 76",
           "XLV Emerging Focus"
         ],
         "badges": [
@@ -9468,16 +9646,18 @@
       "SMTC",
       "CRSR",
       "DGII",
-      "ECO",
+      "FIX",
       "KNSA",
       "LPG",
       "LTRX",
+      "MEI",
       "MSGE",
       "ODD",
       "PARR",
       "PUBM",
       "STNG",
       "VIA",
+      "XRPN",
       "PENG",
       "PS",
       "ALAB",
@@ -9487,22 +9667,23 @@
       "AMPH",
       "ARW",
       "ASC",
-      "ASYS",
       "AUGO",
       "BRZE",
       "CARE",
       "CDNA",
-      "CHEF",
       "CNOB",
       "CORT",
       "CRL",
+      "ECG",
+      "ECO",
       "EFOR",
       "ELF",
+      "ELMT",
       "EVC",
       "EZPW",
       "FCFS",
+      "FEAM",
       "FEIM",
-      "FIX",
       "FORM",
       "FROG",
       "GCT",
@@ -9519,7 +9700,6 @@
       "LSCC",
       "MDB",
       "MPWR",
-      "NEXA",
       "NSIT",
       "NVGS",
       "OOMA",
@@ -9557,7 +9737,6 @@
       "BKV",
       "COCO",
       "EBS",
-      "ECG",
       "ESTA",
       "FBK",
       "HCC",
@@ -9565,7 +9744,9 @@
       "MAMA",
       "MFA",
       "NESR",
+      "NEXA",
       "PHAT",
+      "POWL",
       "PSIX",
       "SNDX",
       "STRL",
@@ -9586,6 +9767,7 @@
       "NEXA",
       "PICS",
       "SPAI",
+      "STRL",
       "TOWN",
       "TTMI"
     ],
@@ -9601,7 +9783,7 @@
       "PAYS",
       "SMTC",
       "DGII",
-      "ECO",
+      "FIX",
       "KNSA",
       "LPG",
       "MSGE",
@@ -9611,19 +9793,19 @@
       "AAMI",
       "ARW",
       "ASC",
-      "ASYS",
       "AUGO",
       "BRZE",
       "CARE",
       "CDNA",
       "CNOB",
       "CORT",
+      "ECG",
+      "ECO",
       "ELF",
       "EVC",
       "EZPW",
       "FCFS",
       "FEIM",
-      "FIX",
       "FORM",
       "FROG",
       "GCT",
@@ -9639,7 +9821,6 @@
       "LSCC",
       "MDB",
       "MPWR",
-      "NEXA",
       "NVGS",
       "OOMA",
       "PAY",
@@ -9664,11 +9845,12 @@
       "PAYS",
       "SMTC",
       "CRSR",
-      "ECO",
       "LPG",
+      "MEI",
       "PARR",
       "PUBM",
       "VIA",
+      "XRPN",
       "PENG",
       "PS",
       "ALAB",
@@ -9676,11 +9858,12 @@
       "RCEL",
       "CDNA",
       "CORT",
+      "ECO",
+      "FEAM",
       "FEIM",
       "FORM",
       "FROG",
       "GCT",
-      "HALO",
       "LIND",
       "NSIT",
       "OPRT",
@@ -9697,18 +9880,19 @@
       "HCC",
       "INDB",
       "INOD",
+      "STRL",
       "TOWN"
     ],
     "Failed 200 DMA Breakouts": []
   },
   "market": {
     "state": "Constructive",
-    "score": 65.2,
+    "score": 65.3,
     "components": {
       "index_trend": 25.0,
-      "breadth": 9.3,
+      "breadth": 9.2,
       "sector_participation": 5.5,
-      "leadership": 10.4,
+      "leadership": 10.6,
       "volatility": 15.0
     },
     "indices": [
@@ -9760,12 +9944,12 @@
     }
   },
   "market_story": {
-    "headline": "Constructive market · 65.2/100",
+    "headline": "Constructive market · 65.3/100",
     "sentences": [
-      "Market state is Constructive with a transparent health score of 65.2/100.",
-      "29.5% of S&P 500 stocks are above the 50-day average and 45.2% are above the 200-day average.",
+      "Market state is Constructive with a transparent health score of 65.3/100.",
+      "28.5% of S&P 500 stocks are above the 50-day average and 45.0% are above the 200-day average.",
       "Current sector focus: XLK Information Technology.",
-      "The validated scan contains 110 candidates, including 19 with multi-category confirmation."
+      "The validated scan contains 113 candidates, including 20 with multi-category confirmation."
     ],
     "automatic": true
   },
