@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <title>VPK Scanner Intelligence</title>
+  <link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+  <a class="skip-link" href="#workspace">Skip to workspace</a>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Primary navigation">
+      <div class="brand"><span class="brand-mark">V</span><div><strong>VPK</strong><small>Scanner Intelligence</small></div></div>
+      <nav id="nav">
+        <button class="nav-item active" data-view="360"><span>◎</span>Ticker 360°</button>
+        <button class="nav-item" data-view="priority"><span>◇</span>Priority Review</button>
+        <button class="nav-item" data-view="scanners"><span>▦</span>All Scanners</button>
+        <button class="nav-item" data-view="compare"><span>⇄</span>Scanner Compare</button>
+        <button class="nav-item" data-view="momentum"><span>↗</span>Momentum Map</button>
+        <button class="nav-item" data-view="research"><span>☆</span>My Research</button>
+        <button class="nav-item" data-view="history"><span>◷</span>History</button>
+        <button class="nav-item" data-view="health"><span>✓</span>Data Health</button>
+        <button class="nav-item" data-view="methodology"><span>ⓘ</span>Methodology</button>
+      </nav>
+      <div class="sidebar-foot"><span class="privacy-dot"></span>Private local workspace</div>
+    </aside>
+
+    <main id="workspace">
+      <header class="topbar">
+        <button id="menu-toggle" class="icon-button mobile-only" aria-label="Toggle navigation">☰</button>
+        <div class="page-title"><h1 id="page-title">Ticker 360°</h1><p id="page-subtitle">Scan broadly, then drill into context.</p></div>
+        <label class="global-search"><span>⌕</span><input id="search" type="search" placeholder="Search ticker or company · /" autocomplete="off"></label>
+        <button id="theme-toggle" class="icon-button" aria-label="Toggle theme">◐</button>
+      </header>
+
+      <section id="health-strip" class="health-strip" aria-live="polite"></section>
+      <section id="summary" class="summary-grid"></section>
+
+      <section id="toolbar" class="toolbar">
+        <div class="preset-row" id="presets"></div>
+        <div class="toolbar-actions">
+          <label>Scanner <select id="scanner-filter"><option value="">All scanners</option></select></label>
+          <label>Source <select id="source-filter"><option value="">All sources</option><option>BOTH</option><option>TRADINGVIEW</option><option>FINVIZ</option></select></label>
+          <label>Sort <select id="sort"><option value="default">Review order</option><option value="ticker">Ticker A–Z</option><option value="categories">Category count</option><option value="scanners">Scanner count</option></select></label>
+          <button id="copy-filtered" class="button secondary">Copy filtered</button>
+          <button id="download-filtered" class="button secondary">Download TXT</button>
+        </div>
+      </section>
+
+      <section id="content" class="content" aria-live="polite"></section>
+    </main>
+  </div>
+
+  <div id="selection-bar" class="selection-bar hidden">
+    <strong><span id="selection-count">0</span> selected</strong>
+    <button data-selection="watchlist">Add to watchlist</button>
+    <button data-selection="compare">Compare</button>
+    <button data-selection="copy">Copy to TradingView</button>
+    <button data-selection="download">Download TXT</button>
+    <button data-selection="clear">Clear</button>
+  </div>
+
+  <aside id="ticker-drawer" class="drawer" aria-hidden="true" aria-label="Ticker quick view">
+    <button id="drawer-close" class="drawer-close" aria-label="Close">×</button>
+    <div id="drawer-content"></div>
+  </aside>
+  <div id="drawer-backdrop" class="backdrop hidden"></div>
+
+  <dialog id="modal"><form method="dialog" id="modal-form"><div id="modal-content"></div></form></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="assets/app.js" defer></script>
+</body>
+</html>
