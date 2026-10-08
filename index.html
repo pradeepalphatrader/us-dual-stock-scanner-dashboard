@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="dark light">
   <title>VPK Market Intelligence</title>
-  <link rel="stylesheet" href="assets/app.css?v=7">
+  <link rel="stylesheet" href="assets/app.css?v=21">
 </head>
 <body>
   <a class="skip-link" href="#workspace">Skip to workspace</a>
@@ -32,7 +32,7 @@
       <header class="topbar">
         <button id="menu-toggle" class="icon-button mobile-only" aria-label="Toggle navigation">☰</button>
         <div class="page-title"><h1 id="page-title">Market Overview</h1><p id="page-subtitle">Health, breadth, rotation, and today's research map.</p></div>
-        <label class="global-search"><span>⌕</span><input id="search" type="search" placeholder="Search ticker or company · /" autocomplete="off"></label>
+        <div class="global-search"><label><span>⌕</span><input id="search" type="search" placeholder="Search any US ticker or company · /" autocomplete="off"></label><div id="search-results" class="search-results hidden"></div></div>
         <button id="theme-toggle" class="icon-button" aria-label="Toggle theme">◐</button>
       </header>
 
@@ -46,6 +46,10 @@
           <label>Sector <select id="sector-filter"><option value="">All sectors</option></select></label>
           <label>Industry <select id="industry-filter"><option value="">All industries</option></select></label>
           <label>Source <select id="source-filter"><option value="">All sources</option><option>BOTH</option><option>TRADINGVIEW</option><option>FINVIZ</option></select></label>
+          <label>Opportunity <select id="opportunity-filter"><option value="">All opportunities</option></select></label>
+          <label>RS <select id="rs-filter"><option value="">Any RS</option><option value="70">70+</option><option value="80">80+</option><option value="90">90+</option></select></label>
+          <label>Trend <select id="trend-filter"><option value="">Any trend</option><option value="above65">Above 65 DMA</option><option value="near65">Near 65 DMA ±3%</option><option value="above200">Above 200 DMA</option><option value="near200">Near 200 DMA ±3%</option></select></label>
+          <label>52W Range <select id="range-filter"><option value="">Any position</option><option value="top20">Top 20%</option><option value="middle">Middle 60%</option><option value="bottom20">Bottom 20%</option></select></label>
           <label>Sort <select id="sort"><option value="default">Review order</option><option value="ticker">Ticker A–Z</option><option value="categories">Category count</option><option value="scanners">Scanner count</option></select></label>
           <button id="copy-filtered" class="button secondary">Copy filtered</button>
           <button id="download-filtered" class="button secondary">Download TXT</button>
@@ -73,6 +77,7 @@
 
   <dialog id="modal"><form method="dialog" id="modal-form"><div id="modal-content"></div></form></dialog>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
-  <script src="assets/app.js?v=12" defer></script>
+  <div id="ticker-preview" class="ticker-preview hidden" aria-live="polite"></div>
+  <script src="assets/app.js?v=21" defer></script>
 </body>
 </html>

@@ -61,8 +61,8 @@
           "name": "SPDR S&P 500 ETF TRUST",
           "close": 777.22,
           "change_pct": -0.24,
-          "volume": 30065665.0,
-          "relative_volume": 0.66,
+          "volume": 30989048.0,
+          "relative_volume": 0.69,
           "sma20": 766.46,
           "sma50": 765.95,
           "sma200": 721.99,
@@ -71,6 +71,10 @@
           "adr_pct": 0.71,
           "weekly_volatility_pct": 0.74,
           "distance_52w_high_pct": -0.56,
+          "distance_52w_low_pct": 23.51,
+          "range_52w_position_pct": 97.1,
+          "high_52w": 781.62,
+          "low_52w": 629.28,
           "performance": {
             "1w": 1.41,
             "1m": 0.67,
@@ -89,8 +93,8 @@
           "name": "Invesco QQQ Trust, Series 1",
           "close": 757.73,
           "change_pct": -0.25,
-          "volume": 24781578.0,
-          "relative_volume": 0.79,
+          "volume": 25467710.0,
+          "relative_volume": 0.81,
           "sma20": 733.78,
           "sma50": 721.45,
           "sma200": 670.87,
@@ -99,6 +103,10 @@
           "adr_pct": 1.05,
           "weekly_volatility_pct": 0.9,
           "distance_52w_high_pct": -0.67,
+          "distance_52w_low_pct": 36.38,
+          "range_52w_position_pct": 97.5,
+          "high_52w": 762.86,
+          "low_52w": 555.6,
           "performance": {
             "1w": 2.37,
             "1m": 5.34,
@@ -117,8 +125,8 @@
           "name": "iShares Russell 2000 Index Fund",
           "close": 277.7,
           "change_pct": -1.29,
-          "volume": 24551670.0,
-          "relative_volume": 0.98,
+          "volume": 24846746.0,
+          "relative_volume": 0.99,
           "sma20": 283.07,
           "sma50": 291.88,
           "sma200": 276.8,
@@ -127,6 +135,10 @@
           "adr_pct": 1.59,
           "weekly_volatility_pct": 1.29,
           "distance_52w_high_pct": -9.0,
+          "distance_52w_low_pct": 21.32,
+          "range_52w_position_pct": 64.0,
+          "high_52w": 305.18,
+          "low_52w": 228.9,
           "performance": {
             "1w": -0.88,
             "1m": -5.45,
@@ -145,8 +157,8 @@
           "name": "State Street SPDR Dow Jones Industrial Average ETF Trust",
           "close": 511.02,
           "change_pct": -0.69,
-          "volume": 4095035.0,
-          "relative_volume": 1.28,
+          "volume": 4445051.0,
+          "relative_volume": 1.39,
           "sma20": 515.84,
           "sma50": 526.12,
           "sma200": 503.19,
@@ -155,6 +167,10 @@
           "adr_pct": 1.2,
           "weekly_volatility_pct": 0.86,
           "distance_52w_high_pct": -6.53,
+          "distance_52w_low_pct": 13.45,
+          "range_52w_position_pct": 62.9,
+          "high_52w": 546.75,
+          "low_52w": 450.44,
           "performance": {
             "1w": -0.58,
             "1m": -4.51,
@@ -184,6 +200,10 @@
         "adr_pct": 6.95,
         "weekly_volatility_pct": 6.26,
         "distance_52w_high_pct": -57.28,
+        "distance_52w_low_pct": 12.71,
+        "range_52w_position_pct": 7.8,
+        "high_52w": 35.3,
+        "low_52w": 13.38,
         "performance": {
           "1w": -5.34,
           "1m": 6.57,
@@ -196,7 +216,25 @@
           "above_50": false,
           "above_200": false
         }
-      }
+      },
+      "participation": [
+        {
+          "cap": "SPY",
+          "equal": "RSP",
+          "cap_1m": 0.67,
+          "equal_1m": -3.75,
+          "spread": 4.42,
+          "status": "Narrow Leadership"
+        },
+        {
+          "cap": "QQQ",
+          "equal": "QQEW",
+          "cap_1m": 5.34,
+          "equal_1m": 1.53,
+          "spread": 3.81,
+          "status": "Narrow Leadership"
+        }
+      ]
     },
     "breadth": {
       "primary_universe": "S&P 500",
@@ -221,7 +259,11 @@
         "advance_decline_ratio": 0.38,
         "up_volume_pct": 34.7,
         "near_52w_high": 8,
-        "near_52w_low": 18
+        "near_52w_low": 18,
+        "new_52w_high": 6,
+        "new_52w_low": 9,
+        "net_new_highs": -3,
+        "high_low_ratio": 0.67
       },
       "us_liquid": {
         "name": "US Liquid Stocks",
@@ -244,7 +286,11 @@
         "advance_decline_ratio": 0.35,
         "up_volume_pct": 26.6,
         "near_52w_high": 39,
-        "near_52w_low": 181
+        "near_52w_low": 181,
+        "new_52w_high": 12,
+        "new_52w_low": 107,
+        "net_new_highs": -95,
+        "high_low_ratio": 0.11
       },
       "methodology": "Finviz US stocks; liquid universe requires market cap ≥ $50M, average volume ≥ 250K, and price ≥ $1."
     },
